@@ -4,3 +4,6 @@ node_modules/
 *.log
 .runtime/
 work/
+
+# verification 是正式历史证据，日志也必须进入 Git。
+!verification/**/*.log

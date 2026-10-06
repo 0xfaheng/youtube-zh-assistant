@@ -1,0 +1,20 @@
+{
+  "sourceVersion": "0.4.7",
+  "zipFilesMatched": 480,
+  "archiveHashesVerified": true,
+  "deployedExtensionMatched": true,
+  "pairingSecretAbsent": true,
+  "baselineCommit": "6a74cac",
+  "productTests": {
+    "passed": 213,
+    "failed": 0
+  },
+  "gitWorkflowTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "productCodeUnchanged": true,
+  "archivesUnchanged": true,
+  "runtimeUnchanged": true,
+  "scope": "local Git infrastructure; product remains 0.4.7"
+}

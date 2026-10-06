@@ -20,6 +20,10 @@ assert.match(popupHTML,/<span id="version" class="version"><\/span>/,'插件面�
 const serviceText=await fs.readFile(path.join(root,'server/app.mjs'),'utf8');
 assert.ok([...serviceText.matchAll(/version:\s*'([^']+)'/g)].length>=2,'服务版本标识缺失');
 assert.ok([...serviceText.matchAll(/version:\s*'([^']+)'/g)].every(m=>m[1]===version),'服务和插件版本不一致');
+// Git 检查必须先于任何交付目录和安装包写入；隔离夹具也要携带 tools。
+const {checkReleaseGit}=await import('../tools/git-preflight.mjs');
+const gitRelease=await checkReleaseGit({repoRoot:path.resolve(import.meta.dirname,'..'),version,outputsRoot:out});
+if(process.argv.includes('--check')){console.log(JSON.stringify({version,...gitRelease},null,2));process.exit(0);}
 const rar=path.join(out,`Chrome插件-YouTube中文字幕-v${version}.rar`), zip=path.join(out,`youtube-zh-assistant-v${version}.zip`), rarExe='C:/Program Files/WinRAR/Rar.exe';
 const files=(await fs.readdir(source,{withFileTypes:true})).filter(p=>p.isFile()).map(p=>p.name).sort();
 await fs.mkdir(target,{recursive:true});
@@ -33,7 +37,7 @@ const check=path.join(import.meta.dirname,`rar-verify-${version}-${Date.now()}`)
 await run(rarExe,['x','-idq',rar,check+path.sep],{windowsHide:true});
 const extracted=path.join(check,path.basename(target));assert.deepEqual((await fs.readdir(extracted)).sort(),files);
 for(const name of files)assert.equal(await hash(path.join(source,name)),await hash(path.join(extracted,name)));
-const report={date:new Date().toISOString(),version,developmentRecord,developmentRecordVerified:true,extensionFiles:files.length,loadedFolder:target,folderHashesMatch:true,rarFile:rar,rarExtractedHashesMatch:true,zipFile:zip,zipVerified:false};
+const report={date:new Date().toISOString(),version,...gitRelease,developmentRecord,developmentRecordVerified:true,extensionFiles:files.length,loadedFolder:target,folderHashesMatch:true,rarFile:rar,rarExtractedHashesMatch:true,zipFile:zip,zipVerified:false};
 const record=path.join(root,'verification/package-report.json');await fs.writeFile(record,JSON.stringify(report,null,2));
 const args=['package-release.py','create',root,zip];
 const first=await run('python',args,{cwd:import.meta.dirname,windowsHide:true});Object.assign(report,JSON.parse(first.stdout));
