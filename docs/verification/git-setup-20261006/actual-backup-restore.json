@@ -1,0 +1,13 @@
+{
+  "createdAt": "2026-10-06T23:22:21.2388351+08:00",
+  "bundle": "C:\\Users\\Administrator\\.codex\\project-backups\\youtube-zh-assistant\\youtube-zh-assistant-20261006-232220-683.bundle",
+  "sha256": "79551b065739902536857a429fd1a0b395f71e2235e69a92260845ddde9baeaf",
+  "head": "570dbff4d93fea86168a78e343fa12b8a96828e8",
+  "scope": "所有已提交分支与标签；不包含未提交修改、安装包、运行配置、配对码、密钥与缓存",
+  "restoredTo": "E:\\YouTube中文插件开发\\work\\git-setup-20261006\\restore-570dbff",
+  "clonePassed": true,
+  "fsckPassed": true,
+  "restoredTrackedFiles": 494,
+  "baselineTagRestored": true,
+  "restoredCommitBlobsVerified": true
+}
