@@ -1,0 +1,23 @@
+PASS 默认停用不改变播放器CC，点击启用立即开启原字幕且等待中文时原文可见
+PASS 翻译完成后显示中文，暂停时20次启停即时控制全部字幕且不重复翻译
+PASS 中文仍在翻译时停用立即隐藏原文和译文，旧结果完成后保持关闭
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /start.cmd/. Input:
+
+'字幕已开启，但翻译连接失败：Failed to fetch'
+
+    at file:///E:/YouTube%E4%B8%AD%E6%96%87%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/work/verify-toggle-045.mjs:49:202
+    at async step (file:///E:/YouTube%E4%B8%AD%E6%96%87%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/work/verify-toggle-045.mjs:20:29)
+    at async file:///E:/YouTube%E4%B8%AD%E6%96%87%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/work/verify-toggle-045.mjs:48:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '字幕已开启，但翻译连接失败：Failed to fetch',
+  expected: /start.cmd/,
+  operator: 'match',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

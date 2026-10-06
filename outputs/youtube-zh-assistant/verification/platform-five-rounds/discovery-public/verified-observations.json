@@ -1,0 +1,391 @@
+[
+  {
+    "file": "dm2-cc-menu.json",
+    "url": "https://www.dailymotion.com/video/x3497ff",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 15.184365,
+    "duration": 523.4296400000002,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm2-initial.json",
+    "url": "https://www.dailymotion.com/video/x3497ff",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 9.431033,
+    "duration": 523.4296400000002,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-57-58-423Z-cc-menu.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 18.054915,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-57-58-423Z-initial.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 9.243784,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-58-54-353Z-cc-menu.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 13.629559,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-58-54-353Z-hover.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 12.888794,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-58-54-353Z-initial.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 12.130812,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-59-47-861Z-cc-menu.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 21.303415,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-59-47-861Z-hover.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 13.064722,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-59-47-861Z-initial.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 12.30824,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": "developments. Reuters plus one. Israel's political crisis deepens as Prime Minister"
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T02-59-47-861Z-settings.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 26.995983,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T03-00-43-134Z-cc-menu.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 20.925105,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": "Benjamin Netanyahu faces pressure after coalition instability. The Guardian. Global markets fall"
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T03-00-43-134Z-hover.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 12.672708,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T03-00-43-134Z-initial.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 11.927465,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": ""
+      }
+    ]
+  },
+  {
+    "file": "dm3-2026-10-05T03-00-43-134Z-settings.json",
+    "url": "https://www.dailymotion.com/video/xaazv0o",
+    "frame": "https://geo.dailymotion.com/player/xtv3w.html",
+    "currentTime": 26.580648,
+    "duration": 73.566667,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "DIV",
+        "class": "subtitles_placeholder",
+        "text": "as oil prices and US bond yields remain volatile. Reuters. The United Nations warns about worsening"
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T02-57-26-727Z-playing.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 14.003829,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "Now I know that for me, at least,"
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T02-58-27-981Z-cc-off.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 23.223586,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "to make all kinds of things like houses,"
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T02-58-27-981Z-cc-on.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 35.333091,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "Like my blocks, cells can"
+      },
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "come in a variety of shapes,"
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T02-58-27-981Z-playing.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 14.102668,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "Now I know that for me, at least,"
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T03-00-14-342Z-cc-off.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 20.216695,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "I used blocks of"
+      },
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "different shapes and sizes"
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T03-00-14-342Z-cc-on.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 32.332891,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "Well, cells are considered"
+      },
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "the building blocks of life."
+      }
+    ]
+  },
+  {
+    "file": "khan-2026-10-05T03-00-14-342Z-playing.json",
+    "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6:cells-and-organisms/x0c5bb03129646fd6:cells-organisms/v/ms-cells-and-organisms",
+    "frame": "https://www.youtube-nocookie.com/embed/Uiqro5TUyLA/",
+    "currentTime": 14.071935,
+    "duration": 236.701,
+    "paused": false,
+    "readyState": 4,
+    "textTracks": [],
+    "captions": [
+      {
+        "tag": "SPAN",
+        "class": "ytp-caption-segment",
+        "text": "Now I know that for me, at least,"
+      }
+    ]
+  }
+]

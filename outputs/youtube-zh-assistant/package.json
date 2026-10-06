@@ -1,0 +1,12 @@
+{
+  "name": "youtube-zh-assistant",
+  "version": "0.4.7",
+  "private": true,
+  "type": "module",
+  "description": "译幕：多网站视频中文字幕助手",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server/main.mjs",
+    "test": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs"
+  }
+}

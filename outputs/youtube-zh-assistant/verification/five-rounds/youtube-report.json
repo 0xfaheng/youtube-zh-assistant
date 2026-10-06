@@ -1,0 +1,1097 @@
+{
+  "version": "0.3.5",
+  "at": "2026-10-05T02:27:59.879Z",
+  "realYouTube": true,
+  "realExtension": true,
+  "realTranslationAccount": true,
+  "mockedResponses": false,
+  "checks": [
+    "真实 MV3 最终版 已加载并连接当前本机服务",
+    "真实播放器字幕请求恢复完整字幕，进入提前翻译模式",
+    "公网 YouTube 外观设置即时应用，顶部10%、24px、背景65%",
+    "网站全屏中的中文与顶部位置"
+  ],
+  "observations": [
+    {
+      "at": "2026-10-05T02:28:04.320Z",
+      "attrs": {},
+      "texts": [],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "false",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:05.472Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "正在读取字幕轨…"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:06.690Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:07.773Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:08.865Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:09.954Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:11.038Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:12.119Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:13.206Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 90.017232,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:14.322Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 91.04632,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:15.417Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 92.142246,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:16.498Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 93.223038,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:17.596Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 94.320866,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:18.691Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 95.415313,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:19.777Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 96.502023,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:20.875Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 97.599218,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:21.960Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 98.685109,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:23.049Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 99.773624,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:24.138Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "dom",
+        "data-batch-limit": "20",
+        "data-caption-source": "native",
+        "data-time-precision": "milliseconds",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "",
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 100.862624,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:25.254Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.97799,
+        "paused": false,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:26.373Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:27.476Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:28.601Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:29.710Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:30.890Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:32.012Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:33.124Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:34.249Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:35.364Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:36.480Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "0",
+        "data-pending-count": "12",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 正在提前翻译，请稍候"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": ""
+      }
+    },
+    {
+      "at": "2026-10-05T02:28:37.618Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-position": "bottom",
+        "data-caption-mode": "track",
+        "data-batch-limit": "20",
+        "data-caption-source": "transcript",
+        "data-time-precision": "seconds",
+        "data-cue-count": "277",
+        "data-first-cue-start": "0",
+        "data-last-cue-end": "2180.501",
+        "data-last-cue-start": "2173",
+        "data-translated-count": "12",
+        "data-pending-count": "0",
+        "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78;"
+      },
+      "texts": [
+        "与你合作的人想让你更换 AI 供应商，这件事很快就会变得非常、非常棘手，因为你们计算的成本可能截然不同。他们可能看不到你使用智能体的方式。",
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "文字稿模式 · 已预取（秒级时间）"
+      ],
+      "video": {
+        "time": 101.996637,
+        "paused": true,
+        "readyState": 4,
+        "errorCode": null,
+        "errorMessage": "",
+        "fullscreen": false,
+        "cc": "true",
+        "nativeText": "",
+        "nativeVisibility": "hidden"
+      }
+    }
+  ],
+  "errors": [],
+  "captionResponses": [
+    {
+      "at": "2026-10-05T02:28:05.447Z",
+      "videoId": "0j8wy4jUlsw",
+      "status": 200,
+      "fmt": "json3",
+      "language": "en",
+      "hasProof": false,
+      "bytes": 0,
+      "events": 0
+    },
+    {
+      "at": "2026-10-05T02:28:05.573Z",
+      "videoId": "0j8wy4jUlsw",
+      "status": 200,
+      "fmt": "json3",
+      "language": "en",
+      "hasProof": false,
+      "bytes": 0,
+      "events": 0
+    },
+    {
+      "at": "2026-10-05T02:28:20.571Z",
+      "videoId": "0j8wy4jUlsw",
+      "status": 200,
+      "fmt": "json3",
+      "language": "en",
+      "hasProof": false,
+      "bytes": 0,
+      "events": 0
+    }
+  ],
+  "config": {
+    "provider": "codex",
+    "requestedModel": "gpt-6-luna",
+    "requestedSpeed": "fast"
+  },
+  "initialReadyMs": 33380,
+  "translationRequests": [
+    {
+      "at": "2026-10-05T02:28:24.821Z",
+      "videoId": "0j8wy4jUlsw",
+      "count": 12,
+      "texts": [
+        "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+        "This is the battle that is coming to teams in 2027. But first, what does this actually look like? What are the kinds",
+        "of stories I'm seeing? I'm going to give you an example. It's rooted in a real story. I've anonymized it lightly. Let's say every week you open up a recruiting",
+        "tool. You look for candidates. You copy your notes into a spreadsheet and you write up a short list for the hiring manager. That's part of your role. Then",
+        "your AI agent starts doing it and you think, \"I'm more productive. This is great. I'm doing my job.\" It pulls candidate profiles from a data provider.",
+        "It drafts a short list. Now, you review it, of course. But when you give the okay, it then goes to the hiring manager. You stop opening the recruiting",
+        "tool over time and the company's selling the candidate data. What happens to that? They still get paid because they're still selling data. You're still",
+        "using the data. You're now paying for different parts of the work on top of that data. And so, you start liking how",
+        "the agent is working. You stop thinking about the recruiting tool a lot. Your agent gets really good. It gets full of context and you've taught it a lot about",
+        "how you personally screen for candidates that are successful for your roles, how you screen for candidates that don't really fit the company and what a great",
+        "candidate looks like. It's also starting to learn what particular hiring managers want. It even knows who you actually hire because you feed that information back in and that seems to be helpful in",
+        "helping it to pick better candidates and reduce the time you need to spend manually reviewing over time. and you're responsible and you're ethical and so"
+      ]
+    }
+  ],
+  "captionSource": "transcript",
+  "timePrecision": "seconds",
+  "mediaDuration": 2180.501,
+  "appearance": {
+    "at": "2026-10-05T02:28:38.065Z",
+    "attrs": {
+      "id": "ytz-assistant-overlay",
+      "data-position": "top",
+      "data-caption-mode": "track",
+      "data-batch-limit": "20",
+      "data-caption-source": "transcript",
+      "data-time-precision": "seconds",
+      "data-cue-count": "277",
+      "data-first-cue-start": "0",
+      "data-last-cue-end": "2180.501",
+      "data-last-cue-start": "2173",
+      "data-translated-count": "12",
+      "data-pending-count": "0",
+      "style": "--ytz-offset: 10%; --ytz-font: 24px; --ytz-original: 19px; --ytz-opacity: 0.65;"
+    },
+    "texts": [
+      "与你合作的人想让你更换 AI 供应商，这件事很快就会变得非常、非常棘手，因为你们计算的成本可能截然不同。他们可能看不到你使用智能体的方式。",
+      "you work with want you to switch AI vendors, that's about to get really, really tough because you may all be counting very different costs. They may not see the way you're using your agent.",
+      "文字稿模式 · 已预取（秒级时间）"
+    ],
+    "video": {
+      "time": 101.996637,
+      "paused": true,
+      "readyState": 4,
+      "errorCode": null,
+      "errorMessage": "",
+      "fullscreen": false,
+      "cc": "true",
+      "nativeText": "",
+      "nativeVisibility": "hidden"
+    }
+  },
+  "ok": true,
+  "browser": "154.0.4258.53"
+}

@@ -1,0 +1,2644 @@
+{
+  "at": "2026-10-05T03:33:00.009Z",
+  "version": "0.3.10",
+  "platforms": [
+    "Dailymotion",
+    "edX",
+    "Udemy",
+    "Coursera",
+    "Khan Academy"
+  ],
+  "publicAttempts": 25,
+  "rounds": [
+    {
+      "round": 1,
+      "version": "0.3.6",
+      "unitBefore": {
+        "at": "2026-10-05T02:58:22.843Z",
+        "version": "0.3.5",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 1,
+        "tests": 122,
+        "passed": 120,
+        "failed": 2
+      },
+      "unitAfter": {
+        "at": "2026-10-05T02:59:09.125Z",
+        "version": "0.3.6",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 0,
+        "tests": 122,
+        "passed": 122,
+        "failed": 0
+      },
+      "sites": [
+        {
+          "name": "Dailymotion",
+          "ok": false,
+          "playback": true,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "geo.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "imasdk.googleapis.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "实际视频播放但尚未显示中文；检查字幕读取或模型边界"
+        },
+        {
+          "name": "edX",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "learning.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "edx-exams.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Udemy",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.udemy.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Coursera",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tags.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Khan Academy",
+          "ok": true,
+          "playback": true,
+          "chinese": true,
+          "source": "dom",
+          "steps": [
+            "在当前网站启用",
+            "真实播放且显示对应中文"
+          ],
+          "network": [
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": null
+        }
+      ],
+      "sourceHashes": {
+        "audio-processor.js": "467507a6d50fa053a56fcfd01d0da072fa91773778e18ab4cfa0bb9b9cea6b57",
+        "background.js": "80a19aad304df969a7262caa5537ff9daa70f74f90fa8da42aa7f9e6dbf1bea9",
+        "bridge.js": "7abd732320d0f64b2c15ac866688c50f18c03261fc28769cc183c2f82a466760",
+        "content.js": "735cbd9b7fb33458133d03f0c32dbf08ab09d5acfe7d96c4f2bcfe43a7fbaa3c",
+        "core.js": "3e422758235b741906e152e3f75bae8426166340691ee7c6229fc5f8a71308d4",
+        "generic.js": "ab39d51b5b053c71a996f5ac31312f3bdf0f0a3f66bf482c39f3cca071929b1c",
+        "icon.svg": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568",
+        "icon128.png": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2",
+        "icon16.png": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564",
+        "icon32.png": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69",
+        "icon48.png": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac",
+        "icon512.png": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7",
+        "manifest.json": "249dd70e28f0de36947a50bfe4c6f0d91229571d40ae35a3ee1c9c0568c77c0d",
+        "offscreen.html": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6",
+        "offscreen.js": "80831d77a572f01a54f9f7fa98fa1454d04012f897aebded476cd54992a1c566",
+        "pairing.js": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939",
+        "popup.css": "620b00eba898c475499e699dc12ce4841ff5a72804e57a50700770abdb918383",
+        "popup.html": "d7d3f3d9c26421dddbabe7607f31937877b56993dee0df186421c326e9863bd6",
+        "popup.js": "82573e40f5d9c386f9616b925e7e1e3a42f862e38f62704c1c5912ba72fa27fd",
+        "transcript.js": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+      }
+    },
+    {
+      "round": 2,
+      "version": "0.3.7",
+      "unitBefore": {
+        "at": "2026-10-05T03:02:32.450Z",
+        "version": "0.3.6",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 1,
+        "tests": 123,
+        "passed": 122,
+        "failed": 1
+      },
+      "unitAfter": {
+        "at": "2026-10-05T03:02:59.430Z",
+        "version": "0.3.7",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 0,
+        "tests": 123,
+        "passed": 123,
+        "failed": 0
+      },
+      "sites": [
+        {
+          "name": "Dailymotion",
+          "ok": false,
+          "playback": true,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "geo.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "imasdk.googleapis.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "实际视频播放但尚未显示中文；检查字幕读取或模型边界"
+        },
+        {
+          "name": "edX",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "learning.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "edx-exams.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Udemy",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.udemy.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Coursera",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tags.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Khan Academy",
+          "ok": true,
+          "playback": true,
+          "chinese": true,
+          "source": "dom",
+          "steps": [
+            "在当前网站启用",
+            "真实播放且显示对应中文",
+            "位置和字号即时生效"
+          ],
+          "network": [
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": null
+        }
+      ],
+      "sourceHashes": {
+        "audio-processor.js": "467507a6d50fa053a56fcfd01d0da072fa91773778e18ab4cfa0bb9b9cea6b57",
+        "background.js": "3ce37a68d42fd3d9845dcfeb13495e1b72c78c23ac9b774be3a0871bd345089b",
+        "bridge.js": "7abd732320d0f64b2c15ac866688c50f18c03261fc28769cc183c2f82a466760",
+        "content.js": "735cbd9b7fb33458133d03f0c32dbf08ab09d5acfe7d96c4f2bcfe43a7fbaa3c",
+        "core.js": "3e422758235b741906e152e3f75bae8426166340691ee7c6229fc5f8a71308d4",
+        "generic.js": "f0f3818c85d3037af9ea0fe8628e484020cc27bf064bf23363fed0faa5325412",
+        "icon.svg": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568",
+        "icon128.png": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2",
+        "icon16.png": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564",
+        "icon32.png": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69",
+        "icon48.png": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac",
+        "icon512.png": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7",
+        "manifest.json": "0b1e618fc064bf020afb062aaef4f082ee07e54d222683c2e5024be2bf34af35",
+        "offscreen.html": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6",
+        "offscreen.js": "80831d77a572f01a54f9f7fa98fa1454d04012f897aebded476cd54992a1c566",
+        "pairing.js": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939",
+        "popup.css": "620b00eba898c475499e699dc12ce4841ff5a72804e57a50700770abdb918383",
+        "popup.html": "e273e1cf59bd545d632f495f81596a15578d0872975bd3c5b915d8252ad8a6d1",
+        "popup.js": "82573e40f5d9c386f9616b925e7e1e3a42f862e38f62704c1c5912ba72fa27fd",
+        "transcript.js": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+      }
+    },
+    {
+      "round": 3,
+      "version": "0.3.8",
+      "unitBefore": {
+        "at": "2026-10-05T03:03:55.019Z",
+        "version": "0.3.7",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 1,
+        "tests": 124,
+        "passed": 123,
+        "failed": 1
+      },
+      "unitAfter": {
+        "at": "2026-10-05T03:06:28.852Z",
+        "version": "0.3.8",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 0,
+        "tests": 124,
+        "passed": 124,
+        "failed": 0
+      },
+      "sites": [
+        {
+          "name": "Dailymotion",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "geo.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "imasdk.googleapis.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "edX",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "learning.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "edx-exams.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Udemy",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.udemy.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Coursera",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tags.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Khan Academy",
+          "ok": true,
+          "playback": true,
+          "chinese": true,
+          "source": "dom",
+          "steps": [
+            "在当前网站启用",
+            "真实播放且显示对应中文",
+            "位置和字号即时生效",
+            "关闭隐藏字幕，再开启恢复"
+          ],
+          "network": [
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": null
+        }
+      ],
+      "sourceHashes": {
+        "audio-processor.js": "467507a6d50fa053a56fcfd01d0da072fa91773778e18ab4cfa0bb9b9cea6b57",
+        "background.js": "bcfeec95b90dabff32009d5e75039c56b6b0dc6cb737360c11a76d58e576835c",
+        "bridge.js": "7abd732320d0f64b2c15ac866688c50f18c03261fc28769cc183c2f82a466760",
+        "content.js": "735cbd9b7fb33458133d03f0c32dbf08ab09d5acfe7d96c4f2bcfe43a7fbaa3c",
+        "core.js": "3e422758235b741906e152e3f75bae8426166340691ee7c6229fc5f8a71308d4",
+        "generic.js": "f0f3818c85d3037af9ea0fe8628e484020cc27bf064bf23363fed0faa5325412",
+        "icon.svg": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568",
+        "icon128.png": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2",
+        "icon16.png": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564",
+        "icon32.png": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69",
+        "icon48.png": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac",
+        "icon512.png": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7",
+        "manifest.json": "388ad19ea9ee9240823d37f800965afb9e372d6e38e724bba7a58c650296bf03",
+        "offscreen.html": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6",
+        "offscreen.js": "80831d77a572f01a54f9f7fa98fa1454d04012f897aebded476cd54992a1c566",
+        "pairing.js": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939",
+        "popup.css": "620b00eba898c475499e699dc12ce4841ff5a72804e57a50700770abdb918383",
+        "popup.html": "0259be57493974be3165eb0341d52585592e15af0312d803997ac755472e45e4",
+        "popup.js": "82573e40f5d9c386f9616b925e7e1e3a42f862e38f62704c1c5912ba72fa27fd",
+        "transcript.js": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+      }
+    },
+    {
+      "round": 4,
+      "version": "0.3.9",
+      "unitBefore": {
+        "at": "2026-10-05T03:07:50.693Z",
+        "version": "0.3.8",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 1,
+        "tests": 126,
+        "passed": 124,
+        "failed": 2
+      },
+      "unitAfter": {
+        "at": "2026-10-05T03:09:37.082Z",
+        "version": "0.3.9",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 0,
+        "tests": 126,
+        "passed": 126,
+        "failed": 0
+      },
+      "sites": [
+        {
+          "name": "Dailymotion",
+          "ok": true,
+          "playback": true,
+          "chinese": true,
+          "source": "dom",
+          "steps": [
+            "在当前网站启用",
+            "真实播放且显示对应中文",
+            "位置和字号即时生效",
+            "关闭隐藏字幕，再开启恢复",
+            "刷新后已授权脚本重新注入并再次显示中文"
+          ],
+          "network": [
+            {
+              "domain": "www.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "geo.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "imasdk.googleapis.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "geo.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "imasdk.googleapis.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": null
+        },
+        {
+          "name": "edX",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "learning.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "edx-exams.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Udemy",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.udemy.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Coursera",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tags.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Khan Academy",
+          "ok": false,
+          "playback": true,
+          "chinese": true,
+          "source": "dom",
+          "steps": [
+            "在当前网站启用",
+            "真实播放且显示对应中文",
+            "位置和字号即时生效",
+            "关闭隐藏字幕，再开启恢复"
+          ],
+          "network": [
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "The expression evaluated to a falsy value:\n\n  assert.ok(site.reload.overlays.some(o=>/[\\u4e00-\\u9fff]/.test(o.texts[0]||'')))\n"
+        }
+      ],
+      "sourceHashes": {
+        "audio-processor.js": "467507a6d50fa053a56fcfd01d0da072fa91773778e18ab4cfa0bb9b9cea6b57",
+        "background.js": "940a144470e9b363d8c39fef3a11d9c78c5cc9f39e4dccfe6d27c407abd2c1cf",
+        "bridge.js": "7abd732320d0f64b2c15ac866688c50f18c03261fc28769cc183c2f82a466760",
+        "content.js": "735cbd9b7fb33458133d03f0c32dbf08ab09d5acfe7d96c4f2bcfe43a7fbaa3c",
+        "core.js": "3e422758235b741906e152e3f75bae8426166340691ee7c6229fc5f8a71308d4",
+        "generic.js": "f0f3818c85d3037af9ea0fe8628e484020cc27bf064bf23363fed0faa5325412",
+        "icon.svg": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568",
+        "icon128.png": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2",
+        "icon16.png": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564",
+        "icon32.png": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69",
+        "icon48.png": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac",
+        "icon512.png": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7",
+        "manifest.json": "17a2f86439e6d08c6c51025b8c552c687c6b4728cb51473837aaab81261c804d",
+        "offscreen.html": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6",
+        "offscreen.js": "80831d77a572f01a54f9f7fa98fa1454d04012f897aebded476cd54992a1c566",
+        "pairing.js": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939",
+        "popup.css": "620b00eba898c475499e699dc12ce4841ff5a72804e57a50700770abdb918383",
+        "popup.html": "a5a27c9c49d73f39aa0523a32c5ac7f1f5a596d37897554962e104e1f52a2e46",
+        "popup.js": "2109543acee1a4392a8d95a58098bccc57ec0ecd8893a42002978b0e569a6b67",
+        "transcript.js": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+      }
+    },
+    {
+      "round": 5,
+      "version": "0.3.10",
+      "unitBefore": {
+        "at": "2026-10-05T03:09:53.831Z",
+        "version": "0.3.9",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 1,
+        "tests": 127,
+        "passed": 126,
+        "failed": 1
+      },
+      "unitAfter": {
+        "at": "2026-10-05T03:13:27.599Z",
+        "version": "0.3.10",
+        "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
+        "exitCode": 0,
+        "tests": 128,
+        "passed": 128,
+        "failed": 0
+      },
+      "sites": [
+        {
+          "name": "Dailymotion",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "geo.dailymotion.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "cdndirector.dailymotion.com",
+              "type": "xhr",
+              "status": 403
+            },
+            {
+              "domain": "imasdk.googleapis.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "edX",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "learning.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "courses.edx.org",
+              "type": "xhr",
+              "status": 500
+            },
+            {
+              "domain": "edx-exams.edx.org",
+              "type": "xhr",
+              "status": 401
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "cdn.cohesionapps.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Udemy",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.udemy.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "manifest",
+              "status": 404
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "other",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            },
+            {
+              "domain": "www.udemy.com",
+              "type": "fetch",
+              "status": 403
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Coursera",
+          "ok": false,
+          "playback": false,
+          "chinese": false,
+          "source": null,
+          "steps": [
+            "在当前网站启用"
+          ],
+          "network": [
+            {
+              "domain": "www.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tags.coursera.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "pixel.tapad.com",
+              "type": "document",
+              "status": 302
+            },
+            {
+              "domain": "tr.snapchat.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "页面访问、登录或原生播放未通过；未宣称插件翻译成功"
+        },
+        {
+          "name": "Khan Academy",
+          "ok": false,
+          "playback": true,
+          "chinese": true,
+          "source": "dom",
+          "steps": [
+            "在当前网站启用",
+            "真实播放且显示对应中文",
+            "位置和字号即时生效",
+            "关闭隐藏字幕，再开启恢复"
+          ],
+          "network": [
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.khanacademy.org",
+              "type": "document",
+              "status": 200
+            },
+            {
+              "domain": "www.youtube-nocookie.com",
+              "type": "document",
+              "status": 200
+            }
+          ],
+          "failure": "The expression evaluated to a falsy value:\n\n  assert.ok(site.reload.overlays.some(o=>/[\\u4e00-\\u9fff]/.test(o.texts[0]||'')))\n"
+        }
+      ],
+      "sourceHashes": {
+        "audio-processor.js": "467507a6d50fa053a56fcfd01d0da072fa91773778e18ab4cfa0bb9b9cea6b57",
+        "background.js": "d7562245b4ad0cf43f17bb438235c62084b62c33c381ed394be01e26eb5e1105",
+        "bridge.js": "7abd732320d0f64b2c15ac866688c50f18c03261fc28769cc183c2f82a466760",
+        "content.js": "735cbd9b7fb33458133d03f0c32dbf08ab09d5acfe7d96c4f2bcfe43a7fbaa3c",
+        "core.js": "21e68020a71d7bdc3edebf1ae2cf66230fbf4adc40942f30c2480cc0ccdc1256",
+        "generic.js": "8e7a4ed30ab7e18a39b630b1b76f62817ec3271bd7f582bce8bc3ef961e104f5",
+        "icon.svg": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568",
+        "icon128.png": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2",
+        "icon16.png": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564",
+        "icon32.png": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69",
+        "icon48.png": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac",
+        "icon512.png": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7",
+        "manifest.json": "763e4356688d72d5b7de9c312b00ed5fc6632146a0031942e9795100b485ec65",
+        "offscreen.html": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6",
+        "offscreen.js": "80831d77a572f01a54f9f7fa98fa1454d04012f897aebded476cd54992a1c566",
+        "pairing.js": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939",
+        "popup.css": "620b00eba898c475499e699dc12ce4841ff5a72804e57a50700770abdb918383",
+        "popup.html": "1a35f8e5780ef5b0362f3879c67597725a3422a9d7bbbdd4ad3cdb01113c0a91",
+        "popup.js": "2109543acee1a4392a8d95a58098bccc57ec0ecd8893a42002978b0e569a6b67",
+        "transcript.js": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+      }
+    }
+  ],
+  "fixture": {
+    "ok": true,
+    "checks": [
+      "逐站启用注册脚本，真实HTML5文字轨到实际账号中文翻译",
+      "位置、字号、透明度即时应用且保存，不改变翻译开关",
+      "通用字幕跳转、网页全屏及关闭后还原原生轨",
+      "停用网站清理浮层；重新启用只保留一份脚本（测试副本权限由必需声明保留）",
+      "授权复核拒绝时清理当前网页，重新启用仍可恢复",
+      "同数量字幕正文更新、轨移除和同地址媒体重置不会显示旧中文",
+      "开放Shadow DOM视频与自绘CC，中文生效时隐藏原字幕，关闭后原样恢复",
+      "并发位置、字号、开关补丁均保存成功，页面使用合并后的外观",
+      "DOM迟到译文有原句时间，字幕间隙清空中文并保留当前原字幕"
+    ]
+  },
+  "regression": {
+    "youtube": true,
+    "ted": true
+  },
+  "allPlatformsCompatible": false,
+  "publicPageMocked": false,
+  "modelMocked": false,
+  "coursePlaybackNotValidated": [
+    "edX",
+    "Udemy",
+    "Coursera"
+  ],
+  "permissionSetup": "隔离测试副本预授具体来源，生产使用optional逐站授权；未操作用户日常Chrome权限对话框",
+  "actualAccountModelIdentityConfirmed": false,
+  "supplementaryKhan": {
+    "ok": true,
+    "steps": [
+      "在当前网站启用",
+      "真实播放且显示对应中文",
+      "位置和字号即时生效",
+      "关闭隐藏字幕，再开启恢复",
+      "刷新后已授权脚本重新注入并再次显示中文"
+    ],
+    "error": null
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "version": "0.4.4",
+  "date": "2026-10-05T17:31:50.158Z",
+  "realMV3": true,
+  "fixturePages": true,
+  "mockedProvider": true,
+  "checks": [
+    "真实MV3扩展0.4.4加载与本机配对通过",
+    "YouTube真实语义请求等待时无状态文字与空白行",
+    "跳转撤销真实fetch，尚未开始的旧批次不调用模型，新位置正确显示",
+    "真实字幕渲染保留百分比、负温度和时间符号",
+    "网页播放器全屏保持对应时间与字幕",
+    "刷新同一URL后新文档代次可从零开始，后台不误拒绝",
+    "DOM延迟字幕与整理状态无提示行",
+    "真实DOM滚动字幕第二批只提交新词，旧窗口不重复调用",
+    "通用网页等待原字幕时无提示占位",
+    "真实TextTrack中间插入cue保留已有译文与id，不重复送译",
+    "关闭字幕后清理显示，重新开启保留设置"
+  ],
+  "ok": true,
+  "providerCalls": [
+    {
+      "count": 20,
+      "firstStart": 0,
+      "texts": [
+        "Sentence 0.",
+        "Sentence 1.",
+        "Sentence 2.",
+        "Sentence 3.",
+        "Sentence 4.",
+        "Sentence 5.",
+        "Sentence 6.",
+        "Sentence 7.",
+        "Sentence 8.",
+        "Sentence 9.",
+        "Sentence 10.",
+        "Sentence 11.",
+        "Sentence 12.",
+        "Sentence 13.",
+        "Sentence 14.",
+        "Sentence 15.",
+        "Sentence 16.",
+        "Sentence 17.",
+        "Sentence 18.",
+        "Sentence 19."
+      ]
+    },
+    {
+      "count": 20,
+      "firstStart": 88,
+      "texts": [
+        "Sentence 44.",
+        "Sentence 45.",
+        "Sentence 46.",
+        "Sentence 47.",
+        "Sentence 48.",
+        "Sentence 49.",
+        "Sentence 50.",
+        "Sentence 51.",
+        "Sentence 52.",
+        "Sentence 53.",
+        "Sentence 54.",
+        "Sentence 55.",
+        "Sentence 56.",
+        "Sentence 57.",
+        "Sentence 58.",
+        "Sentence 59.",
+        "Sentence 60.",
+        "Sentence 61.",
+        "Sentence 62.",
+        "Sentence 63."
+      ]
+    },
+    {
+      "count": 1,
+      "firstStart": 0,
+      "texts": [
+        "Refreshed sentence."
+      ]
+    },
+    {
+      "count": 1,
+      "firstStart": 0,
+      "texts": [
+        "a b c d"
+      ]
+    },
+    {
+      "count": 1,
+      "firstStart": 0,
+      "texts": [
+        "e f"
+      ]
+    },
+    {
+      "count": 2,
+      "firstStart": 10,
+      "texts": [
+        "Ten.",
+        "Twenty."
+      ]
+    },
+    {
+      "count": 1,
+      "firstStart": 5,
+      "texts": [
+        "Five."
+      ]
+    }
+  ]
+}

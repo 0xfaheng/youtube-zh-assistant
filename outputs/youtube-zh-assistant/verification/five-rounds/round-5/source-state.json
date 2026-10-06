@@ -1,0 +1,29 @@
+{
+  "round": 5,
+  "version": "0.3.5",
+  "previous": "0.3.4",
+  "at": "2026-10-05T02:23:00.588Z",
+  "sourceHashes": {
+    "audio-processor.js": "467507a6d50fa053a56fcfd01d0da072fa91773778e18ab4cfa0bb9b9cea6b57",
+    "background.js": "4ab5df1a1fa1b7b339c4f4f6f59842594bedd1051b053706dc101904c8e850e1",
+    "bridge.js": "7abd732320d0f64b2c15ac866688c50f18c03261fc28769cc183c2f82a466760",
+    "content.js": "735cbd9b7fb33458133d03f0c32dbf08ab09d5acfe7d96c4f2bcfe43a7fbaa3c",
+    "core.js": "6b2229e550c56b2fbc35d3aad4ded1046608a4c16368ecfa57eb13ffea61b9d9",
+    "generic.js": "f05e3b61a0275230c1cc1cc40d4c7616b0c5579c324e1fa3035f43ebf4aab3cf",
+    "icon.svg": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568",
+    "icon128.png": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2",
+    "icon16.png": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564",
+    "icon32.png": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69",
+    "icon48.png": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac",
+    "icon512.png": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7",
+    "manifest.json": "0b34cc3802942f33af1a42493cfd3e5de07e866667b482e4746882624789700d",
+    "offscreen.html": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6",
+    "offscreen.js": "80831d77a572f01a54f9f7fa98fa1454d04012f897aebded476cd54992a1c566",
+    "pairing.js": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939",
+    "popup.css": "620b00eba898c475499e699dc12ce4841ff5a72804e57a50700770abdb918383",
+    "popup.html": "4a994130c35f97f3da3c94351e2bbc2ada39726d50585f5ba0b94e4bfb0a45ae",
+    "popup.js": "82573e40f5d9c386f9616b925e7e1e3a42f862e38f62704c1c5912ba72fa27fd",
+    "transcript.js": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+  },
+  "finalCaptureAt": "2026-10-05T02:46:29.421Z"
+}

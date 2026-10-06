@@ -1,0 +1,20 @@
+# 正式源码和精选工具进入 Git；安装包、部署副本及运行资料保留在磁盘。
+/outputs/*
+!/outputs/youtube-zh-assistant/
+/work/*
+!/work/package-release.mjs
+!/work/package-release.py
+
+**/node_modules/
+**/__pycache__/
+**/.runtime/
+**/.env
+**/.env.*
+!**/.env.example
+**/*.dpapi
+**/pairing-token.txt
+**/server.pid
+**/*.stdout.log
+**/*.stderr.log
+**/.DS_Store
+**/Thumbs.db

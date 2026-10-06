@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-04T17:13:42.228Z",
+  "version": "0.2.2",
+  "realLocalGpu": true,
+  "realTranslationAccount": true,
+  "browserCapture": false,
+  "audioApiCalls": 0,
+  "translationRequests": 1,
+  "checks": [
+    "更新服务已继承现有代理，本地识别与账号翻译配置有效",
+    "真实 HTTP 本地识别与账号中文翻译完成，无模拟响应"
+  ],
+  "network": {
+    "httpProxyConfigured": true,
+    "httpsProxyConfigured": true,
+    "fetchUsesEnvironmentProxy": true
+  },
+  "wallMs": 52557,
+  "text": "Welcome to this video. Today, we will build a simple artificial intelligence assistant.",
+  "translation": "欢迎观看本视频。今天，我们将构建一个简单的人工智能助手。",
+  "provider": "codex",
+  "audioProvider": "local",
+  "ok": true,
+  "lastAudio": {
+    "audioProvider": "local",
+    "model": "Qwen3-ASR-1.7B",
+    "language": "English",
+    "inferenceMs": 1986,
+    "time": "2026-10-04T17:14:22.826Z"
+  },
+  "lastActual": {
+    "provider": "codex",
+    "requestedModel": "gpt-6-luna",
+    "requestedSpeed": "fast",
+    "usage": {
+      "input_tokens": 14815,
+      "output_tokens": 54,
+      "cached_input_tokens": 14080,
+      "cache_write_input_tokens": 0,
+      "reasoning_output_tokens": 13
+    },
+    "completedAt": "2026-10-04T17:14:34.818Z"
+  },
+  "counts": {
+    "translations": 0,
+    "cacheHits": 0,
+    "cachedLines": 0,
+    "pending": 2,
+    "requestsLastHour": 3,
+    "audioSecondsLastHour": 6
+  },
+  "localModelReleased": true,
+  "lockReleased": true
+}

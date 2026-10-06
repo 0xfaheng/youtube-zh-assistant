@@ -1,0 +1,2183 @@
+{
+  "browser": "edge",
+  "attempt": "low-quality",
+  "started": "2026-10-05T02:16:16.964Z",
+  "target": "player.vimeo.com/video/76979871",
+  "network": [
+    {
+      "event": "response",
+      "host": "player.vimeo.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:19.106Z"
+    },
+    {
+      "event": "response",
+      "host": "i.vimeocdn.com",
+      "type": "image",
+      "status": 200,
+      "time": "2026-10-05T02:16:19.555Z"
+    },
+    {
+      "event": "response",
+      "host": "f.vimeocdn.com",
+      "type": "stylesheet",
+      "status": 200,
+      "time": "2026-10-05T02:16:19.567Z"
+    },
+    {
+      "event": "response",
+      "host": "f.vimeocdn.com",
+      "type": "script",
+      "status": 200,
+      "time": "2026-10-05T02:16:20.434Z"
+    },
+    {
+      "event": "response",
+      "host": "f.vimeocdn.com",
+      "type": "script",
+      "status": 200,
+      "time": "2026-10-05T02:16:20.488Z"
+    },
+    {
+      "event": "response",
+      "host": "f.vimeocdn.com",
+      "type": "script",
+      "status": 200,
+      "time": "2026-10-05T02:16:20.715Z"
+    },
+    {
+      "event": "response",
+      "host": "f.vimeocdn.com",
+      "type": "script",
+      "status": 200,
+      "time": "2026-10-05T02:16:20.750Z"
+    },
+    {
+      "event": "response",
+      "host": "i.vimeocdn.com",
+      "type": "image",
+      "status": 200,
+      "time": "2026-10-05T02:16:20.931Z"
+    },
+    {
+      "event": "response",
+      "host": "vod-adaptive-ak.vimeocdn.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:21.193Z"
+    },
+    {
+      "event": "response",
+      "host": "vimeo.com",
+      "type": "fetch",
+      "status": 200,
+      "time": "2026-10-05T02:16:21.710Z"
+    },
+    {
+      "event": "response",
+      "host": "vod-adaptive-ak.vimeocdn.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:23.937Z"
+    },
+    {
+      "event": "response",
+      "host": "vod-adaptive-ak.vimeocdn.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:23.990Z"
+    },
+    {
+      "event": "response",
+      "host": "vod-adaptive-ak.vimeocdn.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:24.045Z"
+    },
+    {
+      "event": "response",
+      "host": "vod-adaptive-ak.vimeocdn.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:24.513Z"
+    },
+    {
+      "event": "response",
+      "host": "vimeo.com",
+      "type": "fetch",
+      "status": 200,
+      "time": "2026-10-05T02:16:25.496Z"
+    },
+    {
+      "event": "response",
+      "host": "player.vimeo.com",
+      "type": "fetch",
+      "status": 200,
+      "time": "2026-10-05T02:16:38.582Z"
+    },
+    {
+      "event": "response",
+      "host": "pr.service.expressplay.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:16:39.405Z"
+    },
+    {
+      "event": "response",
+      "host": "player.vimeo.com",
+      "type": "xhr",
+      "status": 200,
+      "time": "2026-10-05T02:17:19.124Z"
+    }
+  ],
+  "samples": [
+    {
+      "time": "2026-10-05T02:16:23.761Z",
+      "phase": "before-click",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": null,
+          "paused": true,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "播放",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "调试日志",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c exclude-global-button-styles DebugPanelButton_module_debugPanelButton__02c58441"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:16:32.461Z",
+      "phase": "after-click-1",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:16:37.480Z",
+      "phase": "after-click-2",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:16:42.499Z",
+      "phase": "after-click-3",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:16:47.517Z",
+      "phase": "after-click-4",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:16:52.530Z",
+      "phase": "after-click-5",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:16:57.549Z",
+      "phase": "after-click-6",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:17:02.565Z",
+      "phase": "after-click-7",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:17:07.582Z",
+      "phase": "after-click-8",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:17:12.595Z",
+      "phase": "after-click-9",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:17:17.610Z",
+      "phase": "after-click-10",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:17:22.632Z",
+      "phase": "after-click-11",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    },
+    {
+      "time": "2026-10-05T02:17:27.643Z",
+      "phase": "after-click-12",
+      "title": "The New Vimeo Player (You Know, For Videos) on Vimeo",
+      "video": [
+        {
+          "readyState": 0,
+          "networkState": 2,
+          "currentTime": 0,
+          "duration": 61.853437,
+          "paused": false,
+          "ended": false,
+          "muted": false,
+          "error": null,
+          "sourceHost": "",
+          "frames": {
+            "total": 0,
+            "dropped": 0
+          },
+          "tracks": [
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "Español",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "fr",
+              "label": "Français",
+              "kind": "subtitles",
+              "mode": "disabled",
+              "cues": null,
+              "activeCues": null
+            },
+            {
+              "language": "es",
+              "label": "español",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "de",
+              "label": "Deutsch",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "en",
+              "label": "English",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            },
+            {
+              "language": "fr",
+              "label": "français",
+              "kind": "captions",
+              "mode": "hidden",
+              "cues": 0,
+              "activeCues": 0
+            }
+          ]
+        }
+      ],
+      "buttons": [
+        {
+          "text": "",
+          "label": "嵌入",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_primary__61be5b9c Button_module_sm__61be5b9c Button_module_icon__61be5b9c Button_module_iconSm__61be5b9c exclude-global-button-styles EmbedButton_module_embedButton__dece8678"
+        },
+        {
+          "text": "暂停",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 PlayButton_module_playButton__d6312f47 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "静音",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "隐藏式字幕/字幕",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 cc"
+        },
+        {
+          "text": "设置",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 vp-prefs PrefsButton_module_prefsButton__c0bd4f7c"
+        },
+        {
+          "text": "倍速",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 SpeedButton_module_speedButton__bca13dee"
+        },
+        {
+          "text": "文字稿",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5"
+        },
+        {
+          "text": "",
+          "label": "返回",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_backButton__aa712564"
+        },
+        {
+          "text": "",
+          "label": "关闭菜单",
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_alternative__61be5b9c Button_module_icon__61be5b9c Button_module_iconMd__61be5b9c exclude-global-button-styles MenuHeader_module_closeButton__aa712564"
+        },
+        {
+          "text": "画中画",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 pip"
+        },
+        {
+          "text": "全屏",
+          "label": null,
+          "title": null,
+          "class": "Button_module_button__61be5b9c shared_module_focusable__29a0c6d5 Button_module_icon__61be5b9c exclude-global-button-styles Tooltip_module_tooltipContainer__b2bc4d16 ControlBarButton_module_controlBarButton__9f6f2536 shared_module_focusable__29a0c6d5 fullscreen FullscreenButton_module_fullscreen__5b68e32b"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "action": "navigate",
+      "ok": true
+    },
+    {
+      "action": "native-play-button",
+      "ok": true
+    },
+    {
+      "action": "open-native-settings",
+      "ok": true,
+      "menu": [
+        "关闭DeutschEspañolEnglishFrançais",
+        "关闭DeutschEspañolEnglishFrançais",
+        "关闭DeutschEspañolEnglishFrançais",
+        "画质360p隐藏式字幕/字幕关闭调试日志",
+        "画质360p隐藏式字幕/字幕关闭调试日志",
+        "画质360p隐藏式字幕/字幕关闭调试日志",
+        "2x1.5x1.25x1x0.75x0.5x",
+        "2x1.5x1.25x1x0.75x0.5x",
+        "2x1.5x1.25x1x0.75x0.5x"
+      ]
+    },
+    {
+      "action": "quality-menu",
+      "menu": [
+        "关闭DeutschEspañolEnglishFrançais",
+        "关闭DeutschEspañolEnglishFrançais",
+        "关闭DeutschEspañolEnglishFrançais",
+        "画质自动720p540p360p240p",
+        "自动720p540p360p240p",
+        "自动720p540p360p240p",
+        "2x1.5x1.25x1x0.75x0.5x",
+        "2x1.5x1.25x1x0.75x0.5x",
+        "2x1.5x1.25x1x0.75x0.5x"
+      ]
+    },
+    {
+      "action": "select-low-quality",
+      "ok": true
+    }
+  ],
+  "pending": [],
+  "keySystemAccess": [
+    {
+      "keySystem": "com.widevine.alpha",
+      "state": "rejected",
+      "errorName": "NotSupportedError",
+      "errorMessage": "Unsupported keySystem or supportedConfigurations."
+    },
+    {
+      "keySystem": "com.microsoft.playready",
+      "state": "resolved"
+    }
+  ],
+  "finished": "2026-10-05T02:17:27.844Z"
+}

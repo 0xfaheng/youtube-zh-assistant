@@ -1,0 +1,1577 @@
+{
+  "platform": "khan",
+  "variant": "A",
+  "url": "https://www.khanacademy.org/science/ms-biology/x0c5bb03129646fd6%3Acells-and-organisms/x0c5bb03129646fd6%3Acells-organisms/v/ms-cells-and-organisms",
+  "configuration": {
+    "headless": false,
+    "viewport": {
+      "width": 1365,
+      "height": 900
+    },
+    "explicitArgs": [],
+    "proxyInherited": true,
+    "extensions": false,
+    "newProfile": true
+  },
+  "navError": null,
+  "actions": [
+    {
+      "label": "Strictly Necessary Only",
+      "elapsedMs": 16755,
+      "result": "clicked"
+    },
+    {
+      "label": "close",
+      "elapsedMs": 17113,
+      "result": "clicked"
+    },
+    {
+      "label": "Close Sign Up Banner",
+      "elapsedMs": 17321,
+      "result": "clicked"
+    },
+    {
+      "label": "Dismiss banner.",
+      "elapsedMs": 17474,
+      "result": "clicked"
+    },
+    {
+      "label": "Play video",
+      "elapsedMs": 17642,
+      "result": "clicked"
+    }
+  ],
+  "observations": [
+    {
+      "elapsedMs": 16388,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 0,
+              "readyState": 0,
+              "paused": true,
+              "decodedFrames": 0,
+              "error": null
+            }
+          ],
+          "captions": []
+        }
+      ]
+    },
+    {
+      "elapsedMs": 17685,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 0,
+              "readyState": 0,
+              "paused": true,
+              "decodedFrames": 0,
+              "error": null
+            }
+          ],
+          "captions": []
+        }
+      ]
+    },
+    {
+      "elapsedMs": 22690,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 3.841072,
+              "readyState": 4,
+              "paused": false,
+              "decodedFrames": 234,
+              "error": null
+            }
+          ],
+          "captions": [
+            {
+              "class": "ytp-caption-segment",
+              "text": "one of the most fascinating"
+            },
+            {
+              "class": "ytp-caption-segment",
+              "text": "and complex features"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elapsedMs": 27704,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 8.854641,
+              "readyState": 4,
+              "paused": false,
+              "decodedFrames": 535,
+              "error": null
+            }
+          ],
+          "captions": [
+            {
+              "class": "ytp-caption-segment",
+              "text": "But before we do,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elapsedMs": 32722,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 13.874028,
+              "readyState": 4,
+              "paused": false,
+              "decodedFrames": 836,
+              "error": null
+            }
+          ],
+          "captions": [
+            {
+              "class": "ytp-caption-segment",
+              "text": "Now I know that for me, at least,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elapsedMs": 37726,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 18.877885,
+              "readyState": 4,
+              "paused": false,
+              "decodedFrames": 1136,
+              "error": null
+            }
+          ],
+          "captions": [
+            {
+              "class": "ytp-caption-segment",
+              "text": "and creating things out of them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elapsedMs": 39012,
+      "frames": [
+        {
+          "domain": "www.youtube-nocookie.com",
+          "videos": [
+            {
+              "currentTime": 20.16372,
+              "readyState": 4,
+              "paused": false,
+              "decodedFrames": 1213,
+              "error": null
+            }
+          ],
+          "captions": [
+            {
+              "class": "ytp-caption-segment",
+              "text": "I used blocks of"
+            },
+            {
+              "class": "ytp-caption-segment",
+              "text": "different shapes and sizes"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "network": [
+    {
+      "domain": "www.khanacademy.org",
+      "type": "document",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "document",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.googletagmanager.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "fonts.googleapis.com",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "other",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "other",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "document",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "fonts.gstatic.com",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "i.ytimg.com",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.google.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "www.gstatic.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "image",
+      "status": 204
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "jnn-pa.googleapis.com",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "consent.trustarc.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "fonts.gstatic.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "fonts.gstatic.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "rr1---sn-ajogu5-5v.googlevideo.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 204
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.kastatic.org",
+      "type": "other",
+      "status": 200
+    },
+    {
+      "domain": "rr1---sn-ajogu5-5v.googlevideo.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 204
+    },
+    {
+      "domain": "i.ytimg.com",
+      "type": "other",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 204
+    },
+    {
+      "domain": "i.ytimg.com",
+      "type": "other",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.khanacademy.org",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "xhr",
+      "status": 204
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 204
+    },
+    {
+      "domain": "rr1---sn-ajogu5-5v.googlevideo.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "rr1---sn-ajogu5-5v.googlevideo.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 204
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "rr1---sn-ajogu5-5v.googlevideo.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.youtube-nocookie.com",
+      "type": "fetch",
+      "status": 204
+    },
+    {
+      "domain": "rr1---sn-ajogu5-5v.googlevideo.com",
+      "type": "fetch",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "stage": "before",
+  "syntheticSpeech": true,
+  "realLocalGPU": true,
+  "realAccountTranslation": true,
+  "browserTabCapture": false,
+  "captureSeconds": 7,
+  "ok": true,
+  "serviceVersion": "0.4.6",
+  "warmupWallMs": 61953,
+  "asrWallMs": 13394,
+  "recognized": "Welcome to this video. Today we will build a simple artificial intelligence assistant.",
+  "semanticWaitMs": 500,
+  "translationWallMs": 16102,
+  "translation": "欢迎观看本视频。今天我们来构建一个简单的人工智能助手。",
+  "firstSubtitleWallMs": 37010,
+  "lastAudio": {
+    "audioProvider": "local",
+    "model": "Qwen3-ASR-1.7B",
+    "language": "English",
+    "inferenceMs": 3511,
+    "time": "2026-10-06T02:01:53.722Z"
+  },
+  "lastActual": {
+    "provider": "codex",
+    "mode": "semantic-segments",
+    "requestedModel": "gpt-6-luna",
+    "requestedSpeed": "fast",
+    "batchSize": 1,
+    "elapsedMs": 5887,
+    "usage": {
+      "input_tokens": 16199,
+      "output_tokens": 79,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "reasoning_output_tokens": 33
+    },
+    "completedAt": "2026-10-06T02:02:10.331Z"
+  }
+}

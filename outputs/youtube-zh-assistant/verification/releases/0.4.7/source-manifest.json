@@ -1,0 +1,337 @@
+{
+  "version": "0.4.7",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "cd867b5c8a76d32ab37f506f7219753d503c8c249ed603e39d28e3ea7feb8ed6"
+    },
+    {
+      "path": "API-OPTIONS.md",
+      "sha256": "36dc355e8fdc586b6e62e041e55b387385d8f727493d08cd726c9679da7276dc"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ce3012a5d6c7b029c6e3d51eb0f1705450322bef0ba4885835f8108251a3c4a4"
+    },
+    {
+      "path": "extension/audio-processor.js",
+      "sha256": "1da0571deb26bdfa15eb991f8fcdb767d49bdb8b3078645c46fcf5ba5a4918a3"
+    },
+    {
+      "path": "extension/background.js",
+      "sha256": "5d0345f769bdc5e784310c1263d791ff4781aa8fbdde6c2b2765903b361a270e"
+    },
+    {
+      "path": "extension/bridge.js",
+      "sha256": "f3ea8fcc03a16dccf6c2338463d10f4f087e148501b66e0563de93fa7e9660fa"
+    },
+    {
+      "path": "extension/content.js",
+      "sha256": "6ebc30a3c8752106b657b5c720ac100fb4252ad25b24f46826a27227e0c2c49c"
+    },
+    {
+      "path": "extension/core.js",
+      "sha256": "1cb11142a48b3f4aa9dca4ce1eb548b94570866a294e2844eff5764103edf2b9"
+    },
+    {
+      "path": "extension/generic.js",
+      "sha256": "e9727f2b0fd36ba7bdc36c12c3ad888b507100067710d05a8ba144566ebd6d1f"
+    },
+    {
+      "path": "extension/icon.svg",
+      "sha256": "26c9a4b2526b1065bee5a27baeca25762ff597b8a8e4637eccf99039fae3a568"
+    },
+    {
+      "path": "extension/icon128.png",
+      "sha256": "ef493c5a5b63f8f0b7acbec5e6012b4993e670928a7de4c8e35efd3531d5cca2"
+    },
+    {
+      "path": "extension/icon16.png",
+      "sha256": "aa952879829b6dc8b80aa6dd431462adbafe5bcc361625f2da2341547000d564"
+    },
+    {
+      "path": "extension/icon32.png",
+      "sha256": "c3b819bb49323d27ba34281754c825223c5858534c8a13ae356834716b9d0d69"
+    },
+    {
+      "path": "extension/icon48.png",
+      "sha256": "7697b54ce7f6dbe446518dc143580240f32d31f91c0e2c1aa2cf81dcbe7cbaac"
+    },
+    {
+      "path": "extension/icon512.png",
+      "sha256": "d9fa82417c6e60a6a0b481fcb4dd193106a4b3b51d9bd1a5721dc1c01b8abdf7"
+    },
+    {
+      "path": "extension/manifest.json",
+      "sha256": "bc5b3e4eb0791a5eb8b014556aae97cf98ae78cc11d93c693cac70bebec14eb8"
+    },
+    {
+      "path": "extension/offscreen.html",
+      "sha256": "a8eb38568536908ef52a5803f33e4999705f79a21bd5592f8cec720656c197a6"
+    },
+    {
+      "path": "extension/offscreen.js",
+      "sha256": "868a5fe2b8677a453ea537cf53f4db8b105863b4ede3a9601eda79c1e3a7625c"
+    },
+    {
+      "path": "extension/pairing.js",
+      "sha256": "40bcb8c9f53246a2d5408b1335bcb54d8cf82b41bb9ced30856a93d721abe939"
+    },
+    {
+      "path": "extension/popup.css",
+      "sha256": "1618b5104954f6bbd23165257d48d6b1b7b3726fcb7ce45e94af8402a5aa2904"
+    },
+    {
+      "path": "extension/popup.html",
+      "sha256": "6d63895d818cadea7ffd92a72579ee0082e3c42f5e1e893d08a7cfbf18bbd4d8"
+    },
+    {
+      "path": "extension/popup.js",
+      "sha256": "cf8d8764185f992d52ab9f51fd09ea99c9491dae305f68e7319fd868628d2465"
+    },
+    {
+      "path": "extension/semantic.js",
+      "sha256": "61351c0286d0984fa206bf65f3792e93ee5c4b900f57bc91fc51b91c11a14771"
+    },
+    {
+      "path": "extension/tests/audio.test.cjs",
+      "sha256": "344d4d6331e24e1b45d777261dbc05a7b874651d212daef921e4afc0fd9dcd1b"
+    },
+    {
+      "path": "extension/tests/background.test.cjs",
+      "sha256": "80b88122be59a670bf471158b71ac147d4990447b5d7933023d0876022f10473"
+    },
+    {
+      "path": "extension/tests/bridge.test.cjs",
+      "sha256": "a3c6c6487166d27f5ba69f3df35ee5afbe138a05db1cc018b8a7ac05f0235fc3"
+    },
+    {
+      "path": "extension/tests/content.test.cjs",
+      "sha256": "3898aa65cc6f3a0dbcab84a1e53964ce0f29d12897fe4d3929904fd597514c28"
+    },
+    {
+      "path": "extension/tests/core.test.cjs",
+      "sha256": "89247fccb56c0141e7da933dea517bfb5c9f87eaabfa27bd3934021497e644ce"
+    },
+    {
+      "path": "extension/tests/generic.test.cjs",
+      "sha256": "895158958c398cd067da1d91dcc7a40bf63be6fb33332923353827039b2663a1"
+    },
+    {
+      "path": "extension/tests/pairing.test.cjs",
+      "sha256": "dbc06673163825480d88102dbebe0389c19fbbca07f82cd528dfb88c2087b4ea"
+    },
+    {
+      "path": "extension/tests/popup.test.cjs",
+      "sha256": "0f3ae2f9e43940ac424d45c61a0823144f0dda01eab4266134f2889c887f5bc0"
+    },
+    {
+      "path": "extension/tests/semantic.test.cjs",
+      "sha256": "511b41516b8092d25355e5bdc2aa2946ee8e09ab128279ff8d8fb2194f1a5a19"
+    },
+    {
+      "path": "extension/tests/transcript.test.cjs",
+      "sha256": "68dcf3c7c9e65aed8a4230684d6303794eadb1d70e66cc2a1678b1063e04550c"
+    },
+    {
+      "path": "extension/transcript.js",
+      "sha256": "39edd2d4671c7ca14c2042bf5cf2925abe60b15f9285fcbe74d50138d551b7e3"
+    },
+    {
+      "path": "package.json",
+      "sha256": "8b250ccbe8a877d138f2ba0c1f3a2b38546cfd438b4963ed352ca549ed057488"
+    },
+    {
+      "path": "README.md",
+      "sha256": "502ef51388130793d37c75f6048a661f036e4fe259d38d5894e20f5ff466e39e"
+    },
+    {
+      "path": "RESEARCH.md",
+      "sha256": "74debdb4ec54be9e8b10043a1649df98a597914dd23123a3ef6d8254111ee2d4"
+    },
+    {
+      "path": "server/app.mjs",
+      "sha256": "0d18859b1911191c3613461ec31b2970875dc491e6ecc92c0984ec8986069043"
+    },
+    {
+      "path": "server/core.mjs",
+      "sha256": "5cec74a5c23dec6429eb0baa883f1a7cb63a970d5b736e4dceabddeb8f6f33b7"
+    },
+    {
+      "path": "server/local-asr-worker.py",
+      "sha256": "0ee7e14887e031ba0300309e96d924b43ed1d2747f8d997e4717025c98c56389"
+    },
+    {
+      "path": "server/local-asr.mjs",
+      "sha256": "61e03f2a7ef58d5c24273df6477aaf4172261b007f7fecadb0383f58db614d3d"
+    },
+    {
+      "path": "server/main.mjs",
+      "sha256": "89802e13d5aece58bff7cd9cf315846e1a290753a6b57340e0ab4900a923b75f"
+    },
+    {
+      "path": "server/providers.mjs",
+      "sha256": "fe6fa69adaabaf43411d654c5c075e300a0758acb4cc8ba96cab228acb029f81"
+    },
+    {
+      "path": "server/secrets.ps1",
+      "sha256": "f0f28b2fe2261361422c075983d2748d03a67487b19ca50b7ab8a1734d2e103e"
+    },
+    {
+      "path": "server/semantic-instructions.md",
+      "sha256": "3d28738da170aee73d8e9a60c310cd8b9f2eee2b06374a08907c80162eab8f48"
+    },
+    {
+      "path": "server/storage.mjs",
+      "sha256": "7cd21691fbe544477d05a04ebbfb4c7c0e7206ba416f09a18f32621e553b857f"
+    },
+    {
+      "path": "server/tests/cancellation.test.mjs",
+      "sha256": "d962fd233b542db38dd66b9064313c21b118aa9873098e7918a7f44a49720e1d"
+    },
+    {
+      "path": "server/tests/core.test.mjs",
+      "sha256": "c92fca8248e73ee0f5ebefe1601d9d01e5dce25db5d22828ffa31774ca9ddadc"
+    },
+    {
+      "path": "server/tests/http.test.mjs",
+      "sha256": "e38db0ac50e5af1ba777c4cbedc10cd4122a842955a3edfc40ed162162f1be51"
+    },
+    {
+      "path": "server/tests/launcher.test.mjs",
+      "sha256": "6ca9eea9d433399a89dc1013941bda608e9e2cdf33237529e2f36bad0e1f5aa3"
+    },
+    {
+      "path": "server/tests/local-asr.test.mjs",
+      "sha256": "d3ba5ed82f876fe7924794e8e16097b892dc43a684ae5b1806ec15a7a1a9ff5d"
+    },
+    {
+      "path": "server/tests/process.test.mjs",
+      "sha256": "cceae1e03d2ab68a4b1346e7252e12163ea4793951acc3d6df6016175e14fbf8"
+    },
+    {
+      "path": "server/tests/providers.test.mjs",
+      "sha256": "e98f3d501c5ee303dca5d6e16099e21847bff838bf29cc53666a6ee64d3aced4"
+    },
+    {
+      "path": "server/tests/semantic.test.mjs",
+      "sha256": "3d6574f9a74a7eaf8fd1fea73ad3c7e7238eb06599aeb318f04a72ff190e8784"
+    },
+    {
+      "path": "server/tests/storage.test.mjs",
+      "sha256": "a7d8c783f30d891e1dfc86b74dbbdfb82c2c34ca831a1640eb6530f4180f3c5b"
+    },
+    {
+      "path": "server/tests/web-pairing.test.mjs",
+      "sha256": "b00d490c88cd2a5243ef681735bf4519b1d96064cacf503fa13655e9aa1a0815"
+    },
+    {
+      "path": "server/translation-instructions.md",
+      "sha256": "5e2d71e2b64608d6cebeb69d78cff817a877d6474e39dd93078bf74a7ed583eb"
+    },
+    {
+      "path": "start.cmd",
+      "sha256": "61731ea5854c95d352629b8e4d8c92b98eb9a25ebe9b15f97a13c612df62c705"
+    },
+    {
+      "path": "start.ps1",
+      "sha256": "a5eaf95e9e7532d2d1fd37f148e1cb28217bb1e5b909268e0b7cd14eafc05cb1"
+    },
+    {
+      "path": "stop.cmd",
+      "sha256": "1ec38def571be986281caf763c5b1b2f841603da6150ade949eb53a943f429a1"
+    },
+    {
+      "path": "stop.ps1",
+      "sha256": "c13a461316174ede70df48d6ecfdd0262677d913c4deebe28c8807486ba6c56c"
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "69256d769057a748af42572c4756f19e58248c06c1043a93956c2cad1adb5b48"
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "46d3704ec9db5469202507c7f50243603d1346444b18a129cca19a9f26714264"
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "cc46faff2419ff63312bb1f335ec442b3e8f342edaad3c7ad850293a7f70cbbd"
+    },
+    {
+      "path": "web/style.css",
+      "sha256": "4f49cf4658985b92b495fdf8d1d59a83fe394a4eeb0c05b44920264b2d4c52cd"
+    },
+    {
+      "path": "五平台五轮测试报告-v0.3.10.md",
+      "sha256": "e487814695a14a71cfbae295e39b8a23efccb024a3023125ac8d68200c3b60ac"
+    },
+    {
+      "path": "五轮测试与升级报告-v0.3.5.md",
+      "sha256": "6fdae9599dd3acdead933fa329e350c67115ace97786f863c6d085fbd075925d"
+    },
+    {
+      "path": "使用与升级说明-v0.3.10.md",
+      "sha256": "2b6f29ccae76d734d50925b39d4955f61cc029312ab317bd4876d59185e627be"
+    },
+    {
+      "path": "使用与升级说明-v0.3.11.md",
+      "sha256": "002501705eda16883e68fff93c388d8e99c15ea1e116af1bc7490e1fe4d79c94"
+    },
+    {
+      "path": "使用与升级说明-v0.3.12.md",
+      "sha256": "0641015367a94e59f9fa6e6fb3ea848d8b498153f7babf3de14e8a979935529c"
+    },
+    {
+      "path": "使用与升级说明-v0.3.13.md",
+      "sha256": "d25a5653fbf099ef8cd1ee391f22b9d8509e763cfdaa365c1598545196c0b136"
+    },
+    {
+      "path": "使用与升级说明-v0.3.14.md",
+      "sha256": "83a768c93ab0a99522624f6348f0750bc3d915dd57949edaed230ebaa7f8d774"
+    },
+    {
+      "path": "使用与升级说明-v0.4.0.md",
+      "sha256": "01442b36d7b216920bd5b40813ebdb48f087b1629ff8d564b0e41b726e5fcc05"
+    },
+    {
+      "path": "使用与升级说明-v0.4.1.md",
+      "sha256": "f73ff1c1ed12716c24639a8ef84ab512d68e4b1b0225e2b71478ff1dfbb734c4"
+    },
+    {
+      "path": "字幕提示修复与双模型核查报告.md",
+      "sha256": "de88f21fb4ffdf55bf444c34528f070788d7269071137f1a3a9fca3692ebbbec"
+    },
+    {
+      "path": "开发记录/README.md",
+      "sha256": "28f3b3622610167dfecce4b37db95c419baff39f3eda04bffaf72f776c00ddc6"
+    },
+    {
+      "path": "开发记录/v0.4.2.md",
+      "sha256": "8be982db0e0f881d2c3280abd9bb073b5bbf7a1d3427ec58cede36fbaf50f69b"
+    },
+    {
+      "path": "开发记录/v0.4.3.md",
+      "sha256": "6cb2fcc01f7713c8cc356535894f4ea77a3966efd23b7b2bd3d44f8c53200cae"
+    },
+    {
+      "path": "开发记录/v0.4.4.md",
+      "sha256": "bafce9a2bbc10ffb0708b75d5fbb076b588d762e634c37991a6ecb359e478f0f"
+    },
+    {
+      "path": "开发记录/v0.4.5.md",
+      "sha256": "3b5ba5482e3c5499f15d3eecd01f00111eeb2f6f9c2ad02a95bb6e177839fad5"
+    },
+    {
+      "path": "开发记录/v0.4.6.md",
+      "sha256": "7777795666ee284f91d165a38a265decef7158310fdf4b9df459b6d9a088c64c"
+    },
+    {
+      "path": "开发记录/v0.4.7.md",
+      "sha256": "ba01f2998aaeba9623596463422b30e364c4938b49131ad781b37ee7c9bc66cf"
+    },
+    {
+      "path": "开发记录/模板.md",
+      "sha256": "b9754c07303c41b3e0c3677893d57611d8cf4c373c454fa7b4c48bf963fd3629"
+    }
+  ]
+}

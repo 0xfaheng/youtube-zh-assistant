@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>中文字幕助手</title><link rel="stylesheet" href="popup.css"></head>
+<body><header><img src="icon128.png" alt="译幕" width="44" height="44"><div><h1>译幕</h1><p>让视频听得懂，看得明白</p></div><span id="version" class="version"></span></header><main>
+<section class="card">
+<button id="toggleEnabled" class="primary" disabled>启用译幕</button><p id="activationStatus" role="status">已停用 · 点击启用后开始翻译</p><p class="small">浏览器重启或扩展重新加载后保持关闭，请主动启用。</p>
+<label class="row"><input id="bilingual" type="checkbox" checked>同时显示原文（双语）</label>
+<label class="row"><input id="semanticSubtitles" type="checkbox" checked>完整语句显示</label><p class="small">合并前后语句并延长停留时间。实时字幕和语音识别需要等待后文。</p>
+ </section>
+<section class="card"><h2>字幕外观</h2><p class="small">按住视频中的字幕即可拖动，松开后自动保存位置。选择顶部、底部或恢复默认可重置位置。</p><div class="field"><label for="subtitlePosition">显示位置</label><select id="subtitlePosition"><option value="bottom">视频底部</option><option value="top">视频顶部</option><option value="custom">手动拖拽位置</option></select></div>
+<label class="range-label" for="subtitleOffset">距所选边缘 <output id="subtitleOffsetValue">14%</output></label><input id="subtitleOffset" type="range" min="0" max="70" value="14">
+<label class="range-label" for="fontSize">中文字号 <output id="fontSizeValue">20px</output></label><input id="fontSize" type="range" min="14" max="48" value="20">
+<div class="color-fields"><label for="subtitleColor">中文颜色<input id="subtitleColor" type="color" value="#ffffff" title="选择中文字幕颜色"></label><label for="originalColor">原文颜色<input id="originalColor" type="color" value="#dedede" title="选择原文字幕颜色"></label></div>
+<label class="range-label" for="backgroundOpacity">背景浓度 <output id="backgroundOpacityValue">78%</output></label><input id="backgroundOpacity" type="range" min="0" max="100" value="78">
+<div class="appearance-preview" aria-label="字幕样式预览"><p id="previewChinese">让每一段视频，都能读懂。</p><p id="previewOriginal">A new view of every video.</p></div><button id="resetAppearance" class="quiet">恢复默认外观</button></section>
+<section class="card"><h2>当前网站</h2><p id="siteStatus">正在检查网页…</p><button id="enableSite" class="primary" disabled>授权此网站</button><button id="disableSite" class="quiet" hidden>撤销此网站授权</button><p class="small">支持 YouTube。其他 HTTPS 网站先按需授权；授权后也需点击上方“启用译幕”。读取网页视频已有的字幕，内嵌 Vimeo / TED 播放器一起授权。</p></section>
+<details class="card"><summary>连接与配对</summary>
+<p>字幕轨优先；无法读取时使用原生 CC，翻译会有延迟。首次使用请双击 start.cmd，在设置页一键配对。</p>
+<label for="token">手动配对码（可选）</label><input id="token" type="password" autocomplete="off" placeholder="优先从本机设置页一键配对"><button id="save">验证并保存配对码</button>
+<div class="buttons"><button id="check">检测连接</button><button id="settings">打开本机设置页</button></div>
+ </details><details class="card"><summary>无字幕语音识别 <span class="beta">Beta</span></summary><p class="voice-help">默认使用本机 Qwen3-ASR，音频不上传。首次加载模型可能较久，可先在本机设置页预热。识别出的文本仍会交给当前选定的 ChatGPT／Codex 或 API 翻译。</p><p class="voice-help">也可在设置页切换云端语音 API；该模式会发送音频片段，可能产生费用。开始采音需由你点击按钮；暂停、跳转或换视频后会停止。</p>
+<div class="buttons"><button id="start">开始采音并识别</button><button id="stop">停止识别</button></div>
+ </details><div id="status" role="status" aria-live="polite">正在读取配置…</div></main><script src="core.js"></script><script src="popup.js"></script></body></html>

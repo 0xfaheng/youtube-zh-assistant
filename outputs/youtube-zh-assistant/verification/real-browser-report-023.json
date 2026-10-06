@@ -1,0 +1,246 @@
+{
+  "version": "0.2.3",
+  "recordedAt": "2026-10-04T18:47:17.063Z",
+  "mockedResponses": false,
+  "automaticTests": {
+    "passed": 100,
+    "failed": 0,
+    "code": "最终20条、required-id非空译文映射、15秒定时受限恢复、原生文字稿恢复与媒体错误处理"
+  },
+  "chrome": {
+    "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+    "at": "2026-10-04T17:48:28.084Z",
+    "overlay": {
+      "captionMode": "track",
+      "cueCount": "1013",
+      "translatedCount": "76",
+      "pendingCount": "5"
+    },
+    "video": [
+      {
+        "time": 172.012557,
+        "paused": false,
+        "readyState": 4,
+        "networkState": 2
+      }
+    ],
+    "text": "暂停\nK\n2:51 / 36:20\nA recruiter's agent that got hard to replace",
+    "finalObservation": {
+      "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+      "at": "2026-10-04T17:51:56.944Z",
+      "overlay": {
+        "captionMode": "track",
+        "cueCount": "1013",
+        "translatedCount": "158",
+        "pendingCount": "0"
+      },
+      "video": [
+        {
+          "time": 326.968658,
+          "paused": true,
+          "readyState": 4,
+          "networkState": 2
+        }
+      ]
+    },
+    "realUserBrowser": true,
+    "screenshot": "chrome-translated-023.png",
+    "verified": [
+      "真实公网视频完整字幕读取",
+      "账号模型真实批量翻译",
+      "播放器显示中文及已同步标记",
+      "实际媒体时间推进"
+    ],
+    "batchLimitAtObservation": 40,
+    "finalSourceBatchLimit": 20,
+    "finalUserReloadVerification": "pending:重新加载后尚未观测到data-batch-limit=20",
+    "notVerified": [
+      "最终20条代码连续播放和跳转",
+      "逐帧零漏句",
+      "真实tabCapture与语音识别完整链路"
+    ],
+    "fullscreenPlayback": {
+      "sampleCount": 24,
+      "fullScreenSamples": 24,
+      "bufferingSamples": 0,
+      "firstMediaTime": 202.862234,
+      "lastMediaTime": 262.149341,
+      "mediaAdvanceSeconds": 59.28710699999999,
+      "finalCodeUsed": false,
+      "scope": "中途40条客户端代码，真实视频及账号，无模拟响应"
+    }
+  },
+  "captionReads": [
+    {
+      "videoId": "0j8wy4jUlsw",
+      "cueCount": 1013
+    },
+    {
+      "videoId": "aircAruvnKk",
+      "cueCount": 286
+    }
+  ],
+  "strictOutputLiveProbe": {
+    "batchSize": 24,
+    "elapsedMs": 16680,
+    "completedAt": "2026-10-04T17:41:43Z",
+    "result": "数量与 id 校验通过"
+  },
+  "service": {
+    "version": "0.2.3",
+    "counts": {
+      "translations": 182,
+      "cacheHits": 0,
+      "cachedLines": 182,
+      "pending": 0,
+      "requestsLastHour": 25,
+      "audioSecondsLastHour": 0
+    },
+    "lastActual": {
+      "provider": "codex",
+      "requestedModel": "gpt-6-luna",
+      "requestedSpeed": "fast",
+      "batchSize": 4,
+      "elapsedMs": 9468,
+      "usage": {
+        "input_tokens": 14975,
+        "output_tokens": 169,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "reasoning_output_tokens": 92
+      },
+      "completedAt": "2026-10-04T17:51:15.941Z"
+    },
+    "lastError": null
+  },
+  "edge": {
+    "realYouTube": true,
+    "realExtension": true,
+    "realTranslationAccount": true,
+    "ok": false,
+    "error": "真实视频未进入已同步字幕轨模式",
+    "checks": [
+      "真实 MV3 0.2.3 已加载并连接当前本机服务"
+    ],
+    "lastObservation": {
+      "at": "2026-10-04T17:50:08.649Z",
+      "attrs": {
+        "id": "ytz-assistant-overlay",
+        "data-caption-mode": "dom",
+        "data-cue-count": "0",
+        "data-translated-count": "0",
+        "data-pending-count": "0"
+      },
+      "texts": [
+        "字幕轨读取失败；DOM 字幕兜底 · 有延迟"
+      ],
+      "video": {
+        "time": 0,
+        "paused": true,
+        "readyState": 0,
+        "cc": "false",
+        "nativeText": ""
+      }
+    }
+  },
+  "modelIdentity": "gpt-6-luna / high / Fast 为请求配置，CLI 未提供实际路由的独立证明",
+  "limitations": [
+    "原生字幕接口可能返回 HTTP 200 空内容，DOM 兜底仍有延迟",
+    "初次模型等待和网络缓冲不会由提前翻译消除",
+    "Chrome 中途成功不代表最终代码所有场景通过"
+  ],
+  "strictOutputLiveProbes": [
+    {
+      "batchSize": 20,
+      "elapsedMs": 9668,
+      "cached": 0,
+      "requestsAdded": 1,
+      "targetTime": 1090.2505,
+      "cueCount": 1013,
+      "lastCaptionEnd": 2180.839,
+      "duration": 2180.501,
+      "ok": true,
+      "finalCoreUsed": true,
+      "mockedResponses": false,
+      "lastActual": {
+        "provider": "codex",
+        "requestedModel": "gpt-6-luna",
+        "requestedSpeed": "fast",
+        "batchSize": 20,
+        "elapsedMs": 9654,
+        "usage": {
+          "input_tokens": 15403,
+          "output_tokens": 268,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "reasoning_output_tokens": 0
+        },
+        "completedAt": "2026-10-04T18:19:58.001Z"
+      }
+    },
+    {
+      "batchSize": 20,
+      "elapsedMs": 10328,
+      "cached": 0,
+      "requestsAdded": 1,
+      "targetTime": 1600,
+      "cueCount": 1013,
+      "lastCaptionEnd": 2180.839,
+      "duration": 2180.501,
+      "ok": true,
+      "finalCoreUsed": true,
+      "mockedResponses": false,
+      "lastActual": {
+        "provider": "codex",
+        "requestedModel": "gpt-6-luna",
+        "requestedSpeed": "fast",
+        "batchSize": 20,
+        "elapsedMs": 10314,
+        "usage": {
+          "input_tokens": 15406,
+          "output_tokens": 365,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "reasoning_output_tokens": 118
+        },
+        "completedAt": "2026-10-04T18:28:31.247Z"
+      }
+    }
+  ],
+  "nativeBaseline": {
+    "extensionLoaded": false,
+    "videoId": "0j8wy4jUlsw",
+    "responses": [
+      {
+        "at": "2026-10-04T18:08:53.766Z",
+        "status": 200,
+        "bytes": 0,
+        "language": "en",
+        "fmt": "json3",
+        "hasProof": false,
+        "eventCount": 0,
+        "lastEnd": null
+      },
+      {
+        "at": "2026-10-04T18:09:14.541Z",
+        "status": 200,
+        "bytes": 0,
+        "language": "en",
+        "fmt": "json3",
+        "hasProof": true,
+        "eventCount": 0,
+        "lastEnd": null
+      }
+    ],
+    "nativeCaptionTextPresent": false,
+    "scope": "独立Chrome配置，真实开启原生英语CC；原生字幕正文也为空，不能计作插件通过"
+  },
+  "readOnlyResearchAgent": {
+    "configuredRole": "sol_deep_worker",
+    "configuredModel": "gpt-6.1-sol",
+    "configuredEffort": "xhigh",
+    "task": "空字幕及原生文字稿研究",
+    "codeWrites": false,
+    "astraUsed": false
+  }
+}

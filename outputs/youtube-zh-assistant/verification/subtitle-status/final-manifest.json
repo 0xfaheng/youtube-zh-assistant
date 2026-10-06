@@ -1,0 +1,34 @@
+[
+  {
+    "path": "extension/core.js",
+    "sha256": "1cb11142a48b3f4aa9dca4ce1eb548b94570866a294e2844eff5764103edf2b9"
+  },
+  {
+    "path": "extension/content.js",
+    "sha256": "b13cd10d096bdedf6f9b29a6bb90c990add4c415e984d52b53fa0d01da5534a6"
+  },
+  {
+    "path": "extension/generic.js",
+    "sha256": "9735e1c2965326e159824bdf52ead284c7e8b47270fb9b770d1198e70eb36630"
+  },
+  {
+    "path": "extension/semantic.js",
+    "sha256": "fd888c3e0f62e2fee6b6b517e4d34f71140b29b84892b923fdb54360983ea804"
+  },
+  {
+    "path": "extension/popup.js",
+    "sha256": "6d924e50e4c745c9460a1d0ca473451557b0eb978cafcbdcf396a2aabc6f720a"
+  },
+  {
+    "path": "extension/background.js",
+    "sha256": "fd9f8002674720eea8d725b09bf67ff5c222d5637a93464d83ca195e21752d03"
+  },
+  {
+    "path": "extension/tests/content.test.cjs",
+    "sha256": "f82098960b778f8b7c5a37951f6e960f2e33e4ba56a31c5a2be3192a95abba24"
+  },
+  {
+    "path": "extension/tests/generic.test.cjs",
+    "sha256": "474fc7973dacd1a2a0599b9ca875a9c9b3f51308d51805388b8e728d23594db7"
+  }
+]

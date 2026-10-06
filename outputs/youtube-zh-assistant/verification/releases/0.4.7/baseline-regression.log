@@ -1,0 +1,185 @@
+TAP version 13
+# Subtest: 持续语音每2秒送出一片，跨边界PCM样本完整且顺序不变
+not ok 1 - 持续语音每2秒送出一片，跨边界PCM样本完整且顺序不变
+  ---
+  duration_ms: 30.6856
+  type: 'test'
+  location: 'E:\\YouTube中文插件开发\\work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\audio.test.cjs:67:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    0 !== 2
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 2
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (E:\YouTube中文插件开发\work\version-upgrade-0.4.7\baseline\extension\tests\audio.test.cjs:68:67)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1382:25)
+    Test.start (node:internal/test_runner/test:1242:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+  ...
+# Subtest: 话语停顿约300ms提前提交，纯静音不产生识别请求
+not ok 2 - 话语停顿约300ms提前提交，纯静音不产生识别请求
+  ---
+  duration_ms: 9.6271
+  type: 'test'
+  location: 'E:\\YouTube中文插件开发\\work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\audio.test.cjs:71:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (E:\YouTube中文插件开发\work\version-upgrade-0.4.7\baseline\extension\tests\audio.test.cjs:72:109)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1382:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+    Test.postRun (node:internal/test_runner/test:1522:19)
+    Test.run (node:internal/test_runner/test:1447:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+# Subtest: 低延迟采音使用实际分片时长与采集时间，倍速换算，逐片模式也先识别再翻译
+not ok 3 - 低延迟采音使用实际分片时长与采集时间，倍速换算，逐片模式也先识别再翻译
+  ---
+  duration_ms: 66.918
+  type: 'test'
+  location: 'E:\\YouTube中文插件开发\\work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\background.test.cjs:100:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + undefined
+    - true
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (E:\YouTube中文插件开发\work\version-upgrade-0.4.7\baseline\extension\tests\background.test.cjs:102:188)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+1..0
+# Subtest: work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\bridge.test.cjs
+ok 3 - work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\bridge.test.cjs
+  ---
+  duration_ms: 103.3387
+  type: 'test'
+  ...
+# Subtest: YouTube两种字幕模式收到低延迟识别结果均立即送译并显示，不等句号
+not ok 5 - YouTube两种字幕模式收到低延迟识别结果均立即送译并显示，不等句号
+  ---
+  duration_ms: 78.8554
+  type: 'test'
+  location: 'E:\\YouTube中文插件开发\\work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\content.test.cjs:241:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (E:\YouTube中文插件开发\work\version-upgrade-0.4.7\baseline\extension\tests\content.test.cjs:247:10)
+    async Test.run (node:internal/test_runner/test:1389:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+1..0
+# Subtest: work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\core.test.cjs
+ok 5 - work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\core.test.cjs
+  ---
+  duration_ms: 118.4192
+  type: 'test'
+  ...
+1..0
+# Subtest: work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\generic.test.cjs
+ok 6 - work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\generic.test.cjs
+  ---
+  duration_ms: 105.5872
+  type: 'test'
+  ...
+1..0
+# Subtest: work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\pairing.test.cjs
+ok 7 - work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\pairing.test.cjs
+  ---
+  duration_ms: 98.0862
+  type: 'test'
+  ...
+1..0
+# Subtest: work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\popup.test.cjs
+ok 8 - work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\popup.test.cjs
+  ---
+  duration_ms: 100.7888
+  type: 'test'
+  ...
+# Subtest: 低延迟语音识别后立即送译，保留前句上下文，真实重复发言不误去重
+not ok 10 - 低延迟语音识别后立即送译，保留前句上下文，真实重复发言不误去重
+  ---
+  duration_ms: 4.5356
+  type: 'test'
+  location: 'E:\\YouTube中文插件开发\\work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\semantic.test.cjs:144:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    0 !== 1
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 1
+  actual: 0
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (E:\YouTube中文插件开发\work\version-upgrade-0.4.7\baseline\extension\tests\semantic.test.cjs:146:91)
+    Test.runInAsyncScope (node:async_hooks:227:14)
+    Test.run (node:internal/test_runner/test:1382:25)
+    Test.start (node:internal/test_runner/test:1242:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17)
+  ...
+1..0
+# Subtest: work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\transcript.test.cjs
+ok 10 - work\\version-upgrade-0.4.7\\baseline\\extension\\tests\\transcript.test.cjs
+  ---
+  duration_ms: 105.0761
+  type: 'test'
+  ...
+# Subtest: 翻译尚未完成时后续ASR独立处理，不再被翻译队列挡住
+not ok 12 - 翻译尚未完成时后续ASR独立处理，不再被翻译队列挡住
+  ---
+  duration_ms: 1048.6581
+  type: 'test'
+  location: 'E:\\YouTube中文插件开发\\work\\version-upgrade-0.4.7\\baseline\\server\\tests\\semantic.test.mjs:209:1'
+  failureType: 'testCodeFailure'
+  error: 'ASR仍在等待翻译'
+  code: 'ERR_TEST_FAILURE'
+  stack: |-
+    Timeout._onTimeout (file:///E:/YouTube%E4%B8%AD%E6%96%87%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91/work/version-upgrade-0.4.7/baseline/server/tests/semantic.test.mjs:213:162)
+    listOnTimeout (node:internal/timers:635:17)
+    process.processTimers (node:internal/timers:571:7)
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 6
+# fail 6
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1306.6535

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-04T17:13:37.852Z",
+  "version": "0.2.2",
+  "realLoopbackHttp": true,
+  "simulatedBrowserIPC": true,
+  "modelsCalled": false,
+  "checks": [
+    "实际网页脚本 → 配对桥接 → 扩展后台 → 真实本机服务验证并保存",
+    "真实服务拒绝错误配对码；后台保留原有效配对"
+  ],
+  "ok": true
+}

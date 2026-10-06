@@ -1,0 +1,32 @@
+{
+  "name": "edx-demo",
+  "requestedURL": "https://business-support.edx.org/hc/en-us/articles/14112926380311-Video-the-edX-Learning-Experience",
+  "status": 403,
+  "error": null,
+  "before": {
+    "url": "https://business-support.edx.org/hc/en-us/articles/14112926380311-Video-the-edX-Learning-Experience",
+    "title": "请稍候…",
+    "body": "business-support.edx.org\n正在进行安全验证\n\n本网站使用安全服务防护恶意自动程序。在验证您不是自动程序期间，将显示此页面。\n\nRay ID: a4592873eccdc903\n由 Cloudflare 提供的性能和安全服务\n隐私",
+    "frames": [
+      {
+        "url": "https://business-support.edx.org/hc/en-us/articles/14112926380311-Video-the-edX-Learning-Experience",
+        "videos": [],
+        "captions": [],
+        "controls": [],
+        "images": [],
+        "links": [],
+        "iframes": []
+      },
+      {
+        "url": "https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/mrur9/0x4AAAAAAADnPIDROrmt1Wwj/light/fbE/new/normal",
+        "videos": [],
+        "captions": [],
+        "controls": [],
+        "images": [],
+        "links": [],
+        "iframes": []
+      }
+    ]
+  },
+  "actions": []
+}

@@ -1,0 +1,8 @@
+PASS 跳转撤销真实fetch，尚未开始的旧批次不调用模型，新位置正确显示
+PASS 真实字幕渲染保留百分比、负温度和时间符号
+PASS 网页播放器全屏保持对应时间与字幕
+PASS 刷新同一URL后新文档代次可从零开始，后台不误拒绝
+PASS 真实DOM滚动字幕第二批只提交新词，旧窗口不重复调用
+PASS 真实TextTrack中间插入cue保留已有译文与id，不重复送译
+PASS 关闭字幕后清理显示，重新开启保留设置
+{"ok":true,"checks":11,"report":"E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\verification\\releases\\0.4.7\\browser-report.json"}

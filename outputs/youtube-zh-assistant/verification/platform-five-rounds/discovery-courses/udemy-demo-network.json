@@ -1,0 +1,252 @@
+[
+  {
+    "domain": "teach.udemy.com",
+    "type": "document",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "ajax.googleapis.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "manifest",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "font",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "font",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "font",
+    "status": 200
+  },
+  {
+    "domain": "www.googletagmanager.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "www.googletagmanager.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "geolocation.onetrust.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "www.googletagmanager.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "connect.facebook.net",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "www.googletagmanager.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "www.google-analytics.com",
+    "type": "fetch",
+    "status": 204
+  },
+  {
+    "domain": "connect.facebook.net",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "teach.udemy.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "s3.amazonaws.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "dntcl.qualaroo.com",
+    "type": "document",
+    "status": 200
+  },
+  {
+    "domain": "www.google-analytics.com",
+    "type": "fetch",
+    "status": 204
+  }
+]

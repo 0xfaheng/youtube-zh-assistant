@@ -1,0 +1,212 @@
+{
+  "at": "2026-10-05T03:29:09.041Z",
+  "version": "0.3.10",
+  "checks": [
+    "逐站启用注册脚本，真实HTML5文字轨到实际账号中文翻译",
+    "位置、字号、透明度即时应用且保存，不改变翻译开关",
+    "通用字幕跳转、网页全屏及关闭后还原原生轨",
+    "停用网站清理浮层；重新启用只保留一份脚本（测试副本权限由必需声明保留）",
+    "授权复核拒绝时清理当前网页，重新启用仍可恢复",
+    "同数量字幕正文更新、轨移除和同地址媒体重置不会显示旧中文",
+    "开放Shadow DOM视频与自绘CC，中文生效时隐藏原字幕，关闭后原样恢复",
+    "并发位置、字号、开关补丁均保存成功，页面使用合并后的外观",
+    "DOM迟到译文有原句时间，字幕间隙清空中文并保留当前原字幕"
+  ],
+  "sites": [],
+  "mockedModel": false,
+  "permissionSetup": "仅隔离测试副本预授予测试来源，生产版仍使用逐站optional权限",
+  "errors": [],
+  "fixtureReady": {
+    "attrs": {
+      "id": "ytz-assistant-overlay",
+      "data-position": "bottom",
+      "data-caption-source": "texttrack",
+      "data-cue-count": "2",
+      "data-translated-count": "2",
+      "data-pending-count": "0",
+      "data-batch-limit": "20",
+      "style": "--ytz-offset: 14%; --ytz-font: 20px; --ytz-original: 16px; --ytz-opacity: 0.78; position: fixed; inset: auto auto 258.458px 145px; width: 990px;"
+    },
+    "texts": [
+      "你好，世界。这是一段带字幕的视频。",
+      "Hello world. This is a video with subtitles.",
+      "网页字幕 · 已同步"
+    ],
+    "video": [
+      {
+        "time": 0,
+        "ready": 4,
+        "paused": true,
+        "rect": {
+          "width": 1100,
+          "height": 600
+        },
+        "tracks": [
+          {
+            "language": "en",
+            "mode": "hidden",
+            "cues": 2
+          }
+        ]
+      }
+    ],
+    "full": false
+  },
+  "appearance": {
+    "backgroundOpacity": 55,
+    "bilingual": true,
+    "enabled": true,
+    "fontSize": 28,
+    "subtitleOffset": 8,
+    "subtitlePosition": "top"
+  },
+  "updatedCue": {
+    "attrs": {
+      "id": "ytz-assistant-overlay",
+      "data-position": "top",
+      "data-caption-source": "texttrack",
+      "data-cue-count": "2",
+      "data-translated-count": "1",
+      "data-pending-count": "0",
+      "data-batch-limit": "20",
+      "style": "--ytz-offset: 8%; --ytz-font: 28px; --ytz-original: 22px; --ytz-opacity: 0.55; position: fixed; inset: 173.542px auto auto 145px; width: 990px;"
+    },
+    "texts": [
+      "字幕数量不变，但字幕内容已更改。",
+      "The subtitles have changed while keeping the same cue count.",
+      "网页字幕 · 已同步"
+    ],
+    "video": [
+      {
+        "time": 9,
+        "ready": 4,
+        "paused": true,
+        "rect": {
+          "width": 1100,
+          "height": 600
+        },
+        "tracks": [
+          {
+            "language": "en",
+            "mode": "hidden",
+            "cues": 2
+          }
+        ]
+      }
+    ],
+    "full": false
+  },
+  "metadataReset": {
+    "attrs": {
+      "id": "ytz-assistant-overlay",
+      "data-position": "top",
+      "data-caption-source": "texttrack",
+      "data-cue-count": "1",
+      "data-translated-count": "1",
+      "data-pending-count": "0",
+      "data-batch-limit": "20",
+      "style": "--ytz-offset: 8%; --ytz-font: 28px; --ytz-original: 22px; --ytz-opacity: 0.55; position: fixed; inset: 173.542px auto auto 145px; width: 990px;"
+    },
+    "texts": [
+      "这是一个使用相同媒体地址的新视频。",
+      "This is a new video using the same media address.",
+      "网页字幕 · 已同步"
+    ],
+    "video": [
+      {
+        "time": 9,
+        "ready": 4,
+        "paused": true,
+        "rect": {
+          "width": 1100,
+          "height": 600
+        },
+        "tracks": [
+          {
+            "language": "en",
+            "mode": "hidden",
+            "cues": 1
+          }
+        ]
+      }
+    ],
+    "full": false
+  },
+  "concurrentSettings": {
+    "ok": true,
+    "subtitlePosition": "top",
+    "subtitleOffset": 8,
+    "fontSize": 32,
+    "backgroundOpacity": 55,
+    "enabled": false,
+    "bilingual": true,
+    "paired": true,
+    "capture": null,
+    "audioStatus": {
+      "running": false,
+      "droppedChunks": 0,
+      "processedChunks": 0
+    }
+  },
+  "delayedDom": {
+    "attrs": {
+      "id": "ytz-assistant-overlay",
+      "data-position": "top",
+      "data-caption-source": "dom",
+      "data-cue-count": "0",
+      "data-translated-count": "0",
+      "data-pending-count": "0",
+      "data-batch-limit": "20",
+      "style": "--ytz-offset: 8%; --ytz-font: 32px; --ytz-original: 26px; --ytz-opacity: 0.55; position: fixed; inset: 173.542px auto auto 145px; width: 990px;"
+    },
+    "texts": [
+      "这句话的翻译会延迟到达。",
+      "This sentence will arrive late in translation.",
+      "0:00 · 延迟译文；网页字幕兜底 · 有处理延迟"
+    ],
+    "video": [
+      {
+        "time": 0,
+        "ready": 4,
+        "paused": true,
+        "rect": {
+          "width": 1100,
+          "height": 600
+        },
+        "tracks": []
+      }
+    ],
+    "full": false
+  },
+  "domGap": {
+    "attrs": {
+      "id": "ytz-assistant-overlay",
+      "data-position": "top",
+      "data-caption-source": "dom",
+      "data-cue-count": "0",
+      "data-translated-count": "0",
+      "data-pending-count": "0",
+      "data-batch-limit": "20",
+      "style": "--ytz-offset: 8%; --ytz-font: 32px; --ytz-original: 26px; --ytz-opacity: 0.55; position: fixed; inset: 173.542px auto auto 145px; width: 990px;"
+    },
+    "texts": [
+      "",
+      "",
+      "网页字幕兜底 · 有处理延迟"
+    ],
+    "video": [
+      {
+        "time": 0,
+        "ready": 4,
+        "paused": true,
+        "rect": {
+          "width": 1100,
+          "height": 600
+        },
+        "tracks": []
+      }
+    ],
+    "full": false
+  },
+  "ok": true
+}

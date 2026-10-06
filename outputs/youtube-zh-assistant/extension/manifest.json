@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "译幕 · 视频中文字幕助手",
+  "version": "0.4.7",
+  "description": "翻译 YouTube 与按需启用的网站视频字幕，支持字幕位置和外观调节、本机语音识别。",
+  "minimum_chrome_version": "116",
+  "permissions": ["storage", "activeTab", "tabCapture", "offscreen", "scripting"],
+  "optional_host_permissions": ["https://*/*"],
+  "host_permissions": ["https://www.youtube.com/*", "http://127.0.0.1:17865/*"],
+  "background": {"service_worker": "background.js", "type": "module"},
+  "icons": {"16":"icon16.png","32":"icon32.png","48":"icon48.png","128":"icon128.png"},
+  "action": {"default_popup": "popup.html", "default_title": "译幕 · 视频中文字幕助手", "default_icon":{"16":"icon16.png","32":"icon32.png","48":"icon48.png","128":"icon128.png"}},
+  "content_scripts": [
+    {"matches": ["https://www.youtube.com/*"], "js": ["bridge.js", "transcript.js"], "run_at": "document_start", "world": "MAIN"},
+    {"matches": ["https://www.youtube.com/*"], "js": ["core.js", "semantic.js", "content.js"], "run_at": "document_idle"},
+    {"matches": ["http://127.0.0.1:17865/*"], "js": ["pairing.js"], "run_at": "document_idle"}
+  ]
+}

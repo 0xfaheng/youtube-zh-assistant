@@ -1,0 +1,16 @@
+{"round":5,"site":"Dailymotion","stage":"navigate"}
+{"round":5,"site":"Dailymotion","stage":"observe"}
+{"round":5,"site":"Dailymotion","ok":false,"playback":false,"chinese":false,"failure":"页面访问、登录或原生播放未通过；未宣称插件翻译成功","steps":["在当前网站启用"]}
+{"round":5,"site":"edX","stage":"navigate"}
+{"round":5,"site":"edX","stage":"observe"}
+{"round":5,"site":"edX","ok":false,"playback":false,"chinese":false,"failure":"页面访问、登录或原生播放未通过；未宣称插件翻译成功","steps":["在当前网站启用"]}
+{"round":5,"site":"Udemy","stage":"navigate"}
+{"round":5,"site":"Udemy","stage":"observe"}
+{"round":5,"site":"Udemy","ok":false,"playback":false,"chinese":false,"failure":"页面访问、登录或原生播放未通过；未宣称插件翻译成功","steps":["在当前网站启用"]}
+{"round":5,"site":"Coursera","stage":"navigate"}
+{"round":5,"site":"Coursera","stage":"observe"}
+{"round":5,"site":"Coursera","ok":false,"playback":false,"chinese":false,"failure":"页面访问、登录或原生播放未通过；未宣称插件翻译成功","steps":["在当前网站启用"]}
+{"round":5,"site":"Khan Academy","stage":"navigate"}
+{"round":5,"site":"Khan Academy","stage":"observe"}
+{"round":5,"site":"Khan Academy","ok":false,"playback":true,"chinese":true,"error":"The expression evaluated to a falsy value:\n\n  assert.ok(site.reload.overlays.some(o=>/[\\u4e00-\\u9fff]/.test(o.texts[0]||'')))\n","steps":["在当前网站启用","真实播放且显示对应中文","位置和字号即时生效","关闭隐藏字幕，再开启恢复"]}
+{"round":5,"phase":"final","version":"0.3.10","attempted":5,"passed":0}

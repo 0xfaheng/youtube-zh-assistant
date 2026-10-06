@@ -1,0 +1,77 @@
+[
+  {
+    "domain": "www.udemy.com",
+    "type": "document",
+    "status": 307
+  },
+  {
+    "domain": "www.udemy.com",
+    "type": "document",
+    "status": 403
+  },
+  {
+    "domain": "www.udemy.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "challenges.cloudflare.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "www.udemy.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "challenges.cloudflare.com",
+    "type": "document",
+    "status": 200
+  },
+  {
+    "domain": "challenges.cloudflare.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "challenges.cloudflare.com",
+    "type": "fetch",
+    "status": 401
+  },
+  {
+    "domain": "",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "challenges.cloudflare.com",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "challenges.cloudflare.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "",
+    "type": "script",
+    "status": 200
+  }
+]

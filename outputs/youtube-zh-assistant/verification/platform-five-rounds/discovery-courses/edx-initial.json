@@ -1,0 +1,585 @@
+{
+  "name": "edx",
+  "requestedURL": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science",
+  "status": 200,
+  "error": null,
+  "before": {
+    "url": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science",
+    "title": "HarvardX: CS50's Introduction to Computer Science | edX",
+    "body": "Learn\nEN\nES\nedX For Business\nSign In\nRegister for free\n\nBuild skills that create new career opportunities. Save up to 20% with code SUCCESS2026. Learn more.\n\nClose site banner.\nHome\nLearn\nComputer Science\nHarvardX: CS50'S Introduction To Computer Science\nHarvardX: CS50's Introduction to Computer Science\n\nAn introduction to the intellectual enterprises of computer science and the art of programming.\n\n7,508,534\n learners enrolled\nVerified HarvardX certificate\nIndustry-recognized\nLearn to think like a programmer\nStarts Oct 05\nEnds Jun 30, 2027\nEarn HarvardX certificate\nAudit course\nI would like to receive email from HarvardX and learn about other offerings related to CS50's Introduction to Computer Science.\nIntroductory\nNo prior experience required\nSelf-paced\nProgress at your own speed\n12 weeks\n6-18 hours per week\nEarn a certificate\nAdvance your career today!\n\nEarn a CS50 certificate\n\nNext course starts Oct 05\nEarn HarvardX certificate\n7,508,534\n learners enrolled\nAudit course\nWhy get certified?\nEarn a verified HarvardX CS50 certificate with identity verification\nShowcase your skills on your résumé or LinkedIn profile\nConnect with a global community of CS50 learners and alumni\nFLASH SALE: Save 30% this week only\n\nTake 30% off select courses and programs using the code 30OFFEDXFLASH2026. Offer ends September 30, 2026. \n\nEarn HarvardX certificate\nWhat you'll learn\nA broad and robust understanding of computer science and programming\nHow to think algorithmically and solve programming problems efficiently\nConcepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development\nFamiliarity in a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML\nHow to engage with a vibrant community of like-minded learners from all levels of experience\nHow to develop and present a final programming project to your peers\nEarn a school-verified certificate\nIncrease your career opportunities\n84% of learners report more opportunities after earning their certificate.\nShow off your hard work and dedication\nYou’re learning from HarvardX! That’s a big deal. Let others know about your achievements.\nAbout this course\n\nThis is CS50x , Harvard University's introduction to the intellectual enterprises of computer science and the art of programming for majors and non-majors alike, with or without prior programming experience. An entry-level course taught by David J. Malan, CS50x teaches students h",
+    "frames": [
+      {
+        "url": "https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science",
+        "videos": [],
+        "captions": [
+          {
+            "tag": "TABLE",
+            "cls": "caption-bottom text-sm table-fixed w-full",
+            "text": "\t\nCurrent course\n\t\n\t\n\t"
+          },
+          {
+            "tag": "TABLE",
+            "cls": "caption-bottom text-sm table-fixed w-full",
+            "text": "\t\nCS50's Introduction to Computer Science\n\nHarvard University\n\n\t\nCS50's Introduction to Programming with Python\n\nHarvard University\n\n\t\nCS50's Introduc"
+          },
+          {
+            "tag": "TABLE",
+            "cls": "caption-bottom text-sm table-fixed w-full",
+            "text": "Comparison table\n\nDescription\n\n\t\nAn introduction to the intellectual enterprises of computer science and the art of programming.\nRead more\n\t\nAn introd"
+          },
+          {
+            "tag": "TABLE",
+            "cls": "caption-bottom text-sm table-fixed w-full border-separate border-spacing-0",
+            "text": "Current course   "
+          },
+          {
+            "tag": "TABLE",
+            "cls": "caption-bottom text-sm table-fixed w-full border-separate border-spacing-0",
+            "text": "CS50's Introduction to Computer ScienceHarvard UniversityCS50's Introduction to Programming with PythonHarvard UniversityCS50's Introduction to Cybers"
+          },
+          {
+            "tag": "TABLE",
+            "cls": "caption-bottom text-sm table-fixed w-full border-separate border-spacing-0",
+            "text": "Comparison tableDescriptionAn introduction to the intellectual enterprises of computer science and the art of programming.An introduction to programmi"
+          }
+        ],
+        "controls": [
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Learn - Open navigation menu",
+            "title": null,
+            "text": "Learn",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": "button",
+            "aria": "Search for courses, certificates and degrees",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": "radio",
+            "aria": "English",
+            "title": null,
+            "text": "EN",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": "radio",
+            "aria": "Spanish",
+            "title": null,
+            "text": "ES",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Close site banner.",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Earn HarvardX certificate",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Audit course",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Earn HarvardX certificate",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Audit course",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "More information",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Earn HarvardX certificate",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Show More",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Current course",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Read more",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Read more",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Read more",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Algorithms",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "C (Programming Language)",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Cascading Style Sheets (CSS)",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Computer Science",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Cryptography",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Boolean Expression",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Bug Tracking And Management",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "C (Programming Language)",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Computer Science",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Data Science",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Cyber Security",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Usability",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Algorithms",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Artificial Intelligence",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Computer Science",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Handwriting Recognition",
+            "purpose": null
+          },
+          {
+            "tag": "SPAN",
+            "role": "button",
+            "aria": null,
+            "title": null,
+            "text": "Intelligent Systems",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Previous column",
+            "title": null,
+            "text": "Previous slide",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Go to slide 1",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Go to slide 2",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Next column",
+            "title": null,
+            "text": "Next slide",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Show More",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Show More",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Show More",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Previous slide",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Go to slide 1",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Go to slide 2",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Next slide",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Earn HarvardX certificate",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Audit course",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Share this course on facebook",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Share this course on X",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Share this course on linkedin",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Share this course via email",
+            "purpose": null
+          },
+          {
+            "tag": "A",
+            "role": "button",
+            "aria": "Visit our Facebook page",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "A",
+            "role": "button",
+            "aria": "Visit our X page",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "A",
+            "role": "button",
+            "aria": "Visit our LinkedIn page",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "A",
+            "role": "button",
+            "aria": "Visit our Reddit page",
+            "title": null,
+            "text": "",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Your Privacy Choices",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Reject All",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": null,
+            "title": null,
+            "text": "Accept Cookies",
+            "purpose": null
+          },
+          {
+            "tag": "BUTTON",
+            "role": null,
+            "aria": "Close",
+            "title": null,
+            "text": "",
+            "purpose": null
+          }
+        ],
+        "images": [
+          {
+            "alt": "Get it on Google Play",
+            "parentTag": "A",
+            "parentClass": ""
+          }
+        ],
+        "links": [
+          {
+            "text": "",
+            "href": "https://play.google.com/store/apps/details"
+          }
+        ]
+      },
+      {
+        "url": "https://cdn.cohesionapps.com/cohesion/xs2.html",
+        "videos": [],
+        "captions": [],
+        "controls": [],
+        "images": [],
+        "links": []
+      },
+      {
+        "url": "https://www.google.com/recaptcha/api2/anchor",
+        "videos": [],
+        "captions": [],
+        "controls": [],
+        "images": [],
+        "links": []
+      },
+      {
+        "url": "nullblank",
+        "videos": [],
+        "captions": [],
+        "controls": [],
+        "images": [],
+        "links": []
+      },
+      {
+        "url": "nullblank",
+        "videos": [],
+        "captions": [],
+        "controls": [],
+        "images": [],
+        "links": []
+      }
+    ]
+  },
+  "actions": []
+}

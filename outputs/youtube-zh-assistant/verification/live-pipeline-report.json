@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-04T16:49:21.122Z",
+  "version": "0.2.1",
+  "realLocalGpu": true,
+  "realTranslationAccount": true,
+  "browserCapture": false,
+  "audioApiCalls": 0,
+  "translationRequests": 1,
+  "checks": [
+    "新版真实本机服务已连接，识别使用本地模型，翻译使用账号",
+    "真实本地Qwen识别已完成；账号翻译在120秒超时"
+  ],
+  "ok": false,
+  "error": "504: 模型处理超时，请缩小批次或选择更快的接入方式。",
+  "localModelReleased": true,
+  "lockReleased": true,
+  "lastAudio": {
+    "audioProvider": "local",
+    "model": "Qwen3-ASR-1.7B",
+    "language": "English",
+    "inferenceMs": 2188,
+    "time": "2026-10-04T16:50:03.687Z"
+  },
+  "lastActual": null,
+  "counts": {
+    "translations": 0,
+    "cacheHits": 0,
+    "cachedLines": 0,
+    "pending": 0,
+    "requestsLastHour": 2,
+    "audioSecondsLastHour": 6
+  },
+  "lastError": {
+    "code": "MODEL_TIMEOUT",
+    "message": "模型处理超时，请缩小批次或选择更快的接入方式。",
+    "time": "2026-10-04T16:52:04.657Z"
+  }
+}

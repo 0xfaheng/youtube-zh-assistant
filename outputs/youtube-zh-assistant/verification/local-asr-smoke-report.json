@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-04T16:23:16.517Z",
+  "model": "Qwen3-ASR-1.7B",
+  "realLocalGpu": true,
+  "cloudCalls": 0,
+  "samples": [
+    {
+      "name": "English synthetic",
+      "durationSeconds": 5.978375,
+      "wallMs": 3120,
+      "text": "Welcome to this video. Today, we will build a simple artificial intelligence assistant.",
+      "language": "English",
+      "inferenceMs": 2862,
+      "loadMs": 45091,
+      "model": "Qwen3-ASR-1.7B"
+    },
+    {
+      "name": "Chinese podcast",
+      "durationSeconds": 7,
+      "wallMs": 1114,
+      "text": "Hello，大家好，欢迎收听我们的播客。呃，今天想跟大家聊一。",
+      "language": "Chinese",
+      "inferenceMs": 1101,
+      "loadMs": 45091,
+      "model": "Qwen3-ASR-1.7B"
+    },
+    {
+      "name": "English repeat",
+      "durationSeconds": 5.978375,
+      "wallMs": 692,
+      "text": "Welcome to this video. Today, we will build a simple artificial intelligence assistant.",
+      "language": "English",
+      "inferenceMs": 682,
+      "loadMs": 45091,
+      "model": "Qwen3-ASR-1.7B"
+    }
+  ],
+  "inspect": {
+    "available": true,
+    "ready": false,
+    "model": "Qwen3-ASR-1.7B",
+    "state": "idle",
+    "ffmpeg": true
+  },
+  "warmup": {
+    "available": true,
+    "ready": true,
+    "model": "Qwen3-ASR-1.7B",
+    "state": "ready",
+    "loadMs": 45091
+  },
+  "warmupWallMs": 48875,
+  "ok": true,
+  "stopped": {
+    "available": true,
+    "ready": false,
+    "model": "Qwen3-ASR-1.7B",
+    "state": "idle"
+  },
+  "lockReleased": true
+}

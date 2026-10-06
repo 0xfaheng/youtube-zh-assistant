@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-05T20:59:57.937508+08:00",
+  "version": "0.4.1",
+  "reviewed_version": "0.4.0",
+  "review": {
+    "sessionKey": "claude:a7897602-ae1f-4c1a-b410-19a5f4af7cb0",
+    "phase": "done",
+    "requested_model": "claude-opus-5-5[1m]",
+    "effort": "high",
+    "route": "platform",
+    "verified_relay_http200": true,
+    "final_findings": 8,
+    "implemented_findings": 8,
+    "open_risks": 3
+  },
+  "tests": {
+    "total": 173,
+    "passed": 173,
+    "failed": 0,
+    "new": 16
+  },
+  "browser": {
+    "version": "0.4.1",
+    "date": "2026-10-05T12:58:04.297Z",
+    "realMV3": true,
+    "fixturePages": true,
+    "mockedProvider": true,
+    "checks": [
+      "真实MV3扩展0.4.1加载与本机配对通过",
+      "跳转撤销真实fetch，尚未开始的旧批次不调用模型，新位置正确显示",
+      "真实字幕渲染保留百分比、负温度和时间符号",
+      "网页播放器全屏保持对应时间与字幕",
+      "刷新同一URL后新文档代次可从零开始，后台不误拒绝",
+      "真实DOM滚动字幕第二批只提交新词，旧窗口不重复调用",
+      "真实TextTrack中间插入cue保留已有译文与id，不重复送译",
+      "关闭字幕后清理显示，重新开启保留设置"
+    ],
+    "ok": true,
+    "providerCalls": [
+      {
+        "count": 20,
+        "firstStart": 0,
+        "texts": [
+          "Sentence 0.",
+          "Sentence 1.",
+          "Sentence 2.",
+          "Sentence 3.",
+          "Sentence 4.",
+          "Sentence 5.",
+          "Sentence 6.",
+          "Sentence 7.",
+          "Sentence 8.",
+          "Sentence 9.",
+          "Sentence 10.",
+          "Sentence 11.",
+          "Sentence 12.",
+          "Sentence 13.",
+          "Sentence 14.",
+          "Sentence 15.",
+          "Sentence 16.",
+          "Sentence 17.",
+          "Sentence 18.",
+          "Sentence 19."
+        ]
+      },
+      {
+        "count": 20,
+        "firstStart": 88,
+        "texts": [
+          "Sentence 44.",
+          "Sentence 45.",
+          "Sentence 46.",
+          "Sentence 47.",
+          "Sentence 48.",
+          "Sentence 49.",
+          "Sentence 50.",
+          "Sentence 51.",
+          "Sentence 52.",
+          "Sentence 53.",
+          "Sentence 54.",
+          "Sentence 55.",
+          "Sentence 56.",
+          "Sentence 57.",
+          "Sentence 58.",
+          "Sentence 59.",
+          "Sentence 60.",
+          "Sentence 61.",
+          "Sentence 62.",
+          "Sentence 63."
+        ]
+      },
+      {
+        "count": 1,
+        "firstStart": 0,
+        "texts": [
+          "Refreshed sentence."
+        ]
+      },
+      {
+        "count": 1,
+        "firstStart": 0,
+        "texts": [
+          "a b c d"
+        ]
+      },
+      {
+        "count": 1,
+        "firstStart": 0,
+        "texts": [
+          "e f"
+        ]
+      },
+      {
+        "count": 2,
+        "firstStart": 10,
+        "texts": [
+          "Ten.",
+          "Twenty."
+        ]
+      },
+      {
+        "count": 1,
+        "firstStart": 5,
+        "texts": [
+          "Five."
+        ]
+      }
+    ]
+  },
+  "changed_source_files": [
+    "CHANGELOG.md",
+    "extension/background.js",
+    "extension/content.js",
+    "extension/core.js",
+    "extension/generic.js",
+    "extension/manifest.json",
+    "extension/popup.html",
+    "extension/semantic.js",
+    "extension/tests/background.test.cjs",
+    "extension/tests/content.test.cjs",
+    "extension/tests/core.test.cjs",
+    "extension/tests/generic.test.cjs",
+    "extension/tests/semantic.test.cjs",
+    "package.json",
+    "README.md",
+    "server/app.mjs",
+    "server/tests/web-pairing.test.mjs",
+    "start.ps1",
+    "VALIDATION.md",
+    "web/app.js",
+    "web/index.html"
+  ],
+  "added_source_files": [
+    "stop.cmd",
+    "server/tests/cancellation.test.mjs",
+    "server/tests/launcher.test.mjs",
+    "使用与升级说明-v0.4.1.md"
+  ],
+  "astra_used": false,
+  "runtime_updated": true,
+  "packages_verified": true,
+  "runtime": {
+    "version": "0.4.1",
+    "previously_running": false,
+    "pairing_and_config_unchanged": true,
+    "pending": 0
+  },
+  "artifacts": {
+    "rarFile": "E:\\YouTube中文插件开发\\outputs\\Chrome插件-YouTube中文字幕-v0.4.1.rar",
+    "zipFile": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant-v0.4.1.zip",
+    "loadedFolder": "E:\\YouTube中文插件开发\\outputs\\Chrome插件-YouTube中文字幕",
+    "extensionFiles": 21,
+    "folderHashesMatch": true,
+    "rarExtractedHashesMatch": true,
+    "zipVerified": true
+  }
+}

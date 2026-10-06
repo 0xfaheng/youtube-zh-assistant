@@ -1,0 +1,46 @@
+{
+  "version": "0.4.7",
+  "realMV3": true,
+  "realWebAudioWorklet": true,
+  "fixtureVideo": true,
+  "mockedASR": true,
+  "mockedTranslation": true,
+  "browserTabCapture": false,
+  "checks": [
+    "youtube完整语句：真实AudioWorklet最多2秒提交语音窗口",
+    "youtube完整语句：无句号识别结果尽快送译，首条中文小于6秒（模拟后端）",
+    "youtube完整语句：停用清理低延迟字幕",
+    "youtube逐片：真实AudioWorklet最多2秒提交语音窗口",
+    "youtube逐片：无句号识别结果尽快送译，首条中文小于6秒（模拟后端）",
+    "youtube逐片：停用清理低延迟字幕",
+    "generic完整语句：真实AudioWorklet最多2秒提交语音窗口",
+    "generic完整语句：无句号识别结果尽快送译，首条中文小于6秒（模拟后端）",
+    "generic完整语句：停用清理低延迟字幕",
+    "generic逐片：真实AudioWorklet最多2秒提交语音窗口",
+    "generic逐片：无句号识别结果尽快送译，首条中文小于6秒（模拟后端）",
+    "generic逐片：停用清理低延迟字幕"
+  ],
+  "samples": [
+    {
+      "case": "youtube完整语句",
+      "collectorMs": 2099.100000023842,
+      "firstSubtitleWallMs": 2951
+    },
+    {
+      "case": "youtube逐片",
+      "collectorMs": 2090.599999964237,
+      "firstSubtitleWallMs": 5069
+    },
+    {
+      "case": "generic完整语句",
+      "collectorMs": 2102.699999988079,
+      "firstSubtitleWallMs": 4667
+    },
+    {
+      "case": "generic逐片",
+      "collectorMs": 2101.2999999523163,
+      "firstSubtitleWallMs": 3580
+    }
+  ],
+  "ok": true
+}

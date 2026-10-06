@@ -1,0 +1,412 @@
+[
+  {
+    "domain": "learning.edx.org",
+    "type": "document",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "static.cloudflareinsights.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "geolocation.onetrust.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "xhr",
+    "status": 204
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.cookielaw.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 401
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "fetch",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.segment.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "learning.edx.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "edx-cdn.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "edx-cdn.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 401
+  },
+  {
+    "domain": "prod-edxapp.edx-cdn.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "prod-edxapp.edx-cdn.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "affiliate-bundle.api.highereducation.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "affiliate-bundle.api.highereducation.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 302
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 401
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 302
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 302
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "document",
+    "status": 200
+  },
+  {
+    "domain": "cdn.optimizely.com",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "static.cloudflareinsights.com",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "bam.nr-data.net",
+    "type": "xhr",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 401
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "xhr",
+    "status": 302
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "courses.edx.org",
+    "type": "image",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "cdn.jsdelivr.net",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "fonts.googleapis.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "fonts.googleapis.com",
+    "type": "stylesheet",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "prod-edx-edxapp-assets-lms.edx-cdn.org",
+    "type": "script",
+    "status": 200
+  },
+  {
+    "domain": "browser-intake-datadoghq.com",
+    "type": "fetch",
+    "status": 202
+  },
+  {
+    "domain": "edx-exams.edx.org",
+    "type": "xhr",
+    "status": 401
+  }
+]

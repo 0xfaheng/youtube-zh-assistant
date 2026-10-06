@@ -1,0 +1,30 @@
+{
+  "version": "0.4.2",
+  "previousVersion": "0.4.1",
+  "date": "2026-10-06T00:07:37.504139+08:00",
+  "developmentRecord": "开发记录/v0.4.2.md",
+  "recordRequiredForFutureReleases": true,
+  "tests": {
+    "passed": 178,
+    "failed": 0
+  },
+  "browser": {
+    "checks": 11,
+    "fixturePages": true,
+    "mockedProvider": true
+  },
+  "runtime": {
+    "serviceVersion": "0.4.2",
+    "pairingVersion": "0.4.2",
+    "pairingAndConfigPreserved": true,
+    "statusHTTP": 200,
+    "pairingHTTP": 200,
+    "pending": 0,
+    "provider": "codex"
+  },
+  "recordGuardVerified": true,
+  "historicalPackagesPreserved": true,
+  "newOpusReview": false,
+  "historicalOpusReview": "verification/subtitle-status/final-opus-review.md",
+  "astraUsed": false
+}

@@ -1,0 +1,933 @@
+{
+  "url": "https://www.dailymotion.com/video/xaazv0o",
+  "config": {
+    "newProfile": true,
+    "extensions": false,
+    "headless": false,
+    "viewport": {
+      "width": 1365,
+      "height": 900
+    },
+    "explicitArgs": [],
+    "proxyInherited": true
+  },
+  "steps": [
+    {
+      "phase": "01-after-wait",
+      "elapsedMs": 16570,
+      "action": null,
+      "state": {
+        "video": {
+          "currentTime": 0,
+          "readyState": 0,
+          "paused": true,
+          "decodedFrames": 0,
+          "error": null
+        },
+        "button": null,
+        "caption": {
+          "text": "",
+          "textContent": "",
+          "class": "subtitles_placeholder",
+          "style": {
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "pointerEvents": "none",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "children": []
+        },
+        "common": {
+          "class": "player video_player",
+          "containsVideo": true,
+          "containsCaption": true,
+          "videoParentClass": "video_view",
+          "videoParentContainsCaption": false
+        }
+      },
+      "screenshot": "dm-cc-2026-10-05T03-19-32-740Z-01-after-wait.png"
+    },
+    {
+      "phase": "02-video-hover",
+      "elapsedMs": 19167,
+      "action": {
+        "result": "error",
+        "error": "locator.hover: Timeout 2500ms exceeded."
+      },
+      "state": {
+        "video": {
+          "currentTime": 0,
+          "readyState": 0,
+          "paused": true,
+          "decodedFrames": 0,
+          "error": null
+        },
+        "button": null,
+        "caption": {
+          "text": "",
+          "textContent": "",
+          "class": "subtitles_placeholder",
+          "style": {
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "pointerEvents": "none",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "children": []
+        },
+        "common": {
+          "class": "player video_player",
+          "containsVideo": true,
+          "containsCaption": true,
+          "videoParentClass": "video_view",
+          "videoParentContainsCaption": false
+        }
+      },
+      "screenshot": "dm-cc-2026-10-05T03-19-32-740Z-02-video-hover.png"
+    },
+    {
+      "phase": "03-iframe-mousemove",
+      "elapsedMs": 19600,
+      "action": {
+        "result": "success",
+        "iframeBox": {
+          "x": 124.58333587646484,
+          "y": 70,
+          "width": 464.00003814697266,
+          "height": 823.9896240234375
+        },
+        "point": {
+          "x": 356.5833549499512,
+          "y": 853.9896240234375
+        }
+      },
+      "state": {
+        "video": {
+          "currentTime": 0,
+          "readyState": 0,
+          "paused": true,
+          "decodedFrames": 0,
+          "error": null
+        },
+        "button": null,
+        "caption": {
+          "text": "",
+          "textContent": "",
+          "class": "subtitles_placeholder",
+          "style": {
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "pointerEvents": "none",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "children": []
+        },
+        "common": {
+          "class": "player video_player",
+          "containsVideo": true,
+          "containsCaption": true,
+          "videoParentClass": "video_view",
+          "videoParentContainsCaption": false
+        }
+      },
+      "screenshot": "dm-cc-2026-10-05T03-19-32-740Z-03-iframe-mousemove.png"
+    },
+    {
+      "phase": "04-click-1",
+      "elapsedMs": 22222,
+      "action": {
+        "result": "error",
+        "attempt": 1,
+        "error": "locator.click: Timeout 2500ms exceeded."
+      },
+      "state": {
+        "video": {
+          "currentTime": 0,
+          "readyState": 0,
+          "paused": true,
+          "decodedFrames": 0,
+          "error": null
+        },
+        "button": null,
+        "caption": {
+          "text": "",
+          "textContent": "",
+          "class": "subtitles_placeholder",
+          "style": {
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "pointerEvents": "none",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "children": []
+        },
+        "common": {
+          "class": "player video_player",
+          "containsVideo": true,
+          "containsCaption": true,
+          "videoParentClass": "video_view",
+          "videoParentContainsCaption": false
+        }
+      },
+      "screenshot": "dm-cc-2026-10-05T03-19-32-740Z-04-click-1.png"
+    },
+    {
+      "phase": "05-after-4s",
+      "elapsedMs": 26333,
+      "action": null,
+      "state": {
+        "video": {
+          "currentTime": 0,
+          "readyState": 0,
+          "paused": true,
+          "decodedFrames": 0,
+          "error": null
+        },
+        "button": null,
+        "caption": {
+          "text": "",
+          "textContent": "",
+          "class": "subtitles_placeholder",
+          "style": {
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "pointerEvents": "none",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "children": []
+        },
+        "common": {
+          "class": "player video_player",
+          "containsVideo": true,
+          "containsCaption": true,
+          "videoParentClass": "video_view",
+          "videoParentContainsCaption": false
+        }
+      },
+      "screenshot": "dm-cc-2026-10-05T03-19-32-740Z-05-after-4s.png"
+    },
+    {
+      "phase": "06-after-9s",
+      "elapsedMs": 31453,
+      "action": null,
+      "state": {
+        "video": {
+          "currentTime": 0,
+          "readyState": 0,
+          "paused": true,
+          "decodedFrames": 0,
+          "error": null
+        },
+        "button": null,
+        "caption": {
+          "text": "",
+          "textContent": "",
+          "class": "subtitles_placeholder",
+          "style": {
+            "display": "none",
+            "visibility": "visible",
+            "opacity": "1",
+            "pointerEvents": "none",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          "children": []
+        },
+        "common": {
+          "class": "player video_player",
+          "containsVideo": true,
+          "containsCaption": true,
+          "videoParentClass": "video_view",
+          "videoParentContainsCaption": false
+        }
+      },
+      "screenshot": "dm-cc-2026-10-05T03-19-32-740Z-06-after-9s.png"
+    }
+  ],
+  "network": [
+    {
+      "domain": "www.dailymotion.com",
+      "type": "document",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "static1.dmcdn.net",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "static1.dmcdn.net",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "fonts.googleapis.com",
+      "type": "stylesheet",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "document",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "static1.dmcdn.net",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "static1.dmcdn.net",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "vendorlist.dmcdn.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "www.gstatic.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "vendorlist.dmcdn.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "www.gstatic.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "asw.dmcdn.net",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "asw.dmcdn.net",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "asw.dmcdn.net",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "geo.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "s2.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "imasdk.googleapis.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "cdndirector.dailymotion.com",
+      "type": "xhr",
+      "status": 403
+    },
+    {
+      "domain": "static1.dmcdn.net",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "imasdk.googleapis.com",
+      "type": "document",
+      "status": 200
+    },
+    {
+      "domain": "pagead2.googlesyndication.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "graphql.api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "static1.dmcdn.net",
+      "type": "font",
+      "status": 200
+    },
+    {
+      "domain": "dmxleo.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "launchpad-wrapper.privacymanager.io",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "launchpad.privacymanager.io",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "s0.2mdn.net",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "dmxleo.dailymotion.com",
+      "type": "script",
+      "status": 204
+    },
+    {
+      "domain": "oauth2.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "dmads.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "dmads.dailymotion.com",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "graphql.api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "cdn.hubvisor.io",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "s2.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s2.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "geo.privacymanager.io",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "static.neon-ssr.dailymotion.com",
+      "type": "other",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "ae.dmxleo.com",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "ae.dmxleo.com",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "ae.dmxleo.com",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "s1.dmcdn.net",
+      "type": "image",
+      "status": 200
+    },
+    {
+      "domain": "ats-wrapper.privacymanager.io",
+      "type": "script",
+      "status": 200
+    },
+    {
+      "domain": "geo.privacymanager.io",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "www.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "dmads.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "graphql.api.dailymotion.com",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "xhr",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "pebed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    },
+    {
+      "domain": "webed.dm-event.net",
+      "type": "fetch",
+      "status": 200
+    }
+  ]
+}

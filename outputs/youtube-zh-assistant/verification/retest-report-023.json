@@ -1,0 +1,1173 @@
+{
+  "at": "2026-10-05T01:32:19.369Z",
+  "version": "0.2.3",
+  "request": "用户确认已加载0.2.3后重新测试",
+  "automaticTests": {
+    "passed": 100,
+    "failed": 0,
+    "source": "本轮npm test输出",
+    "durationMs": 1572.9607
+  },
+  "realUserChrome": {
+    "finalCodeConfirmed": true,
+    "firstVideo": {
+      "version": "0.2.3",
+      "at": "2026-10-05T01:25:01.302Z",
+      "realUserChrome": true,
+      "mockedResponses": false,
+      "samples": [
+        {
+          "at": 1791163502068,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 273.32321,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "33",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163506885,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 278.140171,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "34",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163512101,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 283.356784,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "34",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163516852,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 288.107227,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "35",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163521850,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 293.10602,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "36",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163526903,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 298.158501,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "36",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163531872,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 303.127677,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "37",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163536862,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 308.117702,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "37",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163541835,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 313.090763,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "38",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163546843,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 318.098546,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "39",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163551883,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 323.138419,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "39",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163556897,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 328.1524,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "40",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163562068,
+          "url": "https://www.youtube.com/watch?v=0j8wy4jUlsw&t=90s",
+          "full": true,
+          "video": [
+            {
+              "time": 333.323296,
+              "duration": 2180.501,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "transcript",
+                "timePrecision": "seconds",
+                "cueCount": "277",
+                "firstCueStart": "0",
+                "lastCueEnd": "2180.501",
+                "lastCueStart": "2173",
+                "translatedCount": "41",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        }
+      ],
+      "screenshots": [
+        "E:\\YouTube中文插件开发\\work\\retest-023\\first-video-fullscreen-4.png",
+        "E:\\YouTube中文插件开发\\work\\retest-023\\first-video-fullscreen-8.png",
+        "E:\\YouTube中文插件开发\\work\\retest-023\\first-video-fullscreen-12.png"
+      ],
+      "elapsedMs": 60000,
+      "mediaAdvanceSeconds": 60.00008600000001,
+      "finalCodeLoaded": true,
+      "allFullscreen": true,
+      "allReady": true,
+      "noPlayerError": true,
+      "ok": true
+    },
+    "secondVideo": {
+      "version": "0.2.3",
+      "at": "2026-10-05T01:30:12.385Z",
+      "realUserChrome": true,
+      "mockedResponses": false,
+      "samples": [
+        {
+          "at": 1791163814370,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 69.525406,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "32",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163818052,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 73.207387,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "32",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163823898,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 79.053927,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "33",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163828003,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 83.15892,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "35",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163833004,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 88.159828,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "37",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163838919,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 94.07511,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "38",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163843011,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 98.166227,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "38",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163848178,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 103.333322,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "40",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163852992,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 108.147685,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "42",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163858006,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 113.161322,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "42",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163863089,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 118.244213,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "43",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163867948,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 123.102987,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "45",
+                "pendingCount": "1"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        },
+        {
+          "at": 1791163873325,
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk&t=30s",
+          "full": true,
+          "video": [
+            {
+              "time": 128.480864,
+              "duration": 1120.001,
+              "paused": false,
+              "ready": 4,
+              "error": null
+            }
+          ],
+          "overlay": [
+            {
+              "data": {
+                "captionMode": "track",
+                "batchLimit": "20",
+                "captionSource": "native",
+                "timePrecision": "milliseconds",
+                "cueCount": "286",
+                "firstCueStart": "4.22",
+                "lastCueEnd": "1105.6399999999999",
+                "lastCueStart": "1105.1",
+                "translatedCount": "46",
+                "pendingCount": "2"
+              },
+              "display": "block"
+            }
+          ],
+          "error": []
+        }
+      ],
+      "screenshots": [
+        "E:\\YouTube中文插件开发\\work\\retest-023\\second-video-fullscreen-0.png",
+        "E:\\YouTube中文插件开发\\work\\retest-023\\second-video-fullscreen-4.png",
+        "E:\\YouTube中文插件开发\\work\\retest-023\\second-video-fullscreen-8.png",
+        "E:\\YouTube中文插件开发\\work\\retest-023\\second-video-fullscreen-12.png"
+      ],
+      "elapsedMs": 58955,
+      "mediaAdvanceSeconds": 58.95545799999999,
+      "finalCodeLoaded": true,
+      "allFullscreen": true,
+      "allReady": true,
+      "noPlayerError": true,
+      "ok": true
+    },
+    "visualChineseChecked": {
+      "firstVideo": [
+        4,
+        8,
+        12
+      ],
+      "secondVideo": [
+        4,
+        12
+      ],
+      "sourceScreenshots": true
+    },
+    "seek": {
+      "untranslated": {
+        "from": 347.660152,
+        "to": 1085.224719,
+        "passed": true,
+        "translatedCountBefore": 43,
+        "translatedCountAfter": 56,
+        "warning": "此次未缓存跳转等待期间另有真实本地ASR请求，不能作为单独跳转延迟；最终截图显示对应原文及中文"
+      },
+      "cachedBack": {
+        "targetTime": 276,
+        "passed": true,
+        "pending": 0,
+        "translatedCount": 56,
+        "visualScreenshot": "seek-cached-back.png"
+      }
+    },
+    "videoIsolation": {
+      "passed": true,
+      "firstCueCount": 277,
+      "secondCueCount": 286,
+      "sourceChangedFrom": "transcript",
+      "sourceChangedTo": "native"
+    }
+  },
+  "realService": {
+    "at": "2026-10-05T01:29:17.265Z",
+    "version": "0.2.3",
+    "realService": true,
+    "mockedResponses": false,
+    "checks": [
+      "真实服务健康与账号配置",
+      "错误配对拒绝，正确配对仍有效",
+      "20条真实译文缓存复用，不重复调用模型"
+    ],
+    "invalidPairingStatus": 401,
+    "validPairingStatus": 200,
+    "cache": {
+      "elapsedMs": 16,
+      "lines": 20,
+      "extraModelCalls": 0
+    },
+    "configuration": {
+      "provider": "codex",
+      "audioProvider": "local",
+      "hasApiKey": false,
+      "requestedModel": "gpt-6-luna",
+      "requestedSpeed": "fast"
+    },
+    "pending": 0,
+    "ok": true
+  },
+  "realCaptionBatch": {
+    "version": "0.2.3",
+    "at": "2026-10-05T01:28:53.369Z",
+    "mockedResponses": false,
+    "realYouTubeCaptionSource": true,
+    "realAccountTranslation": true,
+    "finalCoreUsed": true,
+    "batchSize": 20,
+    "elapsedMs": 9422,
+    "cached": 0,
+    "requestsAdded": 1,
+    "lastActual": {
+      "provider": "codex",
+      "requestedModel": "gpt-6-luna",
+      "requestedSpeed": "fast",
+      "batchSize": 20,
+      "elapsedMs": 9412,
+      "usage": {
+        "input_tokens": 15413,
+        "output_tokens": 247,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "reasoning_output_tokens": 0
+      },
+      "completedAt": "2026-10-05T01:28:53.365Z"
+    },
+    "videoId": "0j8wy4jUlsw",
+    "targetTime": 1900,
+    "duration": 2180.501,
+    "cueCount": 1013,
+    "lastCaptionEnd": 2180.839,
+    "rows": [
+      {
+        "id": "883",
+        "original": "you are saying this is our answer not",
+        "translation": "你是在说，这就是我们的答案，不是"
+      },
+      {
+        "id": "884",
+        "original": "today but this is our answer in 2027",
+        "translation": "今天的答案，而是我们在2027年的答案"
+      },
+      {
+        "id": "885",
+        "original": "when it comes to software you are",
+        "translation": "说到软件，你"
+      },
+      {
+        "id": "886",
+        "original": "effectively selling the future people",
+        "translation": "实际上是在出售未来。现在购买你产品的人"
+      },
+      {
+        "id": "887",
+        "original": "who are buying you now are buying a",
+        "translation": "买的是一种信念：你会始终跟上"
+      },
+      {
+        "id": "888",
+        "original": "belief that you will stay upto-date on",
+        "translation": "AI 的发展，而且他们获得的东西"
+      },
+      {
+        "id": "889",
+        "original": "AI and that what they are getting is",
+        "translation": "在下一个 AI 模型明天推出时，仍然"
+      },
+      {
+        "id": "890",
+        "original": "relevant when the next AI model comes",
+        "translation": "有用。所以你需要能够"
+      },
+      {
+        "id": "891",
+        "original": "out tomorrow. And so you need to be able",
+        "translation": "谈谈这个理念：你的"
+      },
+      {
+        "id": "892",
+        "original": "to talk about the idea that your",
+        "translation": "工作流经过了这样的设计，"
+      },
+      {
+        "id": "893",
+        "original": "workflows are set up in such a way that",
+        "translation": "可以即插即用。接入"
+      },
+      {
+        "id": "894",
+        "original": "they're plugandplay. It's easy to plug",
+        "translation": "AI 很容易。它们的设计方式是，"
+      },
+      {
+        "id": "895",
+        "original": "AI into them. They're set up in such a",
+        "translation": "数据层很容易"
+      },
+      {
+        "id": "896",
+        "original": "way that the data layer is easy to",
+        "translation": "访问，并能从各种"
+      },
+      {
+        "id": "897",
+        "original": "access and get to from a variety of",
+        "translation": "界面获取。它们经过这样的设计，"
+      },
+      {
+        "id": "898",
+        "original": "interfaces. They're set up in such a way",
+        "translation": "智能体能够有效地读取数据。而且"
+      },
+      {
+        "id": "899",
+        "original": "that agents can read it effectively. And",
+        "translation": "如果你交付的是智能体，那它就是一个多人协作"
+      },
+      {
+        "id": "900",
+        "original": "if you deliver agent, it's a multiplayer",
+        "translation": "系统。因此你的智能体擅长"
+      },
+      {
+        "id": "901",
+        "original": "system. And so your agent is great at",
+        "translation": "某种特定工作流，或某种特定的"
+      },
+      {
+        "id": "902",
+        "original": "X-P specific workflow or X-P specific",
+        "translation": "X-P 特定工作流"
+      }
+    ],
+    "ok": true
+  },
+  "realAudioPipeline": {
+    "date": "2026-10-05T01:26:23.075Z",
+    "version": "0.2.3",
+    "realLocalGpu": true,
+    "realTranslationAccount": true,
+    "browserCapture": false,
+    "audioApiCalls": 0,
+    "translationRequests": 1,
+    "checks": [
+      "更新服务已继承现有代理，本地识别与账号翻译配置有效",
+      "真实 HTTP 本地识别与账号中文翻译完成，无模拟响应"
+    ],
+    "network": {
+      "httpProxyConfigured": true,
+      "httpsProxyConfigured": true,
+      "fetchUsesEnvironmentProxy": true
+    },
+    "wallMs": 63826,
+    "text": "Welcome to this video. Today, we will build a simple artificial intelligence assistant.",
+    "translation": "欢迎观看本视频。今天，我们将打造一个简单的人工智能助手。",
+    "provider": "codex",
+    "audioProvider": "local",
+    "ok": true,
+    "lastAudio": {
+      "audioProvider": "local",
+      "model": "Qwen3-ASR-1.7B",
+      "language": "English",
+      "inferenceMs": 2571,
+      "time": "2026-10-05T01:27:21.372Z"
+    },
+    "lastActual": {
+      "provider": "codex",
+      "requestedModel": "gpt-6-luna",
+      "requestedSpeed": "fast",
+      "batchSize": 1,
+      "elapsedMs": 5841,
+      "usage": {
+        "input_tokens": 14945,
+        "output_tokens": 32,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "reasoning_output_tokens": 0
+      },
+      "completedAt": "2026-10-05T01:27:27.213Z"
+    },
+    "counts": {
+      "translations": 227,
+      "cacheHits": 16,
+      "cachedLines": 227,
+      "pending": 1,
+      "requestsLastHour": 50,
+      "audioSecondsLastHour": 6
+    },
+    "localModelReleased": true,
+    "lockReleased": true
+  },
+  "isolatedBrowserIntegration": {
+    "checks": [
+      "本机设置页可连接，URL 配对片段被移除",
+      "真实 MV3 扩展加载、配对与后台连接",
+      "真实 content → background → HTTP → 中文浮层",
+      "跳转显示对应时间字幕，不重调已缓存模型",
+      "关闭扩展即时恢复原生 CC",
+      "缺失字幕轨时通过 DOM 兜底翻译",
+      "本机设置可保存且输入密钥不回显",
+      "本地识别语言可保存，预热与释放按钮反映实际返回状态"
+    ],
+    "mockedModel": true,
+    "mockedYouTube": true,
+    "mockedLocalAsr": true,
+    "ok": true,
+    "browser": "154.0.4258.53",
+    "errors": []
+  },
+  "scope": {
+    "mockedModelInPublicVideoTests": false,
+    "mockedPublicYouTube": false,
+    "mockedInIsolatedIntegration": true,
+    "actualTabCaptureEndToEnd": "未覆盖：现有浏览器控制无法操作用户Chrome的原生扩展弹窗",
+    "paidTranslationAndSpeechApi": "未覆盖：当前未配置API密钥",
+    "completeVideoDuration": "未逐分钟观看整个视频；两段各观察60秒",
+    "subsecondSyncInTranscript": "文字稿为秒级时间，不能承诺逐字精确同步"
+  },
+  "subtitleMainPathPassed": true,
+  "allFeaturesVerified": false,
+  "codeChanged": false,
+  "newSubagents": 0,
+  "astraEscalated": false
+}

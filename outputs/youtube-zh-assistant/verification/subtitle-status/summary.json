@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-05",
+  "version": "0.4.1",
+  "kind": "subtitle-status-hotfix",
+  "implementation": "ChatGPT 当前主代理，未取得可独立核验的具体模型标识",
+  "opus": {
+    "model": "claude-opus-5-5",
+    "initialSession": "claude:8474348b-6850-4c5d-8524-9e618b6bb303",
+    "finalSession": "claude:82d87da1-e58f-4b54-a371-e4d3712851df",
+    "bothRelayHTTP200": true,
+    "finalPhase": "done"
+  },
+  "astraUsed": false,
+  "tests": {
+    "passed": 178,
+    "failed": 0
+  },
+  "browser": {
+    "checks": 11,
+    "passed": true,
+    "realMV3": true,
+    "fixturePages": true,
+    "mockedProvider": true
+  },
+  "mutationDetected": true,
+  "reviewedSourceHashesMatch": true
+}

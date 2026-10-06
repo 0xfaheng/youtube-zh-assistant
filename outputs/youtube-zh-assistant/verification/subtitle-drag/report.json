@@ -1,0 +1,19 @@
+{
+  "checks": [
+    "youtube: 拖动字幕保存，未误触播放器",
+    "youtube: 刷新恢复坐标",
+    "youtube: 四边限制",
+    "youtube: 全屏内拖动及退出适配",
+    "youtube: 窗口变化",
+    "youtube: 调字号保留位置，恢复默认生效",
+    "generic: 拖动字幕保存，未误触播放器",
+    "generic: 刷新恢复坐标",
+    "generic: 四边限制",
+    "generic: 全屏内拖动及退出适配",
+    "generic: 窗口变化",
+    "generic: 调字号保留位置，恢复默认生效"
+  ],
+  "fixture": true,
+  "modelCalls": 0,
+  "ok": true
+}

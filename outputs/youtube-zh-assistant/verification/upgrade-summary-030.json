@@ -1,0 +1,38 @@
+{
+  "version": "0.3.0",
+  "at": "2026-10-05T02:10:17.261817+00:00",
+  "automaticTests": {
+    "passed": 108,
+    "failed": 0
+  },
+  "html5FixtureWithRealAccount": {
+    "passed": 4,
+    "pageMocked": true,
+    "translationMocked": false
+  },
+  "browserLongRequest": {
+    "passed": 8,
+    "delayMs": 45000,
+    "popupClosedDuringRequest": true,
+    "modelMocked": true
+  },
+  "youtubePublic": {
+    "ok": true,
+    "captionSource": "transcript",
+    "cues": 277,
+    "appearanceAndContainerFullscreen": true
+  },
+  "tedPublic": {
+    "ok": true,
+    "cues": 174,
+    "modelMocked": false
+  },
+  "vimeoPublic": {
+    "ok": false,
+    "cuesRead": 14,
+    "reason": "隔离Edge视频在103秒内未就绪，未取得真实译文"
+  },
+  "optionalPermissions": "生产扩展按站点授权，浏览器测试副本预授权；正常授权/撤销逻辑通过自动检查，实际Chrome授权弹窗尚未代用户点击",
+  "userChromeReload030Confirmed": false,
+  "noNewSubagents": true
+}
