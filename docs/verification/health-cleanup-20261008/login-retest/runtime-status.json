@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-10-08T13:45:33.2658833+08:00",
+  "version": "0.4.7",
+  "configured": true,
+  "codex": {
+    "available": true,
+    "loggedIn": true,
+    "authMode": "ChatGPT"
+  },
+  "counts": {
+    "translations": 55,
+    "cacheHits": 0,
+    "cachedLines": 1,
+    "pending": 0,
+    "requestsLastHour": 7,
+    "audioSecondsLastHour": 0
+  },
+  "lastActual": {
+    "provider": "codex",
+    "mode": "semantic-segments",
+    "requestedModel": "gpt-6-luna",
+    "requestedSpeed": "fast",
+    "batchSize": 17,
+    "elapsedMs": 27998,
+    "usage": {
+      "input_tokens": 17036,
+      "output_tokens": 756,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "reasoning_output_tokens": 478
+    },
+    "completedAt": "2026-10-08T05:42:01.688Z"
+  },
+  "localAsr": {
+    "available": true,
+    "ready": false,
+    "model": "Qwen3-ASR-1.7B",
+    "state": "idle",
+    "ffmpeg": true
+  },
+  "browserPairingReverified": false,
+  "liveVideoVerified": false,
+  "note": "设置页可读取；OpenCLI 报告点击或按键成功，但焦点和页面状态未随操作变化，未取得配对确认。不将自动化操作返回值作为配对或字幕显示成功证据。"
+}
