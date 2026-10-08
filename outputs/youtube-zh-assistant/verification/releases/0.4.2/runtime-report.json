@@ -1,9 +1,0 @@
-{
-  "serviceVersion": "0.4.2",
-  "pairingVersion": "0.4.2",
-  "pairingAndConfigPreserved": true,
-  "statusHTTP": 200,
-  "pairingHTTP": 200,
-  "pending": 0,
-  "provider": "codex"
-}

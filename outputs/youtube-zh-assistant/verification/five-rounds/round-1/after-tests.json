@@ -1,9 +1,0 @@
-{
-  "at": "2026-10-05T02:16:13.321Z",
-  "version": "0.3.1",
-  "command": "node --test server/tests/*.test.mjs extension/tests/*.test.cjs",
-  "exitCode": 0,
-  "tests": 110,
-  "passed": 110,
-  "failed": 0
-}

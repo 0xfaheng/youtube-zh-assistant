@@ -1,0 +1,234 @@
+[
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\audio-processor.js",
+    "hash": "1DA0571DEB26BDFA15EB991F8FCDB767D49BDB8B3078645C46FCF5BA5A4918A3"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\background.js",
+    "hash": "5D0345F769BDC5E784310C1263D791FF4781AA8FBDDE6C2B2765903B361A270E"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\bridge.js",
+    "hash": "F3EA8FCC03A16DCCF6C2338463D10F4F087E148501B66E0563DE93FA7E9660FA"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\content.js",
+    "hash": "6EBC30A3C8752106B657B5C720AC100FB4252AD25B24F46826A27227E0C2C49C"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\core.js",
+    "hash": "1CB11142A48B3F4AA9DCA4CE1EB548B94570866A294E2844EFF5764103EDF2B9"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\generic.js",
+    "hash": "E9727F2B0FD36BA7BDC36C12C3AD888B507100067710D05A8BA144566EBD6D1F"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\icon.svg",
+    "hash": "26C9A4B2526B1065BEE5A27BAECA25762FF597B8A8E4637ECCF99039FAE3A568"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\icon128.png",
+    "hash": "EF493C5A5B63F8F0B7ACBEC5E6012B4993E670928A7DE4C8E35EFD3531D5CCA2"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\icon16.png",
+    "hash": "AA952879829B6DC8B80AA6DD431462ADBAFE5BCC361625F2DA2341547000D564"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\icon32.png",
+    "hash": "C3B819BB49323D27BA34281754C825223C5858534C8A13AE356834716B9D0D69"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\icon48.png",
+    "hash": "7697B54CE7F6DBE446518DC143580240F32D31F91C0E2C1AA2CF81DCBE7CBAAC"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\icon512.png",
+    "hash": "D9FA82417C6E60A6A0B481FCB4DD193106A4B3B51D9BD1A5721DC1C01B8ABDF7"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\manifest.json",
+    "hash": "BC5B3E4EB0791A5EB8B014556AAE97CF98AE78CC11D93C693CAC70BEBEC14EB8"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\offscreen.html",
+    "hash": "A8EB38568536908EF52A5803F33E4999705F79A21BD5592F8CEC720656C197A6"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\offscreen.js",
+    "hash": "868A5FE2B8677A453EA537CF53F4DB8B105863B4EDE3A9601EDA79C1E3A7625C"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\pairing.js",
+    "hash": "40BCB8C9F53246A2D5408B1335BCB54D8CF82B41BB9CED30856A93D721ABE939"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\popup.css",
+    "hash": "1618B5104954F6BBD23165257D48D6B1B7B3726FCB7CE45E94AF8402A5AA2904"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\popup.html",
+    "hash": "6D63895D818CADEA7FFD92A72579EE0082E3C42F5E1E893D08A7CFBF18BBD4D8"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\popup.js",
+    "hash": "CF8D8764185F992D52AB9F51FD09EA99C9491DAE305F68E7319FD868628D2465"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\semantic.js",
+    "hash": "61351C0286D0984FA206BF65F3792E93EE5C4B900F57BC91FC51B91C11A14771"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\transcript.js",
+    "hash": "39EDD2D4671C7CA14C2042BF5CF2925ABE60B15F9285FCBE74D50138D551B7E3"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\audio.test.cjs",
+    "hash": "344D4D6331E24E1B45D777261DBC05A7B874651D212DAEF921E4AFC0FD9DCD1B"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\background.test.cjs",
+    "hash": "80B88122BE59A670BF471158B71AC147D4990447B5D7933023D0876022F10473"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\bridge.test.cjs",
+    "hash": "A3C6C6487166D27F5BA69F3DF35EE5AFBE138A05DB1CC018B8A7AC05F0235FC3"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\content.test.cjs",
+    "hash": "3898AA65CC6F3A0DBCAB84A1E53964CE0F29D12897FE4D3929904FD597514C28"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\core.test.cjs",
+    "hash": "89247FCCB56C0141E7DA933DEA517BFB5C9F87EAABFA27BD3934021497E644CE"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\generic.test.cjs",
+    "hash": "895158958C398CD067DA1D91DCC7A40BF63BE6FB33332923353827039B2663A1"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\pairing.test.cjs",
+    "hash": "DBC06673163825480D88102DBEBE0389C19FBBCA07F82CD528DFB88C2087B4EA"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\popup.test.cjs",
+    "hash": "0F3AE2F9E43940AC424D45C61A0823144F0DDA01EAB4266134F2889C887F5BC0"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\semantic.test.cjs",
+    "hash": "511B41516B8092D25355E5BDC2AA2946EE8E09AB128279FF8D8FB2194F1A5A19"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\extension\\tests\\transcript.test.cjs",
+    "hash": "68DCF3C7C9E65AED8A4230684D6303794EADB1D70E66CC2A1678B1063E04550C"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\app.mjs",
+    "hash": "0D18859B1911191C3613461EC31B2970875DC491E6ECC92C0984EC8986069043"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\core.mjs",
+    "hash": "5CEC74A5C23DEC6429EB0BAA883F1A7CB63A970D5B736E4DCEABDDEB8F6F33B7"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\local-asr-worker.py",
+    "hash": "0EE7E14887E031BA0300309E96D924B43ED1D2747F8D997E4717025C98C56389"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\local-asr.mjs",
+    "hash": "61E03F2A7EF58D5C24273DF6477AAF4172261B007F7FECADB0383F58DB614D3D"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\main.mjs",
+    "hash": "89802E13D5AECE58BFF7CD9CF315846E1A290753A6B57340E0AB4900A923B75F"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\providers.mjs",
+    "hash": "FE6FA69ADAABAF43411D654C5C075E300A0758ACB4CC8BA96CAB228ACB029F81"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\secrets.ps1",
+    "hash": "F0F28B2FE2261361422C075983D2748D03A67487B19CA50B7AB8A1734D2E103E"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\semantic-instructions.md",
+    "hash": "3D28738DA170AEE73D8E9A60C310CD8B9F2EEE2B06374A08907C80162EAB8F48"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\storage.mjs",
+    "hash": "7CD21691FBE544477D05A04EBBFB4C7C0E7206BA416F09A18F32621E553B857F"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\translation-instructions.md",
+    "hash": "5E2D71E2B64608D6CEBEB69D78CFF817A877D6474E39DD93078BF74A7ED583EB"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\cancellation.test.mjs",
+    "hash": "D962FD233B542DB38DD66B9064313C21B118AA9873098E7918A7F44A49720E1D"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\core.test.mjs",
+    "hash": "C92FCA8248E73EE0F5EBEFE1601D9D01E5DCE25DB5D22828FFA31774CA9DDADC"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\http.test.mjs",
+    "hash": "E38DB0AC50E5AF1BA777C4CBEDC10CD4122A842955A3EDFC40ED162162F1BE51"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\launcher.test.mjs",
+    "hash": "6CA9EEA9D433399A89DC1013941BDA608E9E2CDF33237529E2F36BAD0E1F5AA3"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\local-asr.test.mjs",
+    "hash": "D3BA5ED82F876FE7924794E8E16097B892DC43A684AE5B1806EC15A7A1A9FF5D"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\process.test.mjs",
+    "hash": "CCEAE1E03D2AB68A4B1346E7252E12163EA4793951ACC3D6DF6016175E14FBF8"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\providers.test.mjs",
+    "hash": "E98F3D501C5EE303DCA5D6E16099E21847BFF838BF29CC53666A6EE64D3ACED4"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\semantic.test.mjs",
+    "hash": "3D6574F9A74A7EAF8FD1FEA73AD3C7E7238EB06599AEB318F04A72FF190E8784"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\storage.test.mjs",
+    "hash": "A7D8C783F30D891E1DFC86B74DBBDFB82C2C34CA831A1640EB6530F4180F3C5B"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\server\\tests\\web-pairing.test.mjs",
+    "hash": "B00D490C88CD2A5243EF681735BF4519B1D96064CACF503FA13655E9AA1A0815"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\web\\app.js",
+    "hash": "46D3704EC9DB5469202507C7F50243603D1346444B18A129CCA19A9F26714264"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\web\\index.html",
+    "hash": "CC46FAFF2419FF63312BB1F335EC442B3E8F342EDAAD3C7AD850293A7F70CBBD"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\web\\style.css",
+    "hash": "4F49CF4658985B92B495FDF8D1D59A83FE394A4EEB0C05B44920264B2D4C52CD"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\package.json",
+    "hash": "8B250CCBE8A877D138F2BA0C1F3A2B38546CFD438B4963ED352CA549ED057488"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant-v0.4.7.zip",
+    "hash": "441AA911578478BC79FCDA1EC96D02525E10AF959EAA73884F854550838EF818"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\outputs\\Chrome插件-YouTube中文字幕-v0.4.7.rar",
+    "hash": "44FEF8A4D5F7FDEDB6E24C12800D665C4813E3613E4A6512F269AF8CADC87678"
+  },
+  {
+    "path": "E:\\YouTube中文插件开发\\work\\youtube-zh-assistant\\pairing-token.txt",
+    "hash": "9CFC18123006340B0017D0594AA79D78DE5C3A47D2264E4F986C1C93114852B0"
+  }
+]
