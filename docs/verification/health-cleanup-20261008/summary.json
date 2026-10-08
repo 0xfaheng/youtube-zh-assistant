@@ -33,5 +33,12 @@
     "outputs/MIGRATION.md：最后包含删除该文件的收尾命令被自动审批策略拦截，未提供具体原因，保留未删除。",
     "Codex CLI 登录、真实翻译复测和真实视频全链路验证。"
   ],
-  "modelWork": "主代理独立完成；实际主模型身份未通过工具核验；未使用子代理或升级 Astra。"
+  "modelWork": "主代理独立完成；实际主模型身份未通过工具核验；未使用子代理或升级 Astra。",
+  "integrationCommit": "191e56f",
+  "postMergeTests": {
+    "passed": 213,
+    "failed": 0,
+    "skipped": 0
+  },
+  "postMergeProtectedFilesUnchanged": true
 }
