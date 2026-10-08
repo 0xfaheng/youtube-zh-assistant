@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-08T13:40:16.7055129+08:00",
+  "completedAt": "2026-10-08T13:41:33.7137353+08:00",
+  "httpStatus": 200,
+  "body": {
+    "items": [
+      {
+        "id": "connection-test",
+        "text": "欢迎。本视频将解释人工智能的工作原理。"
+      }
+    ],
+    "cached": 0,
+    "provider": "codex",
+    "elapsedMs": 76864,
+    "lastActual": {
+      "provider": "codex",
+      "mode": "translation",
+      "requestedModel": "gpt-6-luna",
+      "requestedSpeed": "fast",
+      "batchSize": 1,
+      "elapsedMs": 17875,
+      "usage": {
+        "input_tokens": 16147,
+        "output_tokens": 72,
+        "cached_input_tokens": 0,
+        "cache_write_input_tokens": 0,
+        "reasoning_output_tokens": 41
+      },
+      "completedAt": "2026-10-08T05:41:33.69Z"
+    }
+  }
+}
