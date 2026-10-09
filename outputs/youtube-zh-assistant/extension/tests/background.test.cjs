@@ -307,3 +307,14 @@ test('视频页没有收到开关时返回刷新提示；初始停用不控制�
  await h.call({type:'SET_SETTINGS',enabled:false},popup);assert.equal(h.local.captionsSuppressed,true);
  assert.equal((await harness({local:h.local,session:h.session}).call({type:'GET_SETTINGS'},page)).captionsSuppressed,true);
 });
+
+test('API 设置导航仅接受固定板块，不允许自定义跳转目标',async()=>{
+ const h=harness();await h.call({type:'OPEN_SETTINGS',section:'api'},popup);
+ const url=new URL(h.createdTabs[0].url),fragment=new URLSearchParams(url.hash.slice(1));
+ assert.equal(url.origin,'http://127.0.0.1:17865');assert.equal(url.search,'');assert.equal(fragment.get('section'),'api');assert.equal(fragment.get('token'),h.local.token);
+ await h.call({type:'OPEN_SETTINGS',section:'https://evil.example/'},popup);
+ assert.equal(new URLSearchParams(new URL(h.createdTabs[1].url).hash.slice(1)).has('section'),false);
+ assert.equal((await h.call({type:'OPEN_SETTINGS',section:'api'},page)).ok,false);
+ const unpaired=harness({local:{}});await unpaired.call({type:'OPEN_SETTINGS',section:'api'},popup);
+ assert.equal(new URL(unpaired.createdTabs[0].url).hash,'#section=api');
+});

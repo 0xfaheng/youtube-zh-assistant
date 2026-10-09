@@ -116,6 +116,7 @@ $('check').addEventListener('click', () => run($('check'), async () => {
   const voice = voiceDetails(r.status, r.health);
   show(`连接成功；字幕服务：${r.health.configured ? '已配置' : '待配置'}\n翻译方式：${r.health.provider || '未知'}\n语音识别方式：${voice.providerLabel} · ${voice.configured ? '可用' : '未就绪'}\n${voice.localSummary}`);
 }));
+$('apiSettings').addEventListener('click', () => run($('apiSettings'), async () => {await request({type:'OPEN_SETTINGS',section:'api'});}));
 $('settings').addEventListener('click', () => run($('settings'), async () => {await request({type:'OPEN_SETTINGS'});}));
 $('start').addEventListener('click', () => run($('start'), async () => {
   if(!activeEnabled)throw new Error('请先点击“启用译幕”，再开始采音');

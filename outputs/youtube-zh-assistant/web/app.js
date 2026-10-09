@@ -1,7 +1,8 @@
 const $ = id => document.getElementById(id);
 const params = new URLSearchParams(location.hash.slice(1));
 let token = params.get('token') || sessionStorage.getItem('ytzh-token') || '';
-if (location.hash) history.replaceState(null, '', location.pathname);
+const openApi = params.get('section') === 'api' || location.hash === '#api-panel';
+if (location.hash) history.replaceState(null, '', location.pathname + (openApi ? '#api-panel' : ''));
 if (token) { sessionStorage.setItem('ytzh-token', token); $('token').value = token; }
 const configNames = ['provider','codexModel','codexSpeed','apiBaseUrl','apiMode','apiModel','audioProvider','localAsrLanguage','audioBaseUrl','audioModel','maxRequestsPerHour','maxAudioSecondsPerHour'];
 function notice(message, bad = false) { $('notice').textContent = message; $('notice').style.display = 'block'; $('notice').style.background = bad ? '#572c36' : '#203b34'; }
@@ -10,13 +11,16 @@ async function request(route, body) {
   const data = await response.json(); if (!response.ok) throw new Error(data.error || '请求失败'); return data;
 }
 function panels() {
-  $('codex-panel').hidden = $('provider').value !== 'codex'; $('api-panel').hidden = $('provider').value !== 'api';
+  $('codex-panel').hidden = $('provider').value !== 'codex';
   const localAudio = $('audioProvider').value !== 'api';
   $('local-audio-panel').hidden = !localAudio; $('api-audio-panel').hidden = localAudio;
 }
 function display(data, setConfig = true) {
   if (setConfig) for (const name of configNames) if (Object.hasOwn(data.config, name)) $(name).value = data.config[name];
   panels();
+  $('api-state').textContent = data.provider === 'api' ? '当前翻译方式 · API' : '尚未启用 · 当前使用账号';
+  const keySources = { 'windows-dpapi':'Windows 加密保存', memory:'仅本次运行', environment:'环境变量', none:'未配置', 'decrypt-failed':'加密密钥读取失败，请重新输入' };
+  $('api-key-state').textContent = `API Key：${data.hasApiKey ? '已配置，留空保留' : '未配置'} · ${keySources[data.keySource] || '未配置'}`;
   const counts = data.counts, localAsr = data.localAsr || {}, audioProvider = data.config.audioProvider || 'local';
   const localState = localAsr.ready ? '已就绪' : localAsr.available ? (localAsr.state || '尚未预热') : (localAsr.state || '不可用');
   const audioConfigured = audioProvider === 'local' ? !!localAsr.available : !!data.hasApiKey;
@@ -50,16 +54,71 @@ $('provider').addEventListener('change', panels); $('audioProvider').addEventLis
 $('pair-extension').addEventListener('click', () => action(pairExtension,$('pair-extension')));
 $('connect').addEventListener('click', () => action(async () => { token = $('token').value.trim(); sessionStorage.setItem('ytzh-token', token); display(await request('/status')); notice('本机连接已验证。点击“一键配对浏览器插件”完成插件连接。'); }, $('connect')));
 $('copy').addEventListener('click', () => action(async () => { await navigator.clipboard.writeText($('token').value.trim()); notice('配对码已复制，请在扩展弹窗中粘贴。'); }, $('copy')));
-$('settings').addEventListener('submit', event => { event.preventDefault(); action(async () => {
-  const body = Object.fromEntries(configNames.map(name => [name, name.startsWith('max') ? Number($(name).value) : $(name).value.trim()]));
+const apiNames = ['apiBaseUrl','apiMode','apiModel'];
+const settingsButtons = ['save-settings','save-api','test-api','test','clear-key'];
+let settingsBusy = false;
+function apiFeedback(message, tone = '') { $('api-feedback').textContent = message; $('api-feedback').setAttribute('data-tone', tone); }
+async function settingsAction(fn, inline = false) {
+  if (settingsBusy) return;
+  if (inline) $('notice').style.display = 'none';
+  settingsBusy = true;
+  const controls = [...configNames, 'apiKey', 'rememberApiKey', ...settingsButtons];
+  // Readonly interaction while saving prevents late responses overwriting newer edits.
+  const disabled = controls.map(id => $(id).disabled);
+  controls.forEach(id => { $(id).disabled = true; });
+  try { await fn(); }
+  catch (error) { apiFeedback(error.message, 'error'); if (!inline) notice(error.message, true); }
+  finally { controls.forEach((id, index) => { $(id).disabled = disabled[index]; }); settingsBusy = false; }
+}
+function validFields(names) { return names.every(name => $(name).reportValidity?.() !== false); }
+async function saveSettings(apiOnly = false) {
+  const names = apiOnly ? apiNames : configNames;
+  const body = Object.fromEntries(names.map(name => [name, name.startsWith('max') ? Number($(name).value) : $(name).value.trim()]));
+  if (apiOnly) body.provider = 'api';
   body.apiKey = $('apiKey').value; body.rememberApiKey = $('rememberApiKey').checked;
-  display(await request('/settings', body)); $('apiKey').value = ''; notice('设置已保存。');
-}, event.submitter); });
-$('test').addEventListener('click', () => action(async () => { notice('正在翻译测试句，会消耗一次模型调用……'); const data = await request('/test', {}); $('result').hidden = false; $('result').textContent = `${data.items[0].text}\n耗时：${(data.elapsedMs / 1000).toFixed(1)} 秒${data.cached ? '（缓存）' : ''}\n${JSON.stringify(data.lastActual, null, 2)}`; display(await request('/status'), false); notice('翻译测试完成。'); }, $('test')));
+  const state = await request('/settings', body);
+  // API actions leave unrelated, unsaved audio and account fields intact.
+  if (apiOnly) $('provider').value = state.config.provider;
+  display(state, !apiOnly); $('apiKey').value = '';
+  $('result').hidden = true; $('result').textContent = '';
+  return state;
+}
+async function testConnection(inline = false) {
+  apiFeedback('设置已保存，正在请求所选翻译服务…');
+  if (!inline) notice('正在翻译测试句，会消耗一次模型调用……');
+  const data = await request('/test', {});
+  $('result').hidden = false;
+  $('result').textContent = `${data.items[0].text}\n耗时：${(data.elapsedMs / 1000).toFixed(1)} 秒\n${JSON.stringify(data.lastActual, null, 2)}`;
+  const label = data.provider === 'api' ? 'API' : '账号翻译';
+  apiFeedback(`${label} 连接测试成功：${data.items[0].text}（${(data.elapsedMs / 1000).toFixed(1)} 秒）`, 'success');
+  if (!inline) notice(`${label} 连接测试成功。`);
+}
+$('settings').addEventListener('submit', event => { event.preventDefault(); return settingsAction(async () => {
+  await saveSettings(); apiFeedback('全部设置已保存；可测试当前翻译方式。'); notice('设置已保存。');
+}); });
+$('save-api').addEventListener('click', () => {
+  if (!validFields(apiNames)) return;
+  return settingsAction(async () => { await saveSettings(true); apiFeedback('API 配置已保存并启用，请测试连接。'); }, true);
+});
+$('test-api').addEventListener('click', () => {
+  if (!validFields(apiNames)) return;
+  return settingsAction(async () => { await saveSettings(true); await testConnection(true); }, true);
+});
+$('test').addEventListener('click', () => {
+  if (!validFields(configNames)) return;
+  return settingsAction(async () => { await saveSettings(); await testConnection(); });
+});
+for (const id of [...configNames, 'apiKey', 'rememberApiKey']) $(id).addEventListener('input', () => {
+  $('result').hidden = true; apiFeedback('有尚未保存的修改，请保存后重新测试连接。');
+});
 $('refresh').addEventListener('click', () => action(async () => display(await request('/status'), false), $('refresh')));
-$('clear-key').addEventListener('click', () => action(async () => { display(await request('/settings', { clearApiKey: true })); notice('已移除服务内存和本机加密文件中的 API 密钥。'); }, $('clear-key')));
+$('clear-key').addEventListener('click', () => settingsAction(async () => {
+  display(await request('/settings', { clearApiKey: true }), false); $('apiKey').value = ''; $('result').hidden = true;
+  apiFeedback('已移除当前密钥。若使用环境变量，服务重启后会重新读取。');
+}, true));
 $('clear-cache').addEventListener('click', () => action(async () => { await request('/clear-cache', {}); display(await request('/status'), false); notice('翻译缓存已清空。'); }, $('clear-cache')));
 $('warmup-local-asr').addEventListener('click', () => action(async () => { notice('正在预热本地模型；首次加载可能需要较长时间……'); await request('/local-asr/warmup', {}); display(await request('/status'), false); notice('本地模型预热请求已完成，状态已刷新。'); }, $('warmup-local-asr')));
 $('stop-local-asr').addEventListener('click', () => action(async () => { await request('/local-asr/stop', {}); display(await request('/status'), false); notice('本地模型已收到释放请求，状态已刷新。'); }, $('stop-local-asr')));
 panels(); if (token) action(async () => display(await request('/status')));
+if (openApi) { $('api-panel').scrollIntoView(); $('api-panel').focus({preventScroll:true}); }
 

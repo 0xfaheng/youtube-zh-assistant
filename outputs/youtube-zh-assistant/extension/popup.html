@@ -6,6 +6,7 @@
 <label class="row"><input id="bilingual" type="checkbox" checked>同时显示原文（双语）</label>
 <label class="row"><input id="semanticSubtitles" type="checkbox" checked>完整语句显示</label><p class="small">合并前后语句并延长停留时间。实时字幕和语音识别需要等待后文。</p>
  </section>
+<section class="card api-entry"><h2>第三方 API</h2><p>接入 OpenAI 兼容服务，自定义接口地址、API Key 和翻译模型。</p><button id="apiSettings" class="primary">配置第三方 API</button><p class="small">在本机设置页保存和测试，密钥无需填入插件。</p></section>
 <section class="card"><h2>字幕外观</h2><p class="small">按住视频中的字幕即可拖动，松开后自动保存位置。选择顶部、底部或恢复默认可重置位置。</p><div class="field"><label for="subtitlePosition">显示位置</label><select id="subtitlePosition"><option value="bottom">视频底部</option><option value="top">视频顶部</option><option value="custom">手动拖拽位置</option></select></div>
 <label class="range-label" for="subtitleOffset">距所选边缘 <output id="subtitleOffsetValue">14%</output></label><input id="subtitleOffset" type="range" min="0" max="70" value="14">
 <label class="range-label" for="fontSize">中文字号 <output id="fontSizeValue">20px</output></label><input id="fontSize" type="range" min="14" max="48" value="20">
