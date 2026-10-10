@@ -3,16 +3,31 @@
 <body><main>
 <header><span class="pill">本机字幕助手 · 预览版</span><h1>看视频，读中文字幕。</h1><p>连接浏览器插件，再选择字幕翻译和语音识别方式。</p></header>
 <section id="pairing"><h2>1. 连接扩展</h2><p id="pair-help">双击 start.cmd 打开此页，再点“一键配对浏览器插件”。无需手动复制配对码。</p><label>本机配对码<input id="token" type="password" autocomplete="off" placeholder="从启动器打开，或输入已有配对码"></label><div class="row"><button id="pair-extension">一键配对浏览器插件</button><button id="connect" class="secondary">检测本机连接</button><button id="copy" class="secondary">手动复制配对码</button></div><p id="extension-state" role="status">浏览器插件尚未确认配对</p><p class="small">若提示找不到插件，请在扩展管理页重新加载 0.4.7，并刷新本页。API 密钥在下面配置，不需要填入扩展。</p></section>
-<section><h2>2. 选择翻译方式</h2><form id="settings">
-<label>翻译接入<select id="provider"><option value="codex">ChatGPT 账号 · 本机 Codex CLI</option><option value="api">API · 官方或兼容服务</option></select></label>
+<form id="settings"><section><h2>2. 选择翻译方式</h2>
+<label>翻译接入<select id="provider"><option value="codex">ChatGPT 账号 · 本机 Codex CLI</option><option value="api">第三方 API · OpenAI 兼容接口</option></select></label>
 <div id="codex-panel"><div class="grid"><label>账号模式的模型<input id="codexModel" value="gpt-6-luna"></label><label>调用速度<select id="codexSpeed"><option value="fast">Fast · 消耗更高用量</option><option value="standard">标准</option></select></label></div><p class="small">复用 CLI 的官方登录，使用 high 推理，字幕翻译共享 ChatGPT／Codex 用量。补齐本机代理后的单句样本约 11 秒完成；延迟可能变化，页面字幕会标记延迟译文。Fast 不可用时明确报错，可自行切回标准。</p></div>
-<div id="api-panel" hidden><label>文字 API 地址<input id="apiBaseUrl" value="https://api.openai.com/v1" type="url"></label><div class="grid"><label>协议<select id="apiMode"><option value="responses">OpenAI Responses</option><option value="chat-completions">兼容 Chat Completions</option></select></label><label>文字翻译模型<input id="apiModel" value="gpt-4.1-mini"></label></div><p class="small">API 单独计费。兼容服务需支持 JSON 输出；地址应为包含 /v1 的基础地址。密钥只发送到你设置的服务地址。</p></div>
-<details><summary>语音识别与 API 密钥</summary><label>语音识别方式<select id="audioProvider"><option value="local">本机 Qwen3-ASR（默认）</option><option value="api">云端语音 API</option></select></label>
+</section>
+<section id="api-panel" class="api-card" aria-labelledby="api-heading" tabindex="-1">
+<div class="section-heading"><h2 id="api-heading">3. 第三方 API</h2><span id="api-state" class="pill" role="status">等待连接本机服务</span></div>
+<p>填写服务商提供的接口地址、API Key 和模型，即可用于字幕翻译。</p>
+<label>接口基础地址（Base URL）<input id="apiBaseUrl" value="https://api.openai.com/v1" type="url" required spellcheck="false" aria-describedby="api-address-help"></label>
+<p id="api-address-help" class="small">填写服务商的基础地址，保留其要求的路径（如 /v1），不要附加 /chat/completions 或 /responses。远程服务使用 HTTPS；本机服务可用 HTTP。</p>
+<div class="grid"><label>接口协议<select id="apiMode"><option value="chat-completions">Chat Completions · 通用兼容</option><option value="responses" selected>Responses · 需服务商支持</option></select></label><label>翻译模型<input id="apiModel" value="gpt-4.1-mini" required spellcheck="false" placeholder="填写服务商提供的模型 ID"></label></div>
+<p class="small">第三方服务通常选择 Chat Completions，需支持 JSON 输出。模型 ID 以服务商文档为准。</p>
+<label>API Key<input id="apiKey" type="password" autocomplete="new-password" placeholder="填写新密钥；留空保留已有密钥" maxlength="4096"></label>
+<p id="api-key-state" class="small" role="status">连接后显示密钥配置状态，不回显密钥。</p>
+<label class="check"><input id="rememberApiKey" type="checkbox" checked> 在这台 Windows 电脑上加密保存（DPAPI）</label>
+<p class="small">取消勾选后，新输入的密钥仅保留至服务退出。留空不会更改已有密钥的保存方式。</p>
+<div class="row"><button id="save-api" type="button">保存并启用 API</button><button id="test-api" type="button" class="secondary">保存并测试连接</button><button id="clear-key" class="secondary" type="button">移除已保存密钥</button></div>
+<p id="api-feedback" role="status" aria-live="polite">保存后启用 API 翻译；测试会发送一句文字，可能产生服务商费用。</p>
+<p class="small">API 翻译与云端语音目前共用这一个密钥；若使用不同服务，请确保密钥对两者均有效。本机语音识别无需密钥。</p>
+</section>
+<section><h2>4. 语音识别与调用额度</h2>
+<label>语音识别方式<select id="audioProvider"><option value="local">本机 Qwen3-ASR（默认）</option><option value="api">云端语音 API</option></select></label>
 <div id="local-audio-panel"><label>本机识别语言<select id="localAsrLanguage"><option value="auto">自动检测</option><option value="English">英语</option><option value="Chinese">中文</option><option value="Japanese">日语</option><option value="Korean">韩语</option><option value="French">法语</option><option value="German">德语</option><option value="Spanish">西班牙语</option></select></label><p class="small">本机识别不上传音频；识别出的文本仍会发送到上方选定的翻译服务。首次加载模型可能需要较长时间。</p><div class="row"><button id="warmup-local-asr" class="secondary" type="button">预热本地模型</button><button id="stop-local-asr" class="secondary" type="button">释放本地显存</button></div></div>
-<div id="api-audio-panel" hidden><p class="small">云端语音 API 会接收音频片段。需要配置 API 密钥；识别文本仍发送到上方选定的翻译服务。</p><label>语音 API 地址<input id="audioBaseUrl" value="https://api.openai.com/v1" type="url"></label><label>语音识别模型<input id="audioModel" value="gpt-4o-mini-transcribe"></label></div>
-<label>API 密钥<input id="apiKey" type="password" autocomplete="new-password" placeholder="留空保留已有密钥"></label><label class="check"><input id="rememberApiKey" type="checkbox" checked> 在这台 Windows 电脑上加密保存（DPAPI）</label><p class="small">API 翻译与云端语音共用密钥；若使用不同服务，请确保密钥在所选服务有效。</p><button id="clear-key" class="secondary" type="button">移除已保存密钥</button></details>
+<div id="api-audio-panel" hidden><p class="small">云端语音 API 会接收音频片段。使用上方「第三方 API」板块中的密钥；识别文本仍发送到上方选定的翻译服务。</p><label>语音 API 地址<input id="audioBaseUrl" value="https://api.openai.com/v1" type="url"></label><label>语音识别模型<input id="audioModel" value="gpt-4o-mini-transcribe"></label></div>
 <details><summary>控制调用额度</summary><div class="grid"><label>每小时最多模型调用<input id="maxRequestsPerHour" type="number" min="1" max="1000" value="600"></label><label>每小时最多识别秒数<input id="maxAudioSecondsPerHour" type="number" min="1" max="3600" value="900"></label></div><p class="small">语音片段通常包含识别和翻译两次调用。达到上限就停止新请求；已有缓存仍可使用。</p></details>
-<div class="row"><button type="submit">保存设置</button><button id="test" class="secondary" type="button">翻译一句，测试连接</button></div></form></section>
+<div class="row"><button id="save-settings" type="submit">保存全部设置</button><button id="test" class="secondary" type="button">保存并测试当前翻译方式</button></div></section></form>
 <section><h2>运行状态</h2><div id="state">尚未连接</div><pre id="result" hidden></pre><div class="row"><button id="refresh" class="secondary">刷新状态</button><button id="clear-cache" class="secondary">清空翻译缓存</button></div><p class="small">缓存仅在内存保留，重启后清空。无字幕识别是 Beta，会有分片和模型处理延迟。</p></section>
 <p id="notice" role="status"></p><footer>Chrome／Edge 扩展管理页 → 开发者模式 → 加载已解压的扩展程序 → 选择 extension 文件夹。<br>启用音频识别前，请在扩展弹窗中主动点击“开始识别”。</footer>
 </main><script src="/app.js"></script></body></html>

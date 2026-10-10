@@ -6,7 +6,7 @@ const path = require('node:path');
 
 const popupPath = path.join(__dirname, '../popup.js');
 function makePopup(config = {}) {
-  const ids = ['version','toggleEnabled','activationStatus','bilingual','semanticSubtitles','status','save','token','check','settings','start','stop','subtitlePosition','subtitleOffset','fontSize','backgroundOpacity','subtitleColor','originalColor','subtitleOffsetValue','fontSizeValue','backgroundOpacityValue','previewChinese','previewOriginal','resetAppearance','enableSite','disableSite','siteStatus'];
+  const ids = ['apiSettings','version','toggleEnabled','activationStatus','bilingual','semanticSubtitles','status','save','token','check','settings','start','stop','subtitlePosition','subtitleOffset','fontSize','backgroundOpacity','subtitleColor','originalColor','subtitleOffsetValue','fontSizeValue','backgroundOpacityValue','previewChinese','previewOriginal','resetAppearance','enableSite','disableSite','siteStatus'];
   const elements = Object.fromEntries(ids.map(id => [id, {id, checked:true, value:'', textContent:'', dataset:{},style:{}, disabled:false, listeners:{}, addEventListener(type, listener) {this.listeners[type] = listener;}}]));
   let currentTab = {id:1};
   let getSettings = config.getSettings || (() => ({enabled:true,bilingual:true,paired:true,capture:null,audioStatus:{running:false,droppedChunks:0,processedChunks:0}}));
@@ -145,4 +145,9 @@ test('开关未送达当前视频页时提示刷新；启用如实提示首次�
 test('启用自动检测翻译连接，服务未启动会显示错误；旧检测不覆盖后续停用',async()=>{
  const p=makePopup({getSettings:()=>({enabled:false}),checkConnection:async()=>({ok:false,error:'无法连接本机服务，请双击 start.cmd'})});await p.ready();await p.click('toggleEnabled');assert.match(p.elements.status.textContent,/翻译连接失败.*start.cmd/);
  let finish;const slow=makePopup({getSettings:()=>({enabled:false}),checkConnection:()=>new Promise(r=>finish=r)});await slow.ready();await slow.click('toggleEnabled');await slow.click('toggleEnabled');finish({ok:false,error:'旧请求失败'});await slow.ready();assert.equal(slow.elements.status.textContent,'已关闭原字幕和译文');
+});
+
+test('第三方 API 入口直接请求对应设置板块，不传递密钥', async()=>{
+ const popup=makePopup();await popup.ready();await popup.click('apiSettings');
+ assert.deepEqual(JSON.parse(JSON.stringify(popup.sent.find(m=>m.type==='OPEN_SETTINGS'))),{type:'OPEN_SETTINGS',section:'api'});
 });

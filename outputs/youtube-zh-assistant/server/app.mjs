@@ -192,8 +192,16 @@ export function createApp({ storage, providers, getLogin, localAsr = null, webDi
       if (req.method === 'POST' && url.pathname === '/test') {
         await readJson(req);
         const start = Date.now();
-        const result = await translate({ items: [{ id: 'connection-test', text: 'Welcome. This video explains how artificial intelligence works.' }] });
-        json({ ...result, elapsedMs: Date.now() - start, lastActual: providers.lastActual }); return;
+        const config = { ...storage.config }, key = storage.key;
+        const items = [{ id: 'connection-test', text: 'Welcome. This video explains how artificial intelligence works.' }];
+        // Connection checks always use the saved credentials; subtitle caches must not mask failures.
+        const result = await queue.run(async () => {
+          if (client.closed) throw new AppError('连接测试已取消。', 499, 'TRANSLATION_CANCELLED');
+          limits.reserve(config);
+          const translated = config.provider === 'codex' ? await providers.codex(items, '', config) : await providers.api(items, '', config, key);
+          return { items: translated, cached: 0, provider: config.provider, lastActual: providers.lastActual };
+        });
+        json({ ...result, elapsedMs: Date.now() - start }); return;
       }
       if (req.method === 'POST' && url.pathname === '/clear-cache') { await readJson(req); cache.clear(); semanticCache.clear(); json({ ok: true }); return; }
       throw new AppError('接口不存在。', 404, 'NOT_FOUND');

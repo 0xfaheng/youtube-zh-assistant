@@ -268,7 +268,10 @@ async function handle(message, sender) {
       case 'CHECK_CONNECTION': return {health: await api('/health', null, false), status: await api('/status')};
       case 'OPEN_SETTINGS': {
         const {token} = await chrome.storage.local.get('token');
-        const url = new URL(BASE + '/'); if (token) url.hash = new URLSearchParams({token}).toString();
+        const url = new URL(BASE + '/'), fragment = new URLSearchParams();
+        if (token) fragment.set('token', token);
+        if (message.section === 'api') fragment.set('section', 'api');
+        url.hash = fragment.toString();
         await chrome.tabs.create({url: url.href}); return {opened: true};
       }
       case 'START_AUDIO': return startCapture(message.tabId);
