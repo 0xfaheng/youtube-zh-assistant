@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10T00:49:05.354Z",
+  "version": "0.4.8",
+  "previouslyOnline": false,
+  "serviceStarted": true,
+  "paired": true,
+  "provider": "codex",
+  "configured": false,
+  "cliLoggedIn": false,
+  "localAsrAvailable": true,
+  "localAsrState": "idle",
+  "pending": 0,
+  "settingsPageApiPanel": true,
+  "protectedFiles": [
+    {
+      "name": "pairing-token.txt",
+      "bytes": 64,
+      "preserved": true
+    }
+  ],
+  "browserExtensionReloaded": false,
+  "realThirdPartyApiCalled": false,
+  "realGpuCalled": false
+}

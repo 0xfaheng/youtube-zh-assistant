@@ -1,6 +1,6 @@
 {
   "name": "youtube-zh-assistant",
-  "version": "0.4.7",
+  "version": "0.4.8",
   "private": true,
   "type": "module",
   "description": "译幕：多网站视频中文字幕助手",

@@ -1,5 +1,0 @@
-PASS youtube完整语句 2951ms
-PASS youtube逐片 5069ms
-PASS generic完整语句 4667ms
-PASS generic逐片 3580ms
-{"ok":true,"checks":12,"samples":[{"case":"youtube完整语句","collectorMs":2099.100000023842,"firstSubtitleWallMs":2951},{"case":"youtube逐片","collectorMs":2090.599999964237,"firstSubtitleWallMs":5069},{"case":"generic完整语句","collectorMs":2102.699999988079,"firstSubtitleWallMs":4667},{"case":"generic逐片","collectorMs":2101.2999999523163,"firstSubtitleWallMs":3580}]}

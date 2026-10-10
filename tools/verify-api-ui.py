@@ -89,9 +89,10 @@ with sync_playwright() as p:
             mime = 'text/css' if name.endswith('.css') else 'text/javascript' if name.endswith('.js') else 'image/png' if name.endswith('.png') else 'text/html'
             route.fulfill(path=str(extension / name), content_type=mime)
     popup.route('**/popup-preview/*', serve)
+    popup.add_init_script('window.__previewVersion=' + json.dumps(json.loads((extension / 'manifest.json').read_text(encoding='utf-8'))['version']) + ';')
     popup.add_init_script("""
       window.__sent=[];
-      window.chrome={runtime:{getManifest:()=>({version:'0.4.7'}),sendMessage:async m=>{
+      window.chrome={runtime:{getManifest:()=>({version:window.__previewVersion}),sendMessage:async m=>{
         window.__sent.push(m);
         if(m.type==='GET_SETTINGS')return {ok:true,paired:true,enabled:false,audioStatus:{running:false}};
         if(m.type==='GET_SITE')return {ok:true,youtube:true,origin:'https://www.youtube.com'};

@@ -31,7 +31,7 @@ export function createApp({ storage, providers, getLogin, localAsr = null, webDi
     const login = await getLogin();
     const local = localAsr ? await localAsr.inspect() : { available: false, ready: false, state: 'unavailable', model: 'Qwen3-ASR-1.7B' };
     return {
-      ok: true, version: '0.4.7', config: storage.config,
+      ok: true, version: '0.4.8', config: storage.config,
       configured: storage.config.provider === 'api' ? Boolean(storage.key) : Boolean(login.loggedIn),
       provider: storage.config.provider, audioProvider: storage.config.audioProvider,
       audioConfigured: storage.config.audioProvider === 'local' ? local.available : Boolean(storage.key),
@@ -149,7 +149,7 @@ export function createApp({ storage, providers, getLogin, localAsr = null, webDi
         const current = await status(); json({ ok: true, configured: current.configured, provider: current.provider, audioProvider: current.audioProvider, audioConfigured: current.audioConfigured, localAsr: current.localAsr }); return;
       }
       if (!authorized(req, storage.token)) throw new AppError('本机配对码无效，请双击 start.cmd，在同一浏览器的设置页一键配对插件。', 401, 'PAIRING_REQUIRED');
-      if (req.method === 'GET' && url.pathname === '/pairing') { json({ok:true,version:'0.4.7',service:'youtube-zh-assistant'}); return; }
+      if (req.method === 'GET' && url.pathname === '/pairing') { json({ok:true,version:'0.4.8',service:'youtube-zh-assistant'}); return; }
       if (req.method === 'GET' && url.pathname === '/status') { json(await status()); return; }
       if (req.method === 'POST' && url.pathname === '/settings') { await storage.save(await readJson(req)); json(await status()); return; }
       if (req.method === 'POST' && url.pathname === '/translate') {const input=await readJson(req);validateTranslation(input);startProgress();json(await translate(input,client));return;}
