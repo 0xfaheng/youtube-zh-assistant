@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-10T00:53:14.131Z",
+  "version": "0.4.8",
+  "physicalDeletion": false,
+  "reason": "自动审批拒绝批量递归删除，仅返回 blocked by policy；改用可逆归拢，未绕过拒绝执行删除。",
+  "archiveDirectory": "work/旧资料待清理-20261010",
+  "worktreeArchive": "E:/YouTube中文插件开发-worktrees/已完成待清理-20261010",
+  "projectItems": [
+    {
+      "path": "docs\\tasks",
+      "files": 1,
+      "bytes": 1810
+    },
+    {
+      "path": "docs\\verification",
+      "files": 20,
+      "bytes": 419604
+    },
+    {
+      "path": "docs\\Git初始化记录-2026-10-06.md",
+      "files": 1,
+      "bytes": 6208
+    },
+    {
+      "path": "docs\\运行检查与旧版清理-2026-10-08.md",
+      "files": 1,
+      "bytes": 4858
+    },
+    {
+      "path": "docs\\登录后复测-2026-10-08.md",
+      "files": 1,
+      "bytes": 2563
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant\\开发记录\\v0.4.7.md",
+      "files": 1,
+      "bytes": 8204
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant\\verification\\releases\\0.4.7",
+      "files": 28,
+      "bytes": 584166
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant\\verification\\package-report.json",
+      "files": 1,
+      "bytes": 623
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant\\API-OPTIONS.md",
+      "files": 1,
+      "bytes": 2810
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant\\RESEARCH.md",
+      "files": 1,
+      "bytes": 3729
+    },
+    {
+      "path": "outputs\\MIGRATION.md",
+      "files": 1,
+      "bytes": 1524
+    },
+    {
+      "path": "work\\activation-044-1791252041919",
+      "files": 253,
+      "bytes": 10516518
+    },
+    {
+      "path": "work\\audio-047-1791252246148",
+      "files": 220,
+      "bytes": 10350478
+    },
+    {
+      "path": "work\\chromium-test-151",
+      "files": 310,
+      "bytes": 450096950
+    },
+    {
+      "path": "work\\git-setup-20261006",
+      "files": 3680,
+      "bytes": 68364520
+    },
+    {
+      "path": "work\\long-subtitles-047",
+      "files": 220,
+      "bytes": 10350398
+    },
+    {
+      "path": "work\\rar-verify-0.4.7-1791252507860",
+      "files": 21,
+      "bytes": 231675
+    },
+    {
+      "path": "work\\rar-verify-0.4.8-1791593481050",
+      "files": 21,
+      "bytes": 232365
+    },
+    {
+      "path": "work\\version-0.4.7-browser",
+      "files": 220,
+      "bytes": 10348435
+    },
+    {
+      "path": "work\\benchmark-audio-047.mjs",
+      "files": 1,
+      "bytes": 3342
+    },
+    {
+      "path": "work\\browser-launch-probe.mjs",
+      "files": 1,
+      "bytes": 615
+    },
+    {
+      "path": "work\\codex-proxy-single-probe.mjs",
+      "files": 1,
+      "bytes": 6209
+    },
+    {
+      "path": "work\\codex-timeout-diagnosis.mjs",
+      "files": 1,
+      "bytes": 2881
+    },
+    {
+      "path": "work\\complete-release-047.py",
+      "files": 1,
+      "bytes": 10787
+    },
+    {
+      "path": "work\\create-local-asr-sample.ps1",
+      "files": 1,
+      "bytes": 592
+    },
+    {
+      "path": "work\\finish-release-047.py",
+      "files": 1,
+      "bytes": 2183
+    },
+    {
+      "path": "work\\live-model-check.mjs",
+      "files": 1,
+      "bytes": 1312
+    },
+    {
+      "path": "work\\local-asr-chinese.wav",
+      "files": 1,
+      "bytes": 224078
+    },
+    {
+      "path": "work\\local-asr-english-original.wav",
+      "files": 1,
+      "bytes": 263690
+    },
+    {
+      "path": "work\\local-asr-english.wav",
+      "files": 1,
+      "bytes": 191386
+    },
+    {
+      "path": "work\\local-asr-probe.py",
+      "files": 1,
+      "bytes": 692
+    },
+    {
+      "path": "work\\local-asr-smoke.mjs",
+      "files": 1,
+      "bytes": 2079
+    },
+    {
+      "path": "work\\observe-real-playback.ps1",
+      "files": 1,
+      "bytes": 1660
+    },
+    {
+      "path": "work\\release-runtime-047.py",
+      "files": 1,
+      "bytes": 2429
+    },
+    {
+      "path": "work\\verify-activation-047.mjs",
+      "files": 1,
+      "bytes": 7804
+    },
+    {
+      "path": "work\\verify-audio-browser-047.mjs",
+      "files": 1,
+      "bytes": 8550
+    },
+    {
+      "path": "work\\verify-long-subtitles-047.mjs",
+      "files": 1,
+      "bytes": 10425
+    },
+    {
+      "path": "work\\verify-release-047.mjs",
+      "files": 1,
+      "bytes": 12452
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant-v0.4.7.zip",
+      "files": 1,
+      "bytes": 15955543
+    },
+    {
+      "path": "outputs\\Chrome插件-YouTube中文字幕-v0.4.7.rar",
+      "files": 1,
+      "bytes": 132007
+    },
+    {
+      "path": "outputs\\youtube-zh-assistant-v0.4.7.sha256.json",
+      "files": 1,
+      "bytes": 444
+    }
+  ],
+  "worktrees": [
+    {
+      "name": "health-cleanup-20261008",
+      "source": "E:\\YouTube中文插件开发-worktrees\\health-cleanup-20261008",
+      "destination": "E:\\YouTube中文插件开发-worktrees\\已完成待清理-20261010\\health-cleanup-20261008",
+      "head": "5d34b0e65f20004ef78f06aa77f21643965efed1",
+      "files": 131,
+      "bytes": 1499197
+    },
+    {
+      "name": "third-party-api",
+      "source": "E:\\YouTube中文插件开发-worktrees\\third-party-api",
+      "destination": "E:\\YouTube中文插件开发-worktrees\\已完成待清理-20261010\\third-party-api",
+      "head": "efc9a62f56e6a1e89cd8a8253d5703bf2a54425d",
+      "files": 140,
+      "bytes": 1691236
+    }
+  ],
+  "projectArchivedFiles": 5024,
+  "projectArchivedBytes": 578368598,
+  "runtimePreserved": true,
+  "extensionFilesVerified": 21,
+  "newPackagesHashesVerified": true,
+  "preserved": [
+    "当前源码",
+    "0.4.8 安装包与必要发布证据",
+    "运行配置与配对文件",
+    "共享模型",
+    "可复用 tools 和打包脚本",
+    "Git 历史、分支、标签与外部备份"
+  ],
+  "remaining": "隔离目录以及已完成工作树仍存在，物理删除未完成。"
+}

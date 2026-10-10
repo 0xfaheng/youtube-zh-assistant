@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10T00:51:21.319Z",
+  "version": "0.4.8",
+  "sourceCommit": "52ccf68756207f27f6eaa1d3bb54e247e7ad2601",
+  "sourceBranch": "main",
+  "expectedTag": "v0.4.8",
+  "workingTreeCleanBeforePackaging": true,
+  "developmentRecord": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant\\开发记录\\v0.4.8.md",
+  "developmentRecordVerified": true,
+  "extensionFiles": 21,
+  "loadedFolder": "E:\\YouTube中文插件开发\\outputs\\Chrome插件-YouTube中文字幕",
+  "folderHashesMatch": true,
+  "rarFile": "E:\\YouTube中文插件开发\\outputs\\Chrome插件-YouTube中文字幕-v0.4.8.rar",
+  "rarExtractedHashesMatch": true,
+  "zipFile": "E:\\YouTube中文插件开发\\outputs\\youtube-zh-assistant-v0.4.8.zip",
+  "zipVerified": true,
+  "zipFiles": 77
+}

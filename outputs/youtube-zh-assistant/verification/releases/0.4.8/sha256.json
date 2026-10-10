@@ -1,0 +1,16 @@
+{
+  "version": "0.4.8",
+  "sourceCommit": "52ccf68756207f27f6eaa1d3bb54e247e7ad2601",
+  "files": [
+    {
+      "file": "youtube-zh-assistant-v0.4.8.zip",
+      "bytes": 504300,
+      "sha256": "1527a0d42413c045f60858483c6b3d45e2323231c4983a3c8cdd7550c550720e"
+    },
+    {
+      "file": "Chrome插件-YouTube中文字幕-v0.4.8.rar",
+      "bytes": 132252,
+      "sha256": "5356ba4ce4eb5661e1956c1b107c7e54570bb7ce80c2f6fd83b810ed00a1c93e"
+    }
+  ]
+}
