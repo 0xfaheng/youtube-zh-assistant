@@ -88,7 +88,7 @@ git -C E:\译幕-Git恢复 fsck --full
 
 需要恢复其他任务分支时，从 bundle clone 后的 `origin/<分支>` 创建本地分支，再重建 worktree。不要用恢复命令覆盖现有项目。Git 能保存配置恢复工具，不能自动恢复被忽略的实际配置和密钥。
 
-本次没有创建 GitHub 仓库或配置远程推送。以后可单独配置私有远程仓库和备份策略，先核对账号、权限和提交内容。
+Git 初始化时尚未配置远程仓库。2026-10-11 用户明确选择公开发布，远程仓库为 [0xfaheng/youtube-zh-assistant](https://github.com/0xfaheng/youtube-zh-assistant)，使用 `origin`；首次发布推送 `main` 和既有 `v0.4.8` 标签。详情见 [GitHub 发布记录](GitHub发布-v0.4.8.md)。后续推送前继续核对账号、权限和提交内容，运行配置与安装包备份仍留在本机。
 
 ## Agent 开发补充规范
 
