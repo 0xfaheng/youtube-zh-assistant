@@ -32,7 +32,11 @@
 
 - 仓库：https://github.com/0xfaheng/youtube-zh-assistant
 - Release：https://github.com/0xfaheng/youtube-zh-assistant/releases/tag/v0.4.8
-- 远端提交、Release 附件、匿名下载哈希及 Git 备份的最终验收在发布后单独保存。
+- 仓库确认为公开，默认分支 `main`；仓库页和 Release 页匿名访问均为 HTTP 200。
+- 远端 main、附注标签对象及标签指向提交与本地一致，`v0.4.8` 仍指向 `d0f4261`；公开 README 与 Git blob 逐字节一致。
+- 3 个 Release 附件全部通过无登录 HTTP 下载，并核对字节数和 SHA-256。验收时间与完整结果见 [publication.json](verification/github-publish-20261011/publication.json)。
+- 已完成集成后的 Git bundle 校验；最终验收记录提交后再次执行项目备份工具。备份位于本机用户目录 `.codex/project-backups/youtube-zh-assistant`，不上传 GitHub。
+- 发布验收完成，无待处理的发布事项。当前报告提交只补充验收证据，产品源码及安装包不变。
 
 ## 回退与模型分工
 

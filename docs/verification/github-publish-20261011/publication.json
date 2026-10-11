@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-11T20:03:41.027363+08:00",
+  "repository": "https://github.com/0xfaheng/youtube-zh-assistant",
+  "visibility": "public",
+  "defaultBranch": "main",
+  "verifiedPublishedMain": "09499b6cb6442b7ee028b224968a1cceebd50617",
+  "tag": "v0.4.8",
+  "tagObject": "043f8e9ebb7dede493c359c38e287e4f6e327823",
+  "tagCommit": "d0f42610c19cac3cec404277d995d0ce2d869f6b",
+  "release": "https://github.com/0xfaheng/youtube-zh-assistant/releases/tag/v0.4.8",
+  "releaseId": 409641179,
+  "releaseDraft": false,
+  "repositoryAndReleaseAnonymousHttp200": true,
+  "publicReadmeMatchesLocal": true,
+  "remoteRefsMatchLocal": true,
+  "assets": [
+    {
+      "file": "SHA256SUMS.txt",
+      "url": "https://github.com/0xfaheng/youtube-zh-assistant/releases/download/v0.4.8/SHA256SUMS.txt",
+      "bytes": 207,
+      "sha256": "2386d80f0fa063ce65db99c25665c88b5ac61393f3f775f3ebd1918532085f40",
+      "anonymousDownloadVerified": true
+    },
+    {
+      "file": "youtube-zh-assistant-extension-v0.4.8.rar",
+      "url": "https://github.com/0xfaheng/youtube-zh-assistant/releases/download/v0.4.8/youtube-zh-assistant-extension-v0.4.8.rar",
+      "bytes": 132252,
+      "sha256": "5356ba4ce4eb5661e1956c1b107c7e54570bb7ce80c2f6fd83b810ed00a1c93e",
+      "anonymousDownloadVerified": true
+    },
+    {
+      "file": "youtube-zh-assistant-v0.4.8.zip",
+      "url": "https://github.com/0xfaheng/youtube-zh-assistant/releases/download/v0.4.8/youtube-zh-assistant-v0.4.8.zip",
+      "bytes": 504300,
+      "sha256": "1527a0d42413c045f60858483c6b3d45e2323231c4983a3c8cdd7550c550720e",
+      "anonymousDownloadVerified": true
+    }
+  ],
+  "tests": {
+    "passed": 224,
+    "failed": 0,
+    "skipped": 0
+  },
+  "packageFilesChanged": false,
+  "note": "此报告在公开下载验收完成后提交；后续提交仅保存验收文档。"
+}
